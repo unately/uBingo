@@ -4,7 +4,7 @@
 [![Workflow][workflow-shield]][workflow-url]
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
-
+[![PAX][pax-shield]][pax-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -204,3 +204,5 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [discord-shield]: https://img.shields.io/discord/935279152259530822?style=for-the-badge
 [discord-url]: https://discord.gg/PXqqKVAUDk
 
+[pax-shield]: https://img.shields.io/github/v/release/froehlichA/pax?label=PAX%20%F0%9F%93%A6&style=for-the-badge
+[pax-url]: https://github.com/froehlichA/pax
