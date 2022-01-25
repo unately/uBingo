@@ -1,0 +1,21 @@
+{
+  "startingInventory": [
+	{
+      "id": "minecraft:stone_axe",
+      "Slot": "mainhand"
+    }
+  ],
+  "maxTime": -1,
+  "friendlyFire": false,
+  "consumeItems": false,
+  "teleportRadius": 5000,
+  "pvp": false,
+  "emergencyItems": [],
+  "invulnerable": false,
+  "teleporter": "bongo.standard",
+  "lockout": false,
+  "winCondition": "bongo.default",
+  "lockTaskOnDeath": false,
+  "teleportsPerTeam": 3,
+  "backpackInventory": []
+}
