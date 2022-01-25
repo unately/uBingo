@@ -1,9 +1,10 @@
 <div id="top"></div>
 
 [![Issues][issues-shield]][issues-url]
+[![Workflow][workflow-shield]][workflow-url]
 [![MIT License][license-shield]][license-url]
-
-
+[![Discord][discord-shield]][discord-url]
+[![PAX][pax-shield]][pax-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -194,6 +195,14 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-shield]: https://img.shields.io/github/issues/Unately/uBingo.svg?style=for-the-badge
 [issues-url]: https://github.com/Unately/uBingo/issues
+[workflow-shield]: https://img.shields.io/github/workflow/status/unately/ubingo/main?style=for-the-badge
+[workflow-url]: https://github.com/Unately/uBingo/actions
 [license-shield]: https://img.shields.io/github/license/Unately/uBingo.svg?style=for-the-badge
-[license-url]: https://github.com/Unately/uBingo/blob/master/LICENSE.txt
+[license-url]: https://github.com/Unately/uBingo/blob/master/LICENSE
 [product-screenshot]: images/screenshot.png
+
+[discord-shield]: https://img.shields.io/discord/935279152259530822?style=for-the-badge
+[discord-url]: https://discord.gg/PXqqKVAUDk
+
+[pax-shield]: https://img.shields.io/github/v/release/froehlichA/pax?label=PAX%20%F0%9F%93%A6&style=for-the-badge
+[pax-url]: https://github.com/froehlichA/pax
