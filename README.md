@@ -195,5 +195,5 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [issues-shield]: https://img.shields.io/github/issues/Unately/uBingo.svg?style=for-the-badge
 [issues-url]: https://github.com/Unately/uBingo/issues
 [license-shield]: https://img.shields.io/github/license/Unately/uBingo.svg?style=for-the-badge
-[license-url]: https://github.com/Unately/uBingo/blob/master/LICENSE.txt
+[license-url]: https://github.com/Unately/uBingo/blob/master/LICENSE
 [product-screenshot]: images/screenshot.png
