@@ -11,8 +11,201 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.0.1-alpha",
-  "author": "Unately",
+  "version": "v0.1-alpha",
+  "author": "Jqshuv",
   "name": "uBingo",
-  "files": []
+  "files": [
+    {
+      "projectID": 227657,
+      "fileID": 3583363,
+      "required": true,
+      "__meta": {
+        "name": "Global GameRules"
+      }
+    },
+    {
+      "projectID": 230976,
+      "fileID": 3590415,
+      "required": true,
+      "__meta": {
+        "name": "Fast Leaf Decay"
+      }
+    },
+    {
+      "projectID": 232131,
+      "fileID": 3549417,
+      "required": true,
+      "__meta": {
+        "name": "Default Options",
+        "dependencies": [
+          531761
+        ]
+      }
+    },
+    {
+      "projectID": 233019,
+      "fileID": 3543562,
+      "required": true,
+      "__meta": {
+        "name": "AI Improvements"
+      }
+    },
+    {
+      "projectID": 276951,
+      "fileID": 3551239,
+      "required": true,
+      "__meta": {
+        "name": "Comforts (Forge)"
+      }
+    },
+    {
+      "projectID": 283644,
+      "fileID": 3621255,
+      "required": true,
+      "__meta": {
+        "name": "Placebo"
+      }
+    },
+    {
+      "projectID": 288885,
+      "fileID": 3567080,
+      "required": true,
+      "__meta": {
+        "name": "FastWorkbench",
+        "dependencies": [
+          283644
+        ]
+      }
+    },
+    {
+      "projectID": 297038,
+      "fileID": 3561106,
+      "required": true,
+      "__meta": {
+        "name": "CraftPresence"
+      }
+    },
+    {
+      "projectID": 299540,
+      "fileID": 3568851,
+      "required": true,
+      "__meta": {
+        "name": "FastFurnace"
+      }
+    },
+    {
+      "projectID": 354339,
+      "fileID": 3618465,
+      "required": true,
+      "__meta": {
+        "name": "Open Loader"
+      }
+    },
+    {
+      "projectID": 357540,
+      "fileID": 3565981,
+      "required": true,
+      "__meta": {
+        "name": "Inventory HUD+"
+      }
+    },
+    {
+      "projectID": 358191,
+      "fileID": 3554547,
+      "required": true,
+      "__meta": {
+        "name": "PackMenu",
+        "dependencies": [
+          283644
+        ]
+      }
+    },
+    {
+      "projectID": 406119,
+      "fileID": 3616338,
+      "required": true,
+      "__meta": {
+        "name": "Bongo",
+        "dependencies": [
+          412525
+        ]
+      }
+    },
+    {
+      "projectID": 412525,
+      "fileID": 3559917,
+      "required": true,
+      "__meta": {
+        "name": "LibX"
+      }
+    },
+    {
+      "projectID": 416089,
+      "fileID": 3621995,
+      "required": true,
+      "__meta": {
+        "name": "Simple Voice Chat"
+      }
+    },
+    {
+      "projectID": 429235,
+      "fileID": 3550045,
+      "required": true,
+      "__meta": {
+        "name": "FerriteCore (Forge)"
+      }
+    },
+    {
+      "projectID": 440998,
+      "fileID": 3606230,
+      "required": true,
+      "__meta": {
+        "name": "BingoLobby",
+        "dependencies": [
+          412525,
+          406119
+        ]
+      }
+    },
+    {
+      "projectID": 492574,
+      "fileID": 3544398,
+      "required": true,
+      "__meta": {
+        "name": "My Server Is Compatible"
+      }
+    },
+    {
+      "projectID": 521480,
+      "fileID": 3548347,
+      "required": true,
+      "__meta": {
+        "name": "Skin Layers 3D (Fabric/Forge)"
+      }
+    },
+    {
+      "projectID": 526854,
+      "fileID": 3559934,
+      "required": true,
+      "__meta": {
+        "name": "Starlight (Forge)"
+      }
+    },
+    {
+      "projectID": 531761,
+      "fileID": 3606150,
+      "required": true,
+      "__meta": {
+        "name": "Balm (Forge Edition)"
+      }
+    },
+    {
+      "projectID": 537533,
+      "fileID": 3502166,
+      "required": true,
+      "__meta": {
+        "name": "Ksyxis"
+      }
+    }
+  ]
 }
