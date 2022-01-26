@@ -176,12 +176,11 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [👑 Bongo! by noeppinoeppi](https://www.curseforge.com/minecraft/mc-mods/bongo)
+* [📦 PAX by froehlichA](https://github.com/froehlichA/pax)
+* [📰 Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
+
 <!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
