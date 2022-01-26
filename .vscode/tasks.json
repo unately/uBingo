@@ -21,9 +21,23 @@
         {
             "label": "Upgrade Mods",
             "type": "shell",
-            "command": "./pax upgrade",
+            "command": "./pax -y upgrade",
             "windows": {
                 "command": ".\\pax.exe -y upgrade"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "close": true
+              }
+        },
+        {
+            "label": "Export Pack",
+            "type": "shell",
+            "command": "./pax -y export",
+            "windows": {
+                "command": ".\\pax.exe -y export"
             },
             "problemMatcher": [],
             "presentation": {
