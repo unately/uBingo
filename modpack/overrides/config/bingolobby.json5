@@ -36,6 +36,10 @@
     {
       "color": "#1AA1F3",
       "text": "twitter.com/jqshuv"
+    },
+    {
+      "color": "#333",
+      "text": "github.com/unately"
     }
   ],
   
@@ -46,7 +50,7 @@
     "underlined": false,
     "strikethrough": false,
     "obfuscated": false,
-    "color": "#FFB400",
-    "text": "jqvBingo"
+    "color": "#3867D6",
+    "text": "uBingo"
   }
 }
