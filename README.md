@@ -157,7 +157,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
@@ -189,7 +189,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [workflow-shield]: https://img.shields.io/github/workflow/status/unately/ubingo/main?style=for-the-badge
 [workflow-url]: https://github.com/Unately/uBingo/actions
 [license-shield]: https://img.shields.io/github/license/Unately/uBingo.svg?style=for-the-badge
-[license-url]: https://github.com/Unately/uBingo/blob/master/LICENSE
+[license-url]: https://github.com/Unately/uBingo/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
 
 [discord-shield]: https://img.shields.io/discord/935279152259530822?style=for-the-badge
