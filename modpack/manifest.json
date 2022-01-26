@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "v0.1-alpha",
+  "version": "v0.3-beta",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -83,14 +83,6 @@
         "dependencies": [
           283644
         ]
-      }
-    },
-    {
-      "projectID": 297038,
-      "fileID": 3561106,
-      "required": true,
-      "__meta": {
-        "name": "CraftPresence"
       }
     },
     {
