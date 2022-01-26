@@ -60,7 +60,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 3621255,
+      "fileID": 3623934,
       "required": true,
       "__meta": {
         "name": "Placebo"
@@ -133,7 +133,7 @@
     },
     {
       "projectID": 412525,
-      "fileID": 3559917,
+      "fileID": 3620293,
       "required": true,
       "__meta": {
         "name": "LibX"
@@ -141,7 +141,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3621995,
+      "fileID": 3622992,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -185,7 +185,7 @@
     },
     {
       "projectID": 526854,
-      "fileID": 3559934,
+      "fileID": 3599856,
       "required": true,
       "__meta": {
         "name": "Starlight (Forge)"
