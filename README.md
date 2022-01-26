@@ -62,22 +62,15 @@
 
 [![Screenshot][product-screenshot]](https://cdn.jqshuv.xyz/screenshot.png)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
-
+This is a modpack to play bingo with your friends or alone. It's based on the [Bongo Mod][bongo-link] by noeppinoeppi and the modpack manager [PAX][pax-link] by froehlichA. It contains some extra mods to improve the gameplay and run it more smooth.
 
 
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
+* [PAX](https://github.com/froehlichA/pax/)
+* [Forge](https://forums.minecraftforge.net/)
+* [GDLauncher](https://gdevs.io/)
 
 
 
@@ -87,30 +80,20 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+#### Option 1: Using VisualStudioCode (Recommended)
+
+1. Download [git](https://git-scm.com/) and install it.
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/unately/ubingo.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. Open the folder with [Visual Studio Code](https://code.visualstudio.com/).
+4. Click on ==Run==
 
+#### Option 2: Using PAX releases
 
 
 
@@ -122,19 +105,15 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 
-//## Visual Studio Code Features
+<!-- ## Visual Studio Code Features -->
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+[![Project][project-shield]][project-url]
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
+See the [open issues](https://github.com/unately/ubingo/issues) for a full list of proposed features (and known issues).
 
 
 
@@ -176,8 +155,8 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [👑 Bongo! by noeppinoeppi](https://www.curseforge.com/minecraft/mc-mods/bongo)
-* [📦 PAX by froehlichA](https://github.com/froehlichA/pax)
+* [👑 Bongo! by noeppinoeppi][bongo-link]
+* [📦 PAX by froehlichA][pax-link]
 * [📰 Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
 
 <!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
@@ -186,10 +165,13 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-shield]: https://img.shields.io/github/issues/Unately/uBingo.svg?style=for-the-badge
 [issues-url]: https://github.com/Unately/uBingo/issues
+
 [workflow-shield]: https://img.shields.io/github/workflow/status/unately/ubingo/main?style=for-the-badge
 [workflow-url]: https://github.com/Unately/uBingo/actions
+
 [license-shield]: https://img.shields.io/github/license/Unately/uBingo.svg?style=for-the-badge
 [license-url]: https://github.com/Unately/uBingo/blob/master/LICENSE.txt
+
 [product-screenshot]: .github/images/screenshot.png
 
 [discord-shield]: https://img.shields.io/discord/935279152259530822?style=for-the-badge
@@ -197,3 +179,10 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 
 [pax-shield]: https://img.shields.io/github/v/release/froehlichA/pax?label=PAX%20%F0%9F%93%A6&style=for-the-badge
 [pax-url]: https://github.com/froehlichA/pax
+
+[project-shield]: https://img.shields.io/badge/Project-%F0%9F%93%91%20ToDo-red?style=for-the-badge&logo=github
+[project-url]:https://github.com/orgs/Unately/projects/5
+
+[bongo-link]: https://www.curseforge.com/minecraft/mc-mods/bongo
+
+[pax-link]: https://github.com/froehlichA/pax
