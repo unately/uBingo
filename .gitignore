@@ -1,6 +1,7 @@
 ### PAX ###
 pax
 pax.exe
+pax-windows.zip
 libssl*.dll
 libcrypto*.dll
 cacert.pem
