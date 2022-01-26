@@ -16,14 +16,6 @@
   "name": "uBingo",
   "files": [
     {
-      "projectID": 60028,
-      "fileID": 3583038,
-      "required": true,
-      "__meta": {
-        "name": "Aquaculture 2"
-      }
-    },
-    {
       "projectID": 227657,
       "fileID": 3583363,
       "required": true,
