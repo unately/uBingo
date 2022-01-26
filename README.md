@@ -91,18 +91,29 @@ To get a local copy up and running follow these simple example steps.
    git clone https://github.com/unately/ubingo.git
    ```
 3. Open the folder with [Visual Studio Code](https://code.visualstudio.com/).
-4. Click on ==Run==
+4. Click on ``Terminal > Run Task > Setup/Downlaod PAX``.
 
-#### Option 2: Using PAX releases
+#### Option 2: Using PAX releases (***NOT*** Recommended)
+
+1. Download [git](https://git-scm.com/) and install it.
+2. Clone the repo.
+   ```sh
+   git clone https://github.com/unately/ubingo.git
+   ```
+3. Go to the [latest PAX release](https://github.com/froehlichA/pax/releases/latest).
+4. Download the file ``pax`` for linux and the file ``pax-windows.zip`` for windows.
+   * Windows:
+      1. Open the downloaded zip archive ``pax-windows.zip``.
+      2. Extract the files into the ``ubingo`` folder.
+   * Linux:
+      1. Put the downloaded ``pax`` file into the ``ubingo``
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [PAX Documentation](https://github.com/froehlichA/pax/wiki)_
 
 
 <!-- ## Visual Studio Code Features -->
@@ -137,7 +148,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See the [`LICENSE`](https://github.com/Unately/uBingo/blob/master/LICENSE.txt) for more information.
 
 
 
