@@ -156,6 +156,14 @@
       }
     },
     {
+      "projectID": 435044,
+      "fileID": 3582045,
+      "required": true,
+      "__meta": {
+        "name": "Better Third Person"
+      }
+    },
+    {
       "projectID": 440998,
       "fileID": 3606230,
       "required": true,
