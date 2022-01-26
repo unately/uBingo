@@ -166,9 +166,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Joshua Schmitt - [@jqshuv](https://twitter.com/jqshuv) - jqshuv@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubingo)
 
 
 
@@ -191,7 +191,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [workflow-url]: https://github.com/Unately/uBingo/actions
 [license-shield]: https://img.shields.io/github/license/Unately/uBingo.svg?style=for-the-badge
 [license-url]: https://github.com/Unately/uBingo/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: .github/images/screenshot.png
 
 [discord-shield]: https://img.shields.io/discord/935279152259530822?style=for-the-badge
 [discord-url]: https://discord.gg/PXqqKVAUDk
