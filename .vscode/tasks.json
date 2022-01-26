@@ -1,6 +1,7 @@
 {
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
+    //https://github.com/froehlichA/pax/releases/latest/download/pax
     "version": "2.0.0",
     "tasks": [
         {
@@ -16,6 +17,20 @@
                 "panel": "new",
                 "close": true
               }
+        },
+        {
+            "label": "Setup/Download PAX",
+            "type": "shell",
+            "command": "rm pax & curl https://github.com/froehlichA/pax/releases/latest/download/pax -O pax && chmod +x pax",
+            "windows": {
+                "command": "del libcrypto*; del libssl*; del pax.exe; del cacert.pem; curl https://github.com/froehlichA/pax/releases/latest/download/pax-windows.zip -O pax-windows.zip; tar -xf pax-windows.zip; del pax-windows.zip",
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "close": true
+            }
         }
     ]
 }
