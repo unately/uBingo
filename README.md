@@ -82,30 +82,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-#### Option 1: Using VisualStudioCode (Recommended)
 
-1. Download [git](https://git-scm.com/) and install it.
-2. Clone the repo
-   ```sh
-   git clone https://github.com/unately/ubingo.git
-   ```
-3. Open the folder with [Visual Studio Code](https://code.visualstudio.com/).
-4. Click on ``Terminal > Run Task > Setup/Downlaod PAX``.
-
-#### Option 2: Using PAX releases (***NOT*** Recommended)
-
-1. Download [git](https://git-scm.com/) and install it.
-2. Clone the repo.
-   ```sh
-   git clone https://github.com/unately/ubingo.git
-   ```
-3. Go to the [latest PAX release](https://github.com/froehlichA/pax/releases/latest).
-4. Download the file ``pax`` for linux and the file ``pax-windows.zip`` for windows.
-   * Windows:
-      1. Open the downloaded zip archive ``pax-windows.zip``.
-      2. Extract the files into the ``ubingo`` folder.
-   * Linux:
-      1. Put the downloaded ``pax`` file into the ``ubingo``
+#### Using GDLauncher (Recommended)
 
 
 
@@ -160,6 +138,31 @@ Joshua Schmitt - [@jqshuv](https://twitter.com/jqshuv) - jqshuv@gmail.com
 Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubingo)
 
 
+
+<!-- #### Option 1: Using VisualStudioCode (Recommended)
+
+1. Download [git](https://git-scm.com/) and install it.
+2. Clone the repo
+   ```sh
+   git clone https://github.com/unately/ubingo.git
+   ```
+3. Open the folder with [Visual Studio Code](https://code.visualstudio.com/).
+4. Click on ``Terminal > Run Task > Setup/Downlaod PAX``.
+
+#### Option 2: Using PAX releases (***NOT*** Recommended)
+
+1. Download [git](https://git-scm.com/) and install it.
+2. Clone the repo.
+   ```sh
+   git clone https://github.com/unately/ubingo.git
+   ```
+3. Go to the [latest PAX release](https://github.com/froehlichA/pax/releases/latest).
+4. Download the file ``pax`` for linux and the file ``pax-windows.zip`` for windows.
+   * Windows:
+      1. Open the downloaded zip archive ``pax-windows.zip``.
+      2. Extract the files into the ``ubingo`` folder.
+   * Linux:
+      1. Put the downloaded ``pax`` file into the ``ubingo`` -->
 
 
 <!-- ACKNOWLEDGMENTS -->
