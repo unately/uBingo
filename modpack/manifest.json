@@ -43,6 +43,14 @@
       }
     },
     {
+      "projectID": 232607,
+      "fileID": 3544433,
+      "required": true,
+      "__meta": {
+        "name": "Lag Removal"
+      }
+    },
+    {
       "projectID": 233019,
       "fileID": 3543562,
       "required": true,
@@ -133,7 +141,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3624430,
+      "fileID": 3625662,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -173,6 +181,14 @@
       "required": true,
       "__meta": {
         "name": "My Server Is Compatible"
+      }
+    },
+    {
+      "projectID": 495693,
+      "fileID": 3604395,
+      "required": true,
+      "__meta": {
+        "name": "Farsight[Forge/Fabric]"
       }
     },
     {
