@@ -73,8 +73,19 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: modpack
+      - name: Get release type
+        id: release-type
+        run: |
+          rel_type="release"
+          case "${{ needs.modpack-info.outputs.tag }}" in
+            *alpha*) rel_type="true" ;;
+            *beta*) rel_type="true" ;;
+            *) rel_type="false" ;;
+          esac
+          echo "::set-output name=type::$rel_type"
       - name: Create release
         uses: softprops/action-gh-release@v1
+        prerelease: ${{ steps.release-type.outputs.type }}
         with:
           body_path: ${{steps.changelog.outputs.changelog}}
           files: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
