@@ -85,9 +85,9 @@ jobs:
           echo "::set-output name=type::$rel_type"
       - name: Create release
         uses: softprops/action-gh-release@v1
-        prerelease: ${{ steps.release-type.outputs.type }}
         with:
           body_path: ${{steps.changelog.outputs.changelog}}
+          prerelease: ${{ steps.release-type.outputs.type }}
           files: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
