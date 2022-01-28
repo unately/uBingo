@@ -40,9 +40,12 @@ jobs:
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: "📀 Test Changelog File"
-        env:
-          CHANGELOG: ${{ steps.complex_release.outputs.changelog }}
-        run: echo "CHANGELOG"
+        uses: DamianReeves/write-file-action
+        with:
+          path: changelog.md 
+          contents: |
+            ${{steps.build_changelog.outputs.changelog}}
+          write-mode: append
 
       #- name: "Build Changelog"
       #  id: build_changelog
