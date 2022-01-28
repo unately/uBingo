@@ -92,7 +92,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-_For more examples, please refer to the [PAX Documentation](https://github.com/froehlichA/pax/wiki)_
+_Please refer to the [PAX Documentation](https://github.com/froehlichA/pax/wiki)_
 
 
 <!-- ## Visual Studio Code Features -->
