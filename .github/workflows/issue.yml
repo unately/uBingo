@@ -22,7 +22,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          branchName: 'issue/${issue.number}'
+          branchName: 'issue/${issue.number}-hah'
           autoCloseIssue: true
           openPR: true
           copyIssueDescriptionToPR: true
