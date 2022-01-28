@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src=".github/images/banner.gif" alt="Logo" width="1024" height="256">
+    <img src=".github/images/banner.gif" alt="Logo" width="512" height="128">
 
 <h3 align="center">uBingo</h3>
 
