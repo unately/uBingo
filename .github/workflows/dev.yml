@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  💾 Modpack Info:
+  modpack-info:
     runs-on: ubuntu-latest
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: Get modpack info
+      - name: "💾 Get modpack info"
         id: info
         run: |
             manifestjson=`cat ./modpack/manifest.json`
@@ -40,20 +40,20 @@ jobs:
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: Download PAX
+      - name: "🚀 Download PAX"
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: froehlichA/pax
           file: "pax"
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Export modpack
+      - name: "📦 Export modpack"
         run: |
           sudo chmod +x ./pax
           ./pax export
-      - name: Rename zip
+      - name: "🏹 Rename zip"
         run: |
           mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-dev.zip
-      - name: Upload zip
+      - name: "🔼 Upload zip"
         uses: actions/upload-artifact@v2
         with:
           name: modpack
