@@ -4,14 +4,15 @@ on: [pull_request]
 
 jobs:
   modpack-info:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
+    name: "📙 Modpack Info"
     steps:
-      - name: Checkout
+      - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: Get modpack info
+      - name: "💾 Get modpack info"
         id: info
         run: |
             manifestjson=`cat ./modpack/manifest.json`
@@ -21,44 +22,40 @@ jobs:
             echo "::set-output name=version::$version"
 
   changelog:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     outputs:
       changelog: ${{ steps.changelog.outputs.changelog }}
+    name: "📜 Changelog"
     steps:
-      - name: Checkout
+      - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: Generate changelog
+      - name: "✍️ Write changelog"
         id: changelog
         uses: heinrichreimer/github-changelog-generator-action@v2.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           output: CHANGELOG.md
           stripGeneratorNotice: true
-      - name: Store changelog
+      - name: "💽 Save changelog"
         uses: actions/upload-artifact@v2
         with:
-          name: changelog
+          name: modpack
           path: CHANGELOG.md
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: [changelog, modpack-info]
+    name: "📦 Build"
     steps:
-      - name: Checkout
+      - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: Download PAX
+      - name: "🚀 Download PAX"
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: froehlichA/pax
           file: "pax"
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Download changelog
-        uses: actions/download-artifact@v2
-        with:
-          name: changelog
-      - name: Move changelog
-        run:  mv ./CHANGELOG.md ./modpack/CHANGELOG.md
-      - name: Export modpack
+      - name: "🚢 Export modpack"
         run: |
           sudo chmod +x ./pax
           ./pax export
