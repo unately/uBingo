@@ -57,6 +57,6 @@
       }
     },
     "base_branches": [
-      "dev"
+      "master"
     ]
 }
