@@ -185,7 +185,7 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 [workflow-url]: https://github.com/Unately/uBingo/actions
 
 [license-shield]: https://img.shields.io/github/license/Unately/uBingo.svg?style=for-the-badge
-[license-url]: https://github.com/Unately/uBingo/blob/master/LICENSE.txt
+[license-url]: https://github.com/Unately/uBingo/blob/master/LICENSE
 
 [product-screenshot]: .github/images/screenshot.png
 
