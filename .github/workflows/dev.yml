@@ -46,6 +46,11 @@ jobs:
           contents: |
             ${{steps.build_changelog.outputs.changelog}}
           write-mode: append
+      - name: "🔼 Upload zip"
+        uses: actions/upload-artifact@v2
+        with:
+          name: modpack
+          path: changelog.md 
 
       #- name: "Build Changelog"
       #  id: build_changelog
