@@ -9,6 +9,7 @@ jobs:
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
+    name: "Hallo"
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
