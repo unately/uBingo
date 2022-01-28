@@ -9,7 +9,7 @@ jobs:
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
-    name: "Hallo"
+    name: "📙 Modpack Info"
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
@@ -26,6 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changelog: ${{steps.changelog.outputs.changelog}}
+    name: "📜 Changelog"
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
@@ -38,6 +39,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     needs: [changelog, modpack-info]
+    name: "📦 Build"
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
@@ -47,7 +49,7 @@ jobs:
           repo: froehlichA/pax
           file: "pax"
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: "📦 Export modpack"
+      - name: "🚢 Export modpack"
         run: |
           sudo chmod +x ./pax
           ./pax export
