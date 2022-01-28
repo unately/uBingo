@@ -18,6 +18,13 @@ jobs:
     name: "🚗 Create Issue Branch"
     steps:
       - name: "🚌 Create Branch"
-        uses: robvanderleek/create-issue-branch@main
+        uses: robvanderleek/create-issue-branch@v1.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branchName: 'issue/${issue.number}'
+          autoCloseIssue: true
+          openPR: true
+          copyIssueDescriptionToPR: true
+          copyIssueAssigneeToPR: true
+          copyIssueProjectsToPR: true
