@@ -38,7 +38,6 @@ jobs:
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: "📀 Test Changelog File"
-        uses: actions/upload-artifact@v2
         env:
           CHANGELOG: ${{ steps.complex_release.outputs.changelog }}
         run: echo "CHANGELOG"
