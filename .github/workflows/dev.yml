@@ -40,7 +40,7 @@ jobs:
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: "📀 Test Changelog File"
-        uses: DamianReeves/write-file-action
+        uses: DamianReeves/write-file-action@v1.0
         with:
           path: changelog.md 
           contents: |
