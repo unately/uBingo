@@ -5,7 +5,7 @@ on:
 
 jobs:
   modpack-info:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
@@ -23,7 +23,7 @@ jobs:
             echo "::set-output name=version::$version"
 
   changelog:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     outputs:
       changelog: ${{steps.changelog.outputs.changelog}}
     name: "📜 Changelog"
@@ -37,7 +37,7 @@ jobs:
       #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: [changelog, modpack-info]
     name: "📦 Build"
     steps:
