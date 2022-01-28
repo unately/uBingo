@@ -34,7 +34,7 @@ jobs:
         id: build_changelog
         uses: mikepenz/release-changelog-builder-action@v2.7.2
         with:
-        configuration: "changelog.config.json"
+          configuration: "changelog.config.json"
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: "📀 Test Changelog File"
