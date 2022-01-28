@@ -30,27 +30,21 @@ jobs:
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: "✍️ Write Changelogs"
+      - name: "✍️ Write changelog"
         id: build_changelog
         uses: mikepenz/release-changelog-builder-action@v2.7.2
         with:
           fromTag: v0.2-alpha
           toTag: v0.4-beta 
+          output: CHANGELOG.md
           configuration: "changelog.config.json"
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: "📀 Test Changelog File"
-        uses: DamianReeves/write-file-action@v1.0
-        with:
-          path: changelog.md 
-          contents: |
-            ${{steps.build_changelog.outputs.changelog}}
-          write-mode: append
-      - name: "🔼 Upload zip"
+      - name: "💽 Save changelog"
         uses: actions/upload-artifact@v2
         with:
           name: modpack
-          path: changelog.md 
+          path: CHANGELOG.md
 
       #- name: "Build Changelog"
       #  id: build_changelog

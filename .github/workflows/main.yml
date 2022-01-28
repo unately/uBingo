@@ -7,15 +7,16 @@ on:
 
 jobs:
   modpack-info:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
       tag: ${{ steps.version.outputs.tag }}
+    name: "📙 Modpack Info"
     steps:
-      - name: Checkout
+      - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: Get modpack info
+      - name: "💾 Get modpack info"
         id: info
         run: |
             manifestjson=`cat ./modpack/manifest.json`
@@ -23,57 +24,60 @@ jobs:
             echo "::set-output name=projectname::$projectname"
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
             echo "::set-output name=version::$version"
-      - name: Get tag
+      - name: "📛 Get tag"
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
   changelog:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
+    name: "📜 Changelog"
     outputs:
       changelog: ${{steps.changelog.outputs.changelog}}
     steps:
-      - name: Checkout
+      - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: "Build Changelog"
+      - name: "✍️ Write Changelogs"
         id: build_changelog
         uses: mikepenz/release-changelog-builder-action@v2.7.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: [changelog, modpack-info]
+    name: "📦 Build"
     steps:
-      - name: Checkout
+      - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: Download PAX
+      - name: "🚀 Download PAX"
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: froehlichA/pax
           file: "pax"
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Export modpack
+      - name: "🚢 Export modpack"
         run: |
           sudo chmod +x ./pax
           ./pax export
-      - name: Rename zip
+      - name: "🏹 Rename zip"
         run: |
           mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-      - name: Upload zip
+      - name: "🔼 Upload zip"
         uses: actions/upload-artifact@v2
         with:
           name: modpack
           path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
   
   release-github:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: [build, changelog, modpack-info]
+    name: "🎉 Release"
     steps:
-      - name: Download modpack
+      - name: "🔽 Download modpack"
         uses: actions/download-artifact@v2
         with:
           name: modpack
-      - name: Get release type
+      - name: "🥨 Get release type"
         id: release-type
         run: |
           rel_type="release"
@@ -83,7 +87,7 @@ jobs:
             *) rel_type="false" ;;
           esac
           echo "::set-output name=type::$rel_type"
-      - name: Create release
+      - name: "🧬 Create release"
         uses: softprops/action-gh-release@v1
         with:
           body_path: ${{steps.changelog.outputs.changelog}}
