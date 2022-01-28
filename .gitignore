@@ -5,6 +5,7 @@ pax-windows.zip
 libssl*.dll
 libcrypto*.dll
 cacert.pem
+server_generator.exe
 
 ### Modpack ###
 .out/

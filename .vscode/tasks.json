@@ -45,6 +45,34 @@
                 "panel": "new",
                 "close": true
               }
+        },
+        {
+            "label": "Setup/Download server generator",
+            "type": "shell",
+            "command": "rm server_generator & curl https://github.com/henkelmax/curseforge-modpack-server-generator/releases/download/1.0.1/server_generator_linux_1.0.1 -O server_generator && chmod +x server_generator",
+            "windows": {
+                "command": "del server_generator.exe; del cacert.pem; curl https://github.com/henkelmax/curseforge-modpack-server-generator/releases/download/1.0.1/server_generator_win_1.0.1.exe -O server_generator.exe",
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "close": true
+            }
+        },
+        {
+            "label": "Export Server",
+            "type": "shell",
+            "command": "./server_generator --modpack-zip \".out/uBingo.zip\" --destination-path \".out/uBingo-Server.zip\"",
+            "windows": {
+                "command": ".\\server_generator.exe --modpack-zip \".out/uBingo.zip\" --destination-path \".out/uBingo-Server.zip\""
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "close": true
+              }
         }
     ]
 }
