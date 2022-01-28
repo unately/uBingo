@@ -1,4 +1,4 @@
-name: check
+name: "🎒 Check"
 
 on: [pull_request]
 
