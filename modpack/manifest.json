@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "dev",
+  "version": "v1.0",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
