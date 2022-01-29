@@ -16,14 +16,6 @@
   "name": "uBingo",
   "files": [
     {
-      "projectID": 55438,
-      "fileID": 3616801,
-      "required": true,
-      "__meta": {
-        "name": "MrCrayfish's Furniture Mod"
-      }
-    },
-    {
       "projectID": 227657,
       "fileID": 3583363,
       "required": true,
@@ -218,14 +210,6 @@
       "required": true,
       "__meta": {
         "name": "Borderless Window"
-      }
-    },
-    {
-      "projectID": 391187,
-      "fileID": 3620377,
-      "required": true,
-      "__meta": {
-        "name": "Enchant With Mob"
       }
     },
     {
