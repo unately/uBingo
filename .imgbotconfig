@@ -3,7 +3,7 @@
     "aggressiveCompression": "false",
     "compressWiki": "true",
     "minKBReduced": 10,
-    "prTitle" : "🖌️ Optimize Images",        
+    "prTitle" : "🖌️  Optimize Images",        
     "prBody" : " Your image file size has been reduced by {optimization_ratio} 🎉 
     
                  {optimization_details}",
