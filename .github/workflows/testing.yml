@@ -1,4 +1,4 @@
-name: "🖱️ Development"
+name: "🖱️ Testing"
 
 on:
   workflow_dispatch:
