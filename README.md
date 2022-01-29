@@ -190,7 +190,7 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 [product-screenshot]: .github/images/screenshot.png
 
 [discord-shield]: https://img.shields.io/discord/903750807957147718?style=for-the-badge
-[discord-url]: https://discord.gg/PXqqKVAUDk
+[discord-url]: https://dsc.gg/jqshuv
 
 [pax-shield]: https://img.shields.io/github/v/release/froehlichA/pax?label=PAX%20%F0%9F%93%A6&style=for-the-badge
 [pax-url]: https://github.com/froehlichA/pax
