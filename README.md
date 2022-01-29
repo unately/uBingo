@@ -174,6 +174,13 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 * [📦 PAX by froehlichA][pax-link]
 * [📰 Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
 
+<br>
+<p align="center">
+  <a href="https://zap-hosting.com/jqshuv3">
+  <img src="https://zap-hosting.com/interface/download/images.php?type=affiliate&id=197035" />
+</p>
+
+
 <!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
