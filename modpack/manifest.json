@@ -59,6 +59,14 @@
       }
     },
     {
+      "projectID": 242995,
+      "fileID": 3573067,
+      "required": true,
+      "__meta": {
+        "name": "Custom Crosshair Mod"
+      }
+    },
+    {
       "projectID": 252848,
       "fileID": 3577265,
       "required": true,
@@ -67,11 +75,38 @@
       }
     },
     {
+      "projectID": 271740,
+      "fileID": 3566996,
+      "required": true,
+      "__meta": {
+        "name": "Toast Control",
+        "dependencies": [
+          283644
+        ]
+      }
+    },
+    {
+      "projectID": 272515,
+      "fileID": 3575636,
+      "required": true,
+      "__meta": {
+        "name": "Better Advancements"
+      }
+    },
+    {
       "projectID": 276951,
       "fileID": 3551239,
       "required": true,
       "__meta": {
         "name": "Comforts (Forge)"
+      }
+    },
+    {
+      "projectID": 280294,
+      "fileID": 3548891,
+      "required": true,
+      "__meta": {
+        "name": "FPS Reducer"
       }
     },
     {
@@ -102,6 +137,22 @@
       }
     },
     {
+      "projectID": 316582,
+      "fileID": 3625679,
+      "required": true,
+      "__meta": {
+        "name": "Corpse"
+      }
+    },
+    {
+      "projectID": 349559,
+      "fileID": 3623254,
+      "required": true,
+      "__meta": {
+        "name": "FallingTree (Forge&Fabric)"
+      }
+    },
+    {
       "projectID": 354339,
       "fileID": 3618465,
       "required": true,
@@ -126,6 +177,14 @@
         "dependencies": [
           283644
         ]
+      }
+    },
+    {
+      "projectID": 377281,
+      "fileID": 3618370,
+      "required": true,
+      "__meta": {
+        "name": "Dark Paintings"
       }
     },
     {
@@ -189,6 +248,14 @@
           412525,
           406119
         ]
+      }
+    },
+    {
+      "projectID": 463155,
+      "fileID": 3620401,
+      "required": true,
+      "__meta": {
+        "name": "Falling Leaves (Forge)"
       }
     },
     {
