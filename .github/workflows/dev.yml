@@ -36,7 +36,6 @@ jobs:
         with:
           fromTag: v0.2-alpha
           toTag: v0.4-beta
-          output: CHANGELOG.md
           configuration: "changelog.config.json"
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: modpack
-          path: CHANGELOG.md
+          path: changelog.md
 
       #- name: "Build Changelog"
       #  id: build_changelog
