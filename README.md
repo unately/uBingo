@@ -19,7 +19,7 @@
     <a href="https://github.com/Unately/uBingo/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Unately/uBingo/releases/latest">Development Builds</a>
+    <a href="https://github.com/Unately/uBingo/actions/workflows/devbuild.yml?query=is%3Asuccess">Development Builds</a>
     ·
     <a href="https://github.com/Unately/uBingo/releases/latest">Download</a>
     ·
