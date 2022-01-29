@@ -32,17 +32,6 @@
       }
     },
     {
-      "projectID": 232131,
-      "fileID": 3549417,
-      "required": true,
-      "__meta": {
-        "name": "Default Options",
-        "dependencies": [
-          531761
-        ]
-      }
-    },
-    {
       "projectID": 232607,
       "fileID": 3544433,
       "required": true,
@@ -162,6 +151,14 @@
       "required": true,
       "__meta": {
         "name": "Corpse"
+      }
+    },
+    {
+      "projectID": 318012,
+      "fileID": 3550329,
+      "required": true,
+      "__meta": {
+        "name": "DefaultSettings"
       }
     },
     {
