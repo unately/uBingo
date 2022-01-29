@@ -13,7 +13,7 @@ jobs:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
       - name: "📦 Setup PAX"
-        run: curl https://github.com/froehlichA/pax/releases/latest/download/pax -o pax && chmod 0777 pax
+        run: wget https://github.com/froehlichA/pax/releases/latest/download/pax -O pax && chmod 0777 pax
       - name: "🗡️ PAX upgrade"
         run: ./pax -y upgrade
       - name: "📰 Commit update"
