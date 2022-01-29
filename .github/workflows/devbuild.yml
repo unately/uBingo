@@ -67,11 +67,10 @@ jobs:
           mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
       - name: "🚚 Unpack zip"
         run: unzip ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
-
       - name: "🔼 Upload zip"
         uses: actions/upload-artifact@v2
         with:
           name: modpack
-          path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
+          path: .out/*
 
   
