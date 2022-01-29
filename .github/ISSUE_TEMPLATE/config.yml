@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: GitHub Community Support
-    url: https://discord.gg/PXqqKVAUDk
+  - name: uBingo discussions (aka. forum)
+    url: https://github.com/Unately/uBingo/discussions
     about: Please ask and answer questions here.
+  - name: Discord 
+    url: https://discord.gg/BeYVQ3fhF4
+    about: CURRENTLY GERMAN BUT SOON SWITCHED TO ENGLISH
