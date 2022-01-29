@@ -39,6 +39,8 @@ jobs:
           configuration: "changelog.config.json"
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: "List"
+        run: ls
       - name: "💽 Save changelog"
         uses: actions/upload-artifact@v2
         with:
