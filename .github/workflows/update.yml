@@ -12,8 +12,14 @@ jobs:
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: "📦 Setup PAX"
-        run: curl https://github.com/froehlichA/pax/releases/download/latest/pax -o pax && chmod 0777 pax
+      #- name: "📦 Setup PAX"
+      #  run: curl  -o pax && chmod 0777 pax
+      - uses: suisei-cn/actions-download-file@v1
+        id: paxfile  
+        name: Download the file
+        with:
+          url: "https://github.com/froehlichA/pax/releases/download/latest/pax"
+          target: .
       - name: "🗡️ PAX upgrade"
         run: ./pax -y upgrade
       - name: "📰 Commit update"
