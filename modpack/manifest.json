@@ -94,6 +94,15 @@
       }
     },
     {
+      "projectID": 273744,
+      "fileID": 3583977,
+      "required": true,
+      "__meta": {
+        "name": "U Team Core",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 276951,
       "fileID": 3551239,
       "required": true,
@@ -125,6 +134,17 @@
         "name": "FastWorkbench",
         "dependencies": [
           283644
+        ]
+      }
+    },
+    {
+      "projectID": 294574,
+      "fileID": 3586482,
+      "required": true,
+      "__meta": {
+        "name": "Music Player",
+        "dependencies": [
+          273744
         ]
       }
     },
@@ -291,6 +311,14 @@
       }
     },
     {
+      "projectID": 531744,
+      "fileID": 3548494,
+      "required": true,
+      "__meta": {
+        "name": "Camp Chair"
+      }
+    },
+    {
       "projectID": 531761,
       "fileID": 3606150,
       "required": true,
@@ -304,6 +332,14 @@
       "required": true,
       "__meta": {
         "name": "Ksyxis"
+      }
+    },
+    {
+      "projectID": 557796,
+      "fileID": 3575266,
+      "required": true,
+      "__meta": {
+        "name": "Effective (Forge)"
       }
     }
   ]
