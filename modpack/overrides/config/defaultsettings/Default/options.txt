@@ -13,7 +13,7 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:false
 toggleCrouch:false
 toggleSprint:false
@@ -36,7 +36,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:[]
+resourcePacks:["vanilla","mod_resources","packmenu","resources/uBingo"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
