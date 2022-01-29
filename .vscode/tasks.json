@@ -73,6 +73,20 @@
                 "panel": "new",
                 "close": true
               }
+        },
+        {
+            "label": "Cleanup",
+            "type": "shell",
+            "command": "rm server_generator & rm libssl*.dll & rm libcrypto*.dll & rm pax.exe & rm cacert.pem &rm -r .out",
+            "windows": {
+                "command": "del libssl*.dll; del libcrypto*.dll; del pax.exe; del cacert.pem; del server_generator.exe; Remove-Item -path .\\.out –force -recurse"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "close": true
+              }
         }
     ]
 }
