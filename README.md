@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src=".github/images/banner.gif" alt="Logo" width="512" height="128">
+    <img src=".github/images/ubingo-banner.gif" alt="Logo" width="512" height="128">
 
 <h3 align="center">uBingo</h3>
 
@@ -189,7 +189,7 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 
 [product-screenshot]: .github/images/screenshot.png
 
-[discord-shield]: https://img.shields.io/discord/935279152259530822?style=for-the-badge
+[discord-shield]: https://img.shields.io/discord/903750807957147718?style=for-the-badge
 [discord-url]: https://discord.gg/PXqqKVAUDk
 
 [pax-shield]: https://img.shields.io/github/v/release/froehlichA/pax?label=PAX%20%F0%9F%93%A6&style=for-the-badge
