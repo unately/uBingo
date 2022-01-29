@@ -213,6 +213,14 @@
       }
     },
     {
+      "projectID": 391187,
+      "fileID": 3620377,
+      "required": true,
+      "__meta": {
+        "name": "Enchant With Mob"
+      }
+    },
+    {
       "projectID": 406119,
       "fileID": 3616338,
       "required": true,
@@ -273,6 +281,22 @@
           412525,
           406119
         ]
+      }
+    },
+    {
+      "projectID": 457570,
+      "fileID": 3559398,
+      "required": true,
+      "__meta": {
+        "name": "Configured"
+      }
+    },
+    {
+      "projectID": 459701,
+      "fileID": 3559402,
+      "required": true,
+      "__meta": {
+        "name": "Catalogue"
       }
     },
     {
