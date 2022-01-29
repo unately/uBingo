@@ -19,6 +19,8 @@ jobs:
       - name: "📰 Commit update"
         uses: test-room-7/action-update-file@v1
         with:
-          file-path: ./modpack*
+          file-path: ./modpack/manifest.json
           commit-msg: ✈️ Updated Mods
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          committer-name: "Unately Bot"
+          committer-email: "unatelyhq@gmail.com"
+          github-token: ${{ secrets.UNATELYBOT_KEY }}
