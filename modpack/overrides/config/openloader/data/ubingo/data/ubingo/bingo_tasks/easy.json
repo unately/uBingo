@@ -721,44 +721,50 @@
         "id": "minecraft:cornflower"
       },
       {
-        "type": "bongo.item",
-        "weight": 25,
-        "id": "minecraft:crafting_table"
-      },
-      {
-        "type": "bongo.item",
-        "weight": 25,
-        "id": "mctb:acacia_crafting_table"
-      },
-      {
-        "type": "bongo.item",
-        "weight": 25,
-        "id": "mctb:spruce_crafting_table"
-      },
-      {
-        "type": "bongo.item",
-        "weight": 25,
-        "id": "mctb:birch_crafting_table"
-      },
-      {
-        "type": "bongo.item",
-        "weight": 25,
-        "id": "mctb:jungle_crafting_table"
-      },
-      {
-        "type": "bongo.item",
-        "weight": 25,
-        "id": "mctb:dark_oak_crafting_table"
-      },
-      {
-        "type": "bongo.item",
-        "weight": 25,
-        "id": "mctb:warped_crafting_table"
-      },
-      {
-        "type": "bongo.item",
-        "weight": 25,
-        "id": "mctb:crimson_crafting_table"
+        "type": "bongo.group",
+        "weight": 4,
+        "tasks": [
+          {
+            "type": "bongo.item",
+            "weight": 25,
+            "id": "minecraft:crafting_table"
+          },
+          {
+            "type": "bongo.item",
+            "weight": 25,
+            "id": "mctb:acacia_crafting_table"
+          },
+          {
+            "type": "bongo.item",
+            "weight": 25,
+            "id": "mctb:spruce_crafting_table"
+          },
+          {
+            "type": "bongo.item",
+            "weight": 25,
+            "id": "mctb:birch_crafting_table"
+          },
+          {
+            "type": "bongo.item",
+            "weight": 25,
+            "id": "mctb:jungle_crafting_table"
+          },
+          {
+            "type": "bongo.item",
+            "weight": 25,
+            "id": "mctb:dark_oak_crafting_table"
+          },
+          {
+            "type": "bongo.item",
+            "weight": 25,
+            "id": "mctb:warped_crafting_table"
+          },
+          {
+            "type": "bongo.item",
+            "weight": 25,
+            "id": "mctb:crimson_crafting_table"
+          }
+        ]
       },
       {
         "type": "bongo.item",
