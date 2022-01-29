@@ -14,7 +14,7 @@
 <h3 align="center">uBingo</h3>
 
   <p align="center">
-    A Bingo Modpack based in the Bongo mod with much features.
+    A Bingo Modpack based on the Bongo mod with much features.
     <br />
     <a href="https://github.com/Unately/uBingo/wiki"><strong>Explore the docs »</strong></a>
     <br />
