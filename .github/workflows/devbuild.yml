@@ -1,4 +1,4 @@
-name: "🎹 Development Build"
+name: "🎹 Development"
 
 on:
   workflow_dispatch:
