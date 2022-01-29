@@ -146,6 +146,14 @@
       }
     },
     {
+      "projectID": 300331,
+      "fileID": 3564180,
+      "required": true,
+      "__meta": {
+        "name": "Simply Light"
+      }
+    },
+    {
       "projectID": 316582,
       "fileID": 3625679,
       "required": true,
