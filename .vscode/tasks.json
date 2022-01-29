@@ -87,6 +87,17 @@
                 "panel": "new",
                 "close": true
               }
+        },
+        {
+            "label": "Run docs",
+            "type": "shell",
+            "command": "./test.cmd",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "close": false
+              }
         }
     ]
 }
