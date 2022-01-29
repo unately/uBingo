@@ -17,11 +17,10 @@ jobs:
         name: "📦 Setup PAX"
         with:
           url: "https://github.com/froehlichA/pax/releases/download/latest/pax"
-          target: .
       - name: "👮🏻 Set file permission"
         run: |
           chmod 0777 pax
-          ./pax -y upgrade
+          pax -y upgrade
         shell: bash
       - name: "📰 Commit update"
         uses: test-room-7/action-update-file@v1
