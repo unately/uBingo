@@ -30,11 +30,18 @@ jobs:
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: "✍️ Write Changelogs"
-        id: build_changelog
-        uses: mikepenz/release-changelog-builder-action@v2.7.2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: "✍️ Write changelog"
+        id: changelog
+        uses: heinrichreimer/github-changelog-generator-action@v2.1.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output: CHANGELOG.md
+          stripGeneratorNotice: true
+      - name: "💽 Save changelog"
+        uses: actions/upload-artifact@v2
+        with:
+          name: modpack
+          path: CHANGELOG.md
 
   build:
     runs-on: self-hosted
