@@ -1,0 +1,7 @@
+branchName: 'issue/${issue.number}'
+mode: chatops
+autoCloseIssue: true
+openPR: true
+copyIssueDescriptionToPR: true
+copyIssueAssigneeToPR: true
+copyIssueProjectsToPR: true
