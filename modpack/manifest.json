@@ -16,6 +16,14 @@
   "name": "uBingo",
   "files": [
     {
+      "projectID": 55438,
+      "fileID": 3616801,
+      "required": true,
+      "__meta": {
+        "name": "MrCrayfish's Furniture Mod"
+      }
+    },
+    {
       "projectID": 227657,
       "fileID": 3583363,
       "required": true,
