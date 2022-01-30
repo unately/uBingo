@@ -1,11 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches: [dev]
     paths: [docs/**]
-  workflow_dispatch:
-
 
 jobs:
   deploy:
