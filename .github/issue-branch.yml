@@ -1,4 +1,4 @@
-branches;
+branches:
   - label: features
     prefix: feature/
   - label: bugs
