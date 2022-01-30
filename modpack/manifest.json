@@ -154,6 +154,27 @@
       }
     },
     {
+      "projectID": 309927,
+      "fileID": 3613028,
+      "required": true,
+      "__meta": {
+        "name": "Curios API (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 312353,
+      "fileID": 3584325,
+      "required": true,
+      "__meta": {
+        "name": "Artifacts",
+        "dependencies": [
+          309927,
+          465066
+        ]
+      }
+    },
+    {
       "projectID": 316582,
       "fileID": 3625679,
       "required": true,
@@ -313,6 +334,15 @@
       "required": true,
       "__meta": {
         "name": "Falling Leaves (Forge)"
+      }
+    },
+    {
+      "projectID": 465066,
+      "fileID": 3580591,
+      "required": true,
+      "__meta": {
+        "name": "ExpandAbility",
+        "explicit": false
       }
     },
     {
