@@ -1,4 +1,5 @@
 branchName: 'issue/${issue.number}'
+defaultBranch: 'dev'
 mode: chatops
 autoCloseIssue: true
 openPR: true
