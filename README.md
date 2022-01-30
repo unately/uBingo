@@ -203,7 +203,7 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 [pax-url]: https://github.com/froehlichA/pax
 
 [project-shield]: https://img.shields.io/badge/Project-%F0%9F%93%91%20ToDo-red?style=for-the-badge&logo=github
-[project-url]:https://github.com/orgs/Unately/projects/5
+[project-url]: https://github.com/Unately/uBingo/issues
 
 [bongo-link]: https://www.curseforge.com/minecraft/mc-mods/bongo
 
