@@ -1,3 +1,10 @@
+branches;
+  - label: features
+    prefix: feature/
+  - label: bugs
+    prefix: fix/ 
+  - label: question
+    skip: true
 branchName: 'issue/${issue.number}'
 defaultBranch: 'dev'
 mode: chatops
