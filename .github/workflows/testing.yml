@@ -21,24 +21,25 @@ jobs:
             echo "::set-output name=projectname::$projectname"
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
             echo "::set-output name=version::$version"
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
 
   changelog:
     runs-on: ubuntu-latest
+    name: "📜 Changelog"
     outputs:
       changelog: ${{steps.changelog.outputs.changelog}}
-    name: "📜 Changelog"
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: "✍️ Write changelog"
+      - name: "✍️ Write Changelogs"
         id: build_changelog
         uses: mikepenz/release-changelog-builder-action@v2.7.2
         with:
-          fromTag: v0.2-alpha
           configuration: "changelog.config.json"
           outputFile: changelog.md
         env:
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: "💽 Save changelog"
         uses: actions/upload-artifact@v2
         with:
