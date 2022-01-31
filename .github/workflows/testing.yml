@@ -78,3 +78,11 @@ jobs:
         with:
           name: modpack
           path: .out/${{ needs.modpack-info.outputs.projectname }}-dev.zip
+      - uses: MCJack123/ghaction-generate-release-hashes@v1 
+        with:
+          hash-type: sha256 
+          file-name: hashes.txt 
+      - uses: actions/upload-artifact@v2
+        with: 
+          name: Asset Hashes
+          path: hashes.txt
