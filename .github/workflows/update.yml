@@ -6,7 +6,7 @@ on:
 
 jobs:
   modpack-info:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     name: "📗 Update mods"
     steps:
       - name: "🔁 Checkout"

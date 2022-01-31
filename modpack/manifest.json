@@ -154,6 +154,27 @@
       }
     },
     {
+      "projectID": 309927,
+      "fileID": 3613028,
+      "required": true,
+      "__meta": {
+        "name": "Curios API (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 312353,
+      "fileID": 3584325,
+      "required": true,
+      "__meta": {
+        "name": "Artifacts",
+        "dependencies": [
+          309927,
+          465066
+        ]
+      }
+    },
+    {
       "projectID": 316582,
       "fileID": 3625679,
       "required": true,
@@ -249,7 +270,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3626856,
+      "fileID": 3630302,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -316,6 +337,15 @@
       }
     },
     {
+      "projectID": 465066,
+      "fileID": 3580591,
+      "required": true,
+      "__meta": {
+        "name": "ExpandAbility",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 492574,
       "fileID": 3544398,
       "required": true,
@@ -357,7 +387,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 3606150,
+      "fileID": 3630241,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
