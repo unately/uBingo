@@ -9,6 +9,7 @@ jobs:
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
+      tag: ${{ steps.version.outputs.tag }}
     name: "📙 Modpack Info"
     steps:
       - name: "🔁 Checkout"
@@ -21,8 +22,9 @@ jobs:
             echo "::set-output name=projectname::$projectname"
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
             echo "::set-output name=version::$version"
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
+      - name: "📛 Get tag"
+        id: version
+        uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
   changelog:
     runs-on: ubuntu-latest
@@ -35,16 +37,10 @@ jobs:
       - name: "✍️ Write Changelogs"
         id: build_changelog
         uses: mikepenz/release-changelog-builder-action@v2.7.2
-        with:
-          configuration: "changelog.config.json"
-          outputFile: changelog.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: "💽 Save changelog"
-        uses: actions/upload-artifact@v2
-        with:
-          name: modpack
-          path: changelog.md
+        run: "echo ${{steps.changelog.outputs.changelog}}"
 
   build:
     runs-on: ubuntu-latest
