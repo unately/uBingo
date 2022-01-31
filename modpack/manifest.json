@@ -346,14 +346,6 @@
       }
     },
     {
-      "projectID": 492574,
-      "fileID": 3544398,
-      "required": true,
-      "__meta": {
-        "name": "My Server Is Compatible"
-      }
-    },
-    {
       "projectID": 495693,
       "fileID": 3604395,
       "required": true,
@@ -399,6 +391,14 @@
       "required": true,
       "__meta": {
         "name": "Ksyxis"
+      }
+    },
+    {
+      "projectID": 551894,
+      "fileID": 3614758,
+      "required": true,
+      "__meta": {
+        "name": "Better Compatibility Checker"
       }
     },
     {
