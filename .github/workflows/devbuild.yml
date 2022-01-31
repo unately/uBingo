@@ -7,7 +7,7 @@ on:
 
 jobs:
   modpack-info:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
@@ -25,7 +25,7 @@ jobs:
             echo "::set-output name=version::$version"
 
   changelog:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     name: "📜 Changelog"
     outputs:
       changelog: ${{steps.changelog.outputs.changelog}}
@@ -46,7 +46,7 @@ jobs:
           path: CHANGELOG.md
 
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     needs: [changelog, modpack-info]
     name: "📦 Build"
     steps:
