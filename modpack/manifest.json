@@ -3,7 +3,7 @@
     "version": "1.18.1",
     "modLoaders": [
       {
-        "id": "forge-39.0.63",
+        "id": "forge-39.0.64",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "v1.0",
+  "version": "dev",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -261,6 +261,15 @@
       }
     },
     {
+      "projectID": 410295,
+      "fileID": 3593196,
+      "required": true,
+      "__meta": {
+        "name": "Konkrete [Forge]",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 412525,
       "fileID": 3620293,
       "required": true,
@@ -346,14 +355,6 @@
       }
     },
     {
-      "projectID": 492574,
-      "fileID": 3544398,
-      "required": true,
-      "__meta": {
-        "name": "My Server Is Compatible"
-      }
-    },
-    {
       "projectID": 495693,
       "fileID": 3604395,
       "required": true,
@@ -402,11 +403,38 @@
       }
     },
     {
+      "projectID": 551894,
+      "fileID": 3614758,
+      "required": true,
+      "__meta": {
+        "name": "Better Compatibility Checker"
+      }
+    },
+    {
+      "projectID": 556824,
+      "fileID": 3567250,
+      "required": true,
+      "__meta": {
+        "name": "Chromato Creeper"
+      }
+    },
+    {
       "projectID": 557796,
       "fileID": 3575266,
       "required": true,
       "__meta": {
         "name": "Effective (Forge)"
+      }
+    },
+    {
+      "projectID": 561885,
+      "fileID": 3601619,
+      "required": true,
+      "__meta": {
+        "name": "Just Zoom [Forge]",
+        "dependencies": [
+          410295
+        ]
       }
     }
   ]
