@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
+        with:
+          ref: dev
       - name: "📦 Setup PAX"
         run: wget https://github.com/froehlichA/pax/releases/latest/download/pax -O pax && chmod 0777 pax
       - name: "🗡️ PAX upgrade"
@@ -18,6 +20,7 @@ jobs:
       - name: "📰 Commit update"
         uses: test-room-7/action-update-file@v1
         with:
+          branch: dev
           file-path: modpack/manifest.json
           commit-msg: ✈️ Updated Mods
           committer-name: "Unately Bot"
