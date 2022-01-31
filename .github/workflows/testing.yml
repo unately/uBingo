@@ -1,7 +1,9 @@
 name: "🖱️ Testing"
 
 on:
-  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   modpack-info:
