@@ -69,10 +69,17 @@ jobs:
         run: unzip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip -d .out 
       - name: "[müll] Delete main zip"
         run: rm .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
+      - name: "Build Server"
+        run: cd serverpack && zip ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.version }}.zip *
       - name: "🔼 Upload zip"
         uses: actions/upload-artifact@v2
         with:
           name: modpack
           path: .out/*
+      - name: "🔼 Upload Server zip"
+        uses: actions/upload-artifact@v2
+        with:
+          name: server
+          path: serverpack/${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.version }}.zip
 
   
