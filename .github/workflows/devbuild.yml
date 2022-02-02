@@ -23,6 +23,8 @@ jobs:
             echo "::set-output name=projectname::$projectname"
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
             echo "::set-output name=version::$version"
+            version=`echo $(jq -r '.version' <<< "$manifestjson")`
+            echo "::set-output name=packversion::$packversion"
 
   changelog:
     runs-on: ubuntu-latest
@@ -79,7 +81,7 @@ jobs:
         with:
           valueFile: 'serverpack/server-setup-config.yaml'
           propertyPath: 'install.modpackUrl'
-          value: https://github.com/Unately/uBingo/releases/latest/downloads/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
+          value: https://github.com/Unately/uBingo/releases/latest/downloads/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.packversion }}.zip
           commitChange: false
           updateFile: true
       - name: "🔼 Upload Server zip"
