@@ -71,7 +71,9 @@ jobs:
           commitChange: false
           updateFile: true
       - name: "🕊️ Export Server"
-        run: cd serverpack && zip ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip * && mv ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip ..
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip serverpack/*
       - name: "🏹 Rename zip"
         run: |
           mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
