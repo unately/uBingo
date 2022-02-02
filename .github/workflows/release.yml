@@ -67,7 +67,7 @@ jobs:
         with:
           valueFile: 'serverpack/server-setup-config.yaml'
           propertyPath: 'install.modpackUrl'
-          value: https://github.com/Unately/uBingo/releases/latest/downloads/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          value: https://github.com/Unately/uBingo/releases/latest/download/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           commitChange: false
           updateFile: true
       - name: "🐙 Export server: Step 1/2"

@@ -18,7 +18,7 @@ install:
 
   # exact version of forge or fabric that is supposed to be used
   # if this value is a null value so ( ~, null, or "" ) then the version from the mod pack is going to be used
-  loaderVersion: ~
+  loaderVersion: null
 
   # If a custom installer is supposed to used, specify the url here: (Otherwise put "", ~ or null here)
   # supports variables: {{@loaderversion@}} and {{@mcversion@}}
@@ -49,7 +49,7 @@ install:
   # - curseforge or curse
   # - curseid
   # - zip or zipfile
-  modpackFormat: curse
+  modpackFormat: zip
 
   # Settings which are specific to the format used, might not be needed in some casese
   formatSpecific:
