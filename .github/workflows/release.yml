@@ -62,6 +62,19 @@ jobs:
         run: |
           sudo chmod +x ./pax
           ./pax export
+      - name: "🖨️ Change Server Version"
+        uses: fjogeleit/yaml-update-action@master
+        with:
+          valueFile: 'serverpack/server-setup-config.yaml'
+          propertyPath: 'install.modpackUrl'
+          value: https://github.com/Unately/uBingo/releases/latest/downloads/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          commitChange: false
+          updateFile: true
+      - name: "🕊️ Export Server"
+        uses: papeloto/action-zip@v1
+        with:
+          files: serverpack/*
+          dest: ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
       - name: "🏹 Rename zip"
         run: |
           mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
@@ -70,19 +83,11 @@ jobs:
         with:
           name: modpack
           path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-      - name: Update server.yaml
-        uses: fjogeleit/yaml-update-action@master
-        with:
-          valueFile: 'serverpack/server-setup-config.yaml'
-          propertyPath: 'install.modpackUrl'
-          value: https://github.com/Unately/uBingo/releases/latest/downloads/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          commitChange: false
-          updateFile: true
-      - name: "🔼 Upload Server zip"
+      - name: "⏫ Upload server zip"
         uses: actions/upload-artifact@v2
         with:
           name: server
-          path: serverpack/*
+          path: ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
   
   release-github:
     runs-on: ubuntu-latest
@@ -93,8 +98,8 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: modpack
-      - name: "Download server"
-        uses: actions/dowload-artifact@v2
+      - name: "⏬ Download serverpack"
+        uses: actions/download-artifact@v2
         with:
           name: server
       - name: "🥨 Get release type"
@@ -112,6 +117,8 @@ jobs:
         with:
           body_path: ${{steps.changelog.outputs.changelog}}
           prerelease: ${{ steps.release-type.outputs.type }}
-          files: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          files: |
+            ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+            ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -74,5 +74,10 @@ jobs:
         with:
           name: modpack
           path: .out/*
+      - name: "🔼 Upload Server zip"
+        uses: actions/upload-artifact@v2
+        with:
+          name: server
+          path: serverpack/*
 
   

@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "v1.1.1",
+  "version": "v1.2",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -29,6 +29,14 @@
       "required": true,
       "__meta": {
         "name": "Fast Leaf Decay"
+      }
+    },
+    {
+      "projectID": 231275,
+      "fileID": 3548400,
+      "required": true,
+      "__meta": {
+        "name": "Ding"
       }
     },
     {
@@ -279,7 +287,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3630302,
+      "fileID": 3633030,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -299,6 +307,14 @@
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
+      }
+    },
+    {
+      "projectID": 430824,
+      "fileID": 3633534,
+      "required": true,
+      "__meta": {
+        "name": "Dynamic Music"
       }
     },
     {
