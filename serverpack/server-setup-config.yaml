@@ -42,7 +42,7 @@ install:
 
   # Link to where the file where the modpack can be distributed
   # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
-  modpackUrl: https://media.forgecdn.net/files/3632/144/uBingo-v1.1.1.zip
+  modpackUrl: https://github.com/Unately/uBingo/releases/latest/downloads/uBingo-v1.0.zip
 
   # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
   # current supported formats:
