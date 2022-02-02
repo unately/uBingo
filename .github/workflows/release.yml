@@ -70,6 +70,19 @@ jobs:
         with:
           name: modpack
           path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+      - name: Update server.yaml
+        uses: fjogeleit/yaml-update-action@master
+        with:
+          valueFile: 'serverpack/server-setup-config.yaml'
+          propertyPath: 'install.modpackUrl'
+          value: https://github.com/Unately/uBingo/releases/latest/downloads/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          commitChange: false
+          updateFile: true
+      - name: "🔼 Upload Server zip"
+        uses: actions/upload-artifact@v2
+        with:
+          name: server
+          path: serverpack/*
   
   release-github:
     runs-on: ubuntu-latest
@@ -80,6 +93,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: modpack
+      - name: "Download server"
+        uses: actions/dowload-artifact@v2
+        with:
+          name: server
       - name: "🥨 Get release type"
         id: release-type
         run: |
