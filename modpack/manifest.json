@@ -12,7 +12,6 @@
   "overrides": "overrides",
   "manifestVersion": 1,
   "version": "v1.1.1",
-  "packversion": "v1.1.1",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -300,6 +299,14 @@
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
+      }
+    },
+    {
+      "projectID": 430824,
+      "fileID": 3633534,
+      "required": true,
+      "__meta": {
+        "name": "Dynamic Music"
       }
     },
     {
