@@ -74,11 +74,6 @@ jobs:
         with:
           name: modpack
           path: .out/*
-      - name: "🔼 Upload Server zip"
-        uses: actions/upload-artifact@v2
-        with:
-          name: server
-          path: serverpack/*
       - name: Update server.yaml
         uses: fjogeleit/yaml-update-action@master
         with:
@@ -87,5 +82,10 @@ jobs:
           value: https://github.com/Unately/uBingo/releases/latest/downloads/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
           commitChange: false
           updateFile: true
+      - name: "🔼 Upload Server zip"
+        uses: actions/upload-artifact@v2
+        with:
+          name: server
+          path: serverpack/*
 
   
