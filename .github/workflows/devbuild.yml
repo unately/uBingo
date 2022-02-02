@@ -23,7 +23,7 @@ jobs:
             echo "::set-output name=projectname::$projectname"
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
             echo "::set-output name=version::$version"
-            packversion=`echo $(jq -r '.version' <<< "$manifestjson")`
+            packversion=`echo $(jq -r '.packversion' <<< "$manifestjson")`
             echo "::set-output name=packversion::$packversion"
 
   changelog:
