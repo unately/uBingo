@@ -71,7 +71,7 @@ jobs:
           commitChange: false
           updateFile: true
       - name: "🕊️ Export Server"
-        uses: papeloto/action-zip@v1
+        uses: vimtor/action-zip@v1
         with:
           files: serverpack/*
           dest: ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
