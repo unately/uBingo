@@ -12,6 +12,7 @@
   "overrides": "overrides",
   "manifestVersion": 1,
   "version": "v1.1.1",
+  "packversion": "v1.1.1",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
