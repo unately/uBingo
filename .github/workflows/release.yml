@@ -71,10 +71,7 @@ jobs:
           commitChange: false
           updateFile: true
       - name: "🕊️ Export Server"
-        uses: vimtor/action-zip@v1
-        with:
-          files: serverpack/*
-          dest: ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
+        run: cd serverpack && zip ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip * && mv ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip ..
       - name: "🏹 Rename zip"
         run: |
           mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
