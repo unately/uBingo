@@ -12,7 +12,6 @@
   "overrides": "overrides",
   "manifestVersion": 1,
   "version": "v1.1.1",
-  "packversion": "v1.1.1",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -30,6 +29,14 @@
       "required": true,
       "__meta": {
         "name": "Fast Leaf Decay"
+      }
+    },
+    {
+      "projectID": 231275,
+      "fileID": 3548400,
+      "required": true,
+      "__meta": {
+        "name": "Ding"
       }
     },
     {
