@@ -70,10 +70,10 @@ jobs:
           value: https://github.com/Unately/uBingo/releases/latest/downloads/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           commitChange: false
           updateFile: true
-      - name: "🕊️ Export Server"
-        uses: montudor/action-zip@v1
-        with:
-          args: zip -qq ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip serverpack/*
+      - name: "🐙 Export server: Step 1/2"
+        run: mv serverpack/* .
+      - name: "🐙 Export server: Step 2/2"
+        run: zip ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip startserver.* server-setup-config.yaml
       - name: "🏹 Rename zip"
         run: |
           mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
