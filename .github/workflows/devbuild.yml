@@ -79,5 +79,13 @@ jobs:
         with:
           name: server
           path: serverpack/*
+      - name: Update server.yaml
+        uses: fjogeleit/yaml-update-action@master
+        with:
+          valueFile: 'serverpack/server-setup-config.yaml'
+          propertyPath: 'install.modpackUrl'
+          value: https://github.com/Unately/uBingo/releases/latest/downloads/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
+          commitChange: false
+          updateFile: true
 
   
