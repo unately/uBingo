@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: http://jqshuv.xyz:5000/sitemap.xml.gz
