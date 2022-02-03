@@ -84,9 +84,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-> This will be updated, when the modpack is on Curseforge
-
-
+> https://docs.jqshuv.xyz
 <!-- #### Using GDLauncher (Recommended) -->
 
 
