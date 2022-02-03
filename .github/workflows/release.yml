@@ -67,11 +67,13 @@ jobs:
         with:
           valueFile: 'serverpack/server-setup-config.yaml'
           propertyPath: 'install.modpackUrl'
-          value: https://github.com/Unately/uBingo/releases/latest/downloads/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          value: https://github.com/Unately/uBingo/releases/download/${{ needs.modpack-info.outputs.tag }}/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           commitChange: false
           updateFile: true
-      - name: "🕊️ Export Server"
-        run: cd serverpack && zip ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip * && mv ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip ..
+      - name: "🐙 Export server: Step 1/2"
+        run: mv serverpack/* .
+      - name: "🐙 Export server: Step 2/2"
+        run: zip ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip startserver.* server-setup-config.yaml
       - name: "🏹 Rename zip"
         run: |
           mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip

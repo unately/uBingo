@@ -287,7 +287,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3633030,
+      "fileID": 3634252,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -335,6 +335,14 @@
           412525,
           406119
         ]
+      }
+    },
+    {
+      "projectID": 453763,
+      "fileID": 3520088,
+      "required": true,
+      "__meta": {
+        "name": "Fresh Animations"
       }
     },
     {
