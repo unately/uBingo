@@ -3,7 +3,7 @@
     "version": "1.18.1",
     "modLoaders": [
       {
-        "id": "forge-39.0.63",
+        "id": "forge-39.0.64",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "v1.0",
+  "version": "v1.2",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -29,6 +29,14 @@
       "required": true,
       "__meta": {
         "name": "Fast Leaf Decay"
+      }
+    },
+    {
+      "projectID": 231275,
+      "fileID": 3548400,
+      "required": true,
+      "__meta": {
+        "name": "Ding"
       }
     },
     {
@@ -261,6 +269,15 @@
       }
     },
     {
+      "projectID": 410295,
+      "fileID": 3593196,
+      "required": true,
+      "__meta": {
+        "name": "Konkrete [Forge]",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 412525,
       "fileID": 3620293,
       "required": true,
@@ -270,7 +287,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3626856,
+      "fileID": 3634252,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -293,6 +310,14 @@
       }
     },
     {
+      "projectID": 430824,
+      "fileID": 3633534,
+      "required": true,
+      "__meta": {
+        "name": "Dynamic Music"
+      }
+    },
+    {
       "projectID": 435044,
       "fileID": 3582045,
       "required": true,
@@ -310,6 +335,14 @@
           412525,
           406119
         ]
+      }
+    },
+    {
+      "projectID": 453763,
+      "fileID": 3520088,
+      "required": true,
+      "__meta": {
+        "name": "Fresh Animations"
       }
     },
     {
@@ -346,14 +379,6 @@
       }
     },
     {
-      "projectID": 492574,
-      "fileID": 3544398,
-      "required": true,
-      "__meta": {
-        "name": "My Server Is Compatible"
-      }
-    },
-    {
       "projectID": 495693,
       "fileID": 3604395,
       "required": true,
@@ -387,7 +412,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 3606150,
+      "fileID": 3630241,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -402,11 +427,38 @@
       }
     },
     {
+      "projectID": 551894,
+      "fileID": 3614758,
+      "required": true,
+      "__meta": {
+        "name": "Better Compatibility Checker"
+      }
+    },
+    {
+      "projectID": 556824,
+      "fileID": 3567250,
+      "required": true,
+      "__meta": {
+        "name": "Chromato Creeper"
+      }
+    },
+    {
       "projectID": 557796,
       "fileID": 3575266,
       "required": true,
       "__meta": {
         "name": "Effective (Forge)"
+      }
+    },
+    {
+      "projectID": 561885,
+      "fileID": 3601619,
+      "required": true,
+      "__meta": {
+        "name": "Just Zoom [Forge]",
+        "dependencies": [
+          410295
+        ]
       }
     }
   ]
