@@ -24,6 +24,8 @@
     <a href="https://github.com/Unately/uBingo/releases/latest">Download</a>
     ·
     <a href="https://github.com/Unately/uBingo/issues">Request Feature</a>
+    ·
+    <a href="https://docs.jqshuv.xyz/">Docs</a>
   </p>
 </div>
 
