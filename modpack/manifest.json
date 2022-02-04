@@ -146,6 +146,14 @@
       }
     },
     {
+      "projectID": 297038,
+      "fileID": 3561106,
+      "required": true,
+      "__meta": {
+        "name": "CraftPresence"
+      }
+    },
+    {
       "projectID": 299540,
       "fileID": 3568851,
       "required": true,
