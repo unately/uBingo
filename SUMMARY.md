@@ -1,6 +1,6 @@
 # Table of contents
 
-* [uBingo Docs](README.md)
+* [👋 uBingo Docs](README.md)
 
 ## Server
 
