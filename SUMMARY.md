@@ -7,7 +7,8 @@
 * [✈ Installation](server/installation/README.md)
   * [🦜 Pre-Install](server/installation/pre-install.md)
   * [🐳 Install with Docker](server/installation/install-with-docker.md)
-* [🧑🔬 Configuration](server/configuration.md)
+  * [🐦 Install on Pterodactyl](server/installation/install-on-pterodactyl.md)
+* [🔬 Configuration](server/configuration.md)
 
 ## Tutorials
 
