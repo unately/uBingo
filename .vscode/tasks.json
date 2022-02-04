@@ -89,14 +89,17 @@
               }
         },
         {
-            "label": "Run docs",
+            "label": "Create Modlist",
             "type": "shell",
-            "command": "./test.cmd",
+            "command": "java -jar ./ModListCreator-2.0.1.jar --manifest ./odpack/anifest.json --output . --md",
+            "windows": {
+                "command": "java -jar .\\ModListCreator-2.0.1.jar --manifest .\\modpack\\manifest.json --output . --md"
+            },
             "problemMatcher": [],
             "presentation": {
                 "reveal": "always",
                 "panel": "new",
-                "close": false
+                "close": true
               }
         }
     ]
