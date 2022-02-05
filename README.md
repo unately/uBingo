@@ -173,6 +173,7 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 * [👑 Bongo! by noeppinoeppi][bongo-link]
 * [📦 PAX by froehlichA][pax-link]
 * [📰 Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
+* [🎓 Modcreators](https://github.com/Unately/uBingo/blob/master/modlist.md)
 
 <br>
 <p align="center">
