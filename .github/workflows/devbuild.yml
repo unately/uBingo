@@ -81,3 +81,21 @@ jobs:
           path: serverpack/*
 
   
+  discord_message:
+    runs-on: ubuntu-latest
+    needs: [release-github]
+    name: "🦞 Post to Discord"
+    steps:
+      - name: "👋🏻 Post in #news"
+        uses: tsickert/discord-webhook@v4.0.0
+        with:
+          webhook-url: ${{ secrets.WEBHOOK_URL }}
+          embed-author-name: "GitHub"
+          embed-author-url: "https://github.com/Unately/uBingo"
+          embed-color: 3696598
+          embed-title: "uBingo ${{ needs.modpack-info.outputs.tag }} Released! 🎉"
+          embed-description: "We released version ${{ needs.modpack-info.outputs.tag }} of the uBingo modpack.\n\nYou can now update it in Curseforge, GDLauncher etc.\n\nhttps://github.com/Unately/uBingo/releases"
+          embed-timestamp: "2008-03-13T19:14:00.000Z"
+          embed-footer-text: "Unately"
+          embed-thumbnail-url: "https://i.ibb.co/9cr792q/asd.png"
+          filename: modlist.md

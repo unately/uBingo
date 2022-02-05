@@ -139,3 +139,4 @@ jobs:
           embed-timestamp: "2008-03-13T19:14:00.000Z"
           embed-footer-text: "Unately"
           embed-thumbnail-url: "https://i.ibb.co/9cr792q/asd.png"
+          filename: modlist.md
