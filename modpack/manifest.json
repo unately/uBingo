@@ -3,7 +3,7 @@
     "version": "1.18.1",
     "modLoaders": [
       {
-        "id": "forge-39.0.64",
+        "id": "forge-39.0.66",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "v1.2",
+  "version": "v1.3",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -91,15 +91,6 @@
       }
     },
     {
-      "projectID": 273744,
-      "fileID": 3583977,
-      "required": true,
-      "__meta": {
-        "name": "U Team Core",
-        "explicit": false
-      }
-    },
-    {
       "projectID": 276951,
       "fileID": 3551239,
       "required": true,
@@ -131,17 +122,6 @@
         "name": "FastWorkbench",
         "dependencies": [
           283644
-        ]
-      }
-    },
-    {
-      "projectID": 294574,
-      "fileID": 3586482,
-      "required": true,
-      "__meta": {
-        "name": "Music Player",
-        "dependencies": [
-          273744
         ]
       }
     },
@@ -200,7 +180,7 @@
     },
     {
       "projectID": 349559,
-      "fileID": 3623254,
+      "fileID": 3636272,
       "required": true,
       "__meta": {
         "name": "FallingTree (Forge&Fabric)"
@@ -250,6 +230,14 @@
       }
     },
     {
+      "projectID": 403422,
+      "fileID": 3635110,
+      "required": true,
+      "__meta": {
+        "name": "Emotecraft (Forge)"
+      }
+    },
+    {
       "projectID": 406119,
       "fileID": 3616338,
       "required": true,
@@ -287,7 +275,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3633030,
+      "fileID": 3636476,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -307,14 +295,6 @@
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
-      }
-    },
-    {
-      "projectID": 430824,
-      "fileID": 3633534,
-      "required": true,
-      "__meta": {
-        "name": "Dynamic Music"
       }
     },
     {
@@ -388,7 +368,7 @@
     },
     {
       "projectID": 521480,
-      "fileID": 3548347,
+      "fileID": 3635466,
       "required": true,
       "__meta": {
         "name": "Skin Layers 3D (Fabric/Forge)"
