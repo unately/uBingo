@@ -24,6 +24,8 @@
     <a href="https://github.com/Unately/uBingo/releases/latest">Download</a>
     ·
     <a href="https://github.com/Unately/uBingo/issues">Request Feature</a>
+    ·
+    <a href="https://docs.jqshuv.xyz/">Docs</a>
   </p>
 </div>
 
@@ -82,9 +84,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-> This will be updated, when the modpack is on Curseforge
-
-
+> https://docs.jqshuv.xyz
 <!-- #### Using GDLauncher (Recommended) -->
 
 
@@ -173,7 +173,7 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 * [👑 Bongo! by noeppinoeppi][bongo-link]
 * [📦 PAX by froehlichA][pax-link]
 * [📰 Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
-* [🎓 All Modcreatores](https://github.com/Unately/uBingo/blob/dev/modlist.md)
+* [🎓 Modcreators](https://github.com/Unately/uBingo/blob/master/modlist.md)
 
 <br>
 <p align="center">
