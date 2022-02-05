@@ -1,7 +1,7 @@
 ##[zoom]
 
 [The base zoom factor before zooming in or out.]
-D:base_zoom_factor = '0.25';
+D:base_zoom_factor = '0.15';
 [Caps the maximum FOV when zooming out, so you can't zoom out more than your normal FOV.]
 B:zoom_out_cap = 'true';
 [How much to zoom out per scroll.]
