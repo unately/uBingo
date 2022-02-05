@@ -6,6 +6,7 @@ libssl*.dll
 libcrypto*.dll
 cacert.pem
 server_generator.exe
+ModList*
 
 ### Modpack ###
 .out/
