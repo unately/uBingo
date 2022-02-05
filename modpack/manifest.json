@@ -3,7 +3,7 @@
     "version": "1.18.1",
     "modLoaders": [
       {
-        "id": "forge-39.0.64",
+        "id": "forge-39.0.66",
         "primary": true
       }
     ]
@@ -91,15 +91,6 @@
       }
     },
     {
-      "projectID": 273744,
-      "fileID": 3583977,
-      "required": true,
-      "__meta": {
-        "name": "U Team Core",
-        "explicit": false
-      }
-    },
-    {
       "projectID": 276951,
       "fileID": 3551239,
       "required": true,
@@ -131,17 +122,6 @@
         "name": "FastWorkbench",
         "dependencies": [
           283644
-        ]
-      }
-    },
-    {
-      "projectID": 294574,
-      "fileID": 3586482,
-      "required": true,
-      "__meta": {
-        "name": "Music Player",
-        "dependencies": [
-          273744
         ]
       }
     },
@@ -315,14 +295,6 @@
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
-      }
-    },
-    {
-      "projectID": 430824,
-      "fileID": 3633534,
-      "required": true,
-      "__meta": {
-        "name": "Dynamic Music"
       }
     },
     {
