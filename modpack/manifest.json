@@ -291,7 +291,7 @@
     },
     {
       "projectID": 429235,
-      "fileID": 3550045,
+      "fileID": 3637904,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
@@ -368,7 +368,7 @@
     },
     {
       "projectID": 521480,
-      "fileID": 3635466,
+      "fileID": 3637591,
       "required": true,
       "__meta": {
         "name": "Skin Layers 3D (Fabric/Forge)"
