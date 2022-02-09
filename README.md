@@ -16,7 +16,7 @@
   <p align="center">
     A Bingo Modpack based on the Bongo mod with much features.
     <br />
-    <a href="https://github.com/Unately/uBingo/wiki"><strong>Explore the docs »</strong></a>
+    <a href="https://docs.jqshuv.xyz/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Unately/uBingo/actions/workflows/devbuild.yml?query=is%3Asuccess">Development Builds</a>
@@ -24,8 +24,6 @@
     <a href="https://github.com/Unately/uBingo/releases/latest">Download</a>
     ·
     <a href="https://github.com/Unately/uBingo/issues">Request Feature</a>
-    ·
-    <a href="https://docs.jqshuv.xyz/">Docs</a>
   </p>
 </div>
 
