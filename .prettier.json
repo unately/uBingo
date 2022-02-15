@@ -1,0 +1,8 @@
+image: 'restyled/restyler-prettier:v2.5.1'
+command:
+  - prettier
+  - '--write'
+arguments: []
+include:
+  - '**/*.json'
+interpreters: []
