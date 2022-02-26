@@ -143,7 +143,7 @@
     },
     {
       "projectID": 309927,
-      "fileID": 3648837,
+      "fileID": 3661868,
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
@@ -267,7 +267,7 @@
     },
     {
       "projectID": 412525,
-      "fileID": 3659131,
+      "fileID": 3662368,
       "required": true,
       "__meta": {
         "name": "LibX"
