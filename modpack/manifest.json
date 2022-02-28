@@ -152,7 +152,7 @@
     },
     {
       "projectID": 312353,
-      "fileID": 3584325,
+      "fileID": 3665638,
       "required": true,
       "__meta": {
         "name": "Artifacts",
@@ -164,7 +164,7 @@
     },
     {
       "projectID": 316582,
-      "fileID": 3625679,
+      "fileID": 3666069,
       "required": true,
       "__meta": {
         "name": "Corpse"
