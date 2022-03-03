@@ -1,5 +1,11 @@
 <div id="top"></div>
 
+---
+
+<h1 style="color:red">THIS VERSION (1.18.2) DOESN'T WORK CURRENTLY DUE MODS ARE NOT AVAIABLE</h1>
+
+---
+
 [![Issues][issues-shield]][issues-url]
 [![Workflow][workflow-shield]][workflow-url]
 [![MIT License][license-shield]][license-url]
