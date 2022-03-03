@@ -1,9 +1,9 @@
 {
   "minecraft": {
-    "version": "1.18.1",
+    "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "forge-39.0.66",
+        "id": "forge-40.0.2",
         "primary": true
       }
     ]
