@@ -1,4 +1,4 @@
-## uBingo - v1.2
+## uBingo - v1.3.1
 - [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) (by [QueenOfMissiles](https://www.curseforge.com/members/queenofmissiles/projects))
 - [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) (by [ochotonida](https://www.curseforge.com/members/ochotonida/projects))
 - [Balm (Forge Edition)](https://www.curseforge.com/minecraft/mc-mods/balm) (by [BlayTheNinth](https://www.curseforge.com/members/blaytheninth/projects))
@@ -24,7 +24,7 @@
 - [ExpandAbility](https://www.curseforge.com/minecraft/mc-mods/expandability) (by [florensie](https://www.curseforge.com/members/florensie/projects))
 - [Falling Leaves (Forge)](https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge) (by [Cheaterpaul](https://www.curseforge.com/members/cheaterpaul/projects))
 - [FallingTree (Forge&Fabric)](https://www.curseforge.com/minecraft/mc-mods/falling-tree) (by [RakSrinaNa](https://www.curseforge.com/members/raksrinana/projects))
-- [Farsight[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/farsight) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+- [Farsight [Forge]](https://www.curseforge.com/minecraft/mc-mods/farsight) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
 - [Fast Leaf Decay](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay) (by [olafskiii](https://www.curseforge.com/members/olafskiii/projects))
 - [FastFurnace](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) (by [Shadows_of_Fire](https://www.curseforge.com/members/shadows_of_fire/projects))
 - [FastWorkbench](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) (by [Shadows_of_Fire](https://www.curseforge.com/members/shadows_of_fire/projects))
