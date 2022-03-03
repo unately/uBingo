@@ -47,7 +47,7 @@
               }
         },
         {
-            "label": "Setup/Download server generator",
+            "label": "[DEPRECATED] Setup/Download server generator",
             "type": "shell",
             "command": "rm server_generator & curl https://github.com/henkelmax/curseforge-modpack-server-generator/releases/download/1.0.1/server_generator_linux_1.0.1 -O server_generator && chmod +x server_generator",
             "windows": {
@@ -61,7 +61,7 @@
             }
         },
         {
-            "label": "Export Server",
+            "label": "[DEPRECATED] Export Server",
             "type": "shell",
             "command": "./server_generator --modpack-zip \".out/uBingo.zip\" --destination-path \".out/uBingo-Server.zip\"",
             "windows": {
