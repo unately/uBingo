@@ -16,7 +16,7 @@
   <p align="center">
     A Bingo Modpack based on the Bongo mod with much features.
     <br />
-    <a href="https://github.com/Unately/uBingo/wiki"><strong>Explore the docs »</strong></a>
+    <a href="https://docs.jqshuv.xyz/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Unately/uBingo/actions/workflows/devbuild.yml?query=is%3Asuccess">Development Builds</a>
@@ -82,9 +82,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-> This will be updated, when the modpack is on Curseforge
-
-
+> https://docs.jqshuv.xyz
 <!-- #### Using GDLauncher (Recommended) -->
 
 
@@ -173,6 +171,7 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 * [👑 Bongo! by noeppinoeppi][bongo-link]
 * [📦 PAX by froehlichA][pax-link]
 * [📰 Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
+* [🎓 Modcreators](https://github.com/Unately/uBingo/blob/master/modlist.md)
 
 <br>
 <p align="center">
