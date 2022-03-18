@@ -172,7 +172,7 @@
     },
     {
       "projectID": 318012,
-      "fileID": 3550329,
+      "fileID": 3696961,
       "required": true,
       "__meta": {
         "name": "DefaultSettings"
@@ -275,7 +275,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3695512,
+      "fileID": 3696353,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
