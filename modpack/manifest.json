@@ -25,7 +25,7 @@
     },
     {
       "projectID": 230976,
-      "fileID": 3590415,
+      "fileID": 3693140,
       "required": true,
       "__meta": {
         "name": "Fast Leaf Decay"
@@ -65,7 +65,7 @@
     },
     {
       "projectID": 252848,
-      "fileID": 3577265,
+      "fileID": 3684917,
       "required": true,
       "__meta": {
         "name": "Nature's Compass"
@@ -92,7 +92,7 @@
     },
     {
       "projectID": 276951,
-      "fileID": 3650599,
+      "fileID": 3682307,
       "required": true,
       "__meta": {
         "name": "Comforts (Forge)"
@@ -100,7 +100,7 @@
     },
     {
       "projectID": 280294,
-      "fileID": 3548891,
+      "fileID": 3680770,
       "required": true,
       "__meta": {
         "name": "FPS Reducer"
@@ -135,7 +135,7 @@
     },
     {
       "projectID": 300331,
-      "fileID": 3564180,
+      "fileID": 3695908,
       "required": true,
       "__meta": {
         "name": "Simply Light"
@@ -152,7 +152,7 @@
     },
     {
       "projectID": 312353,
-      "fileID": 3665638,
+      "fileID": 3696609,
       "required": true,
       "__meta": {
         "name": "Artifacts",
@@ -164,7 +164,7 @@
     },
     {
       "projectID": 316582,
-      "fileID": 3669605,
+      "fileID": 3694258,
       "required": true,
       "__meta": {
         "name": "Corpse"
@@ -172,7 +172,7 @@
     },
     {
       "projectID": 318012,
-      "fileID": 3550329,
+      "fileID": 3696961,
       "required": true,
       "__meta": {
         "name": "DefaultSettings"
@@ -180,7 +180,7 @@
     },
     {
       "projectID": 349559,
-      "fileID": 3640237,
+      "fileID": 3692424,
       "required": true,
       "__meta": {
         "name": "FallingTree (Forge&Fabric)"
@@ -188,7 +188,7 @@
     },
     {
       "projectID": 354339,
-      "fileID": 3618465,
+      "fileID": 3697234,
       "required": true,
       "__meta": {
         "name": "Open Loader"
@@ -215,7 +215,7 @@
     },
     {
       "projectID": 377281,
-      "fileID": 3618370,
+      "fileID": 3683664,
       "required": true,
       "__meta": {
         "name": "Dark Paintings"
@@ -239,7 +239,7 @@
     },
     {
       "projectID": 406119,
-      "fileID": 3655872,
+      "fileID": 3680038,
       "required": true,
       "__meta": {
         "name": "Bongo",
@@ -267,7 +267,7 @@
     },
     {
       "projectID": 412525,
-      "fileID": 3670829,
+      "fileID": 3680903,
       "required": true,
       "__meta": {
         "name": "LibX"
@@ -275,7 +275,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3670735,
+      "fileID": 3696356,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -291,7 +291,7 @@
     },
     {
       "projectID": 429235,
-      "fileID": 3652644,
+      "fileID": 3672146,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
@@ -299,7 +299,7 @@
     },
     {
       "projectID": 435044,
-      "fileID": 3582045,
+      "fileID": 3697473,
       "required": true,
       "__meta": {
         "name": "Better Third Person"
@@ -307,7 +307,7 @@
     },
     {
       "projectID": 440998,
-      "fileID": 3606230,
+      "fileID": 3680040,
       "required": true,
       "__meta": {
         "name": "BingoLobby",
@@ -351,7 +351,7 @@
     },
     {
       "projectID": 465066,
-      "fileID": 3580591,
+      "fileID": 3678612,
       "required": true,
       "__meta": {
         "name": "ExpandAbility",
@@ -360,7 +360,7 @@
     },
     {
       "projectID": 495693,
-      "fileID": 3604395,
+      "fileID": 3686934,
       "required": true,
       "__meta": {
         "name": "Farsight[Forge/Fabric]"
@@ -368,7 +368,7 @@
     },
     {
       "projectID": 521480,
-      "fileID": 3637591,
+      "fileID": 3672240,
       "required": true,
       "__meta": {
         "name": "Skin Layers 3D (Fabric/Forge)"
@@ -392,7 +392,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 3658029,
+      "fileID": 3685074,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -408,7 +408,7 @@
     },
     {
       "projectID": 551894,
-      "fileID": 3655489,
+      "fileID": 3679781,
       "required": true,
       "__meta": {
         "name": "Better Compatibility Checker"
