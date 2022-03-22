@@ -230,6 +230,14 @@
       }
     },
     {
+      "projectID": 401284,
+      "fileID": 3630901,
+      "required": true,
+      "__meta": {
+        "name": "Enderite Mod (for Forge)"
+      }
+    },
+    {
       "projectID": 403422,
       "fileID": 3656406,
       "required": true,
