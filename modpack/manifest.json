@@ -3,7 +3,7 @@
     "version": "1.18.1",
     "modLoaders": [
       {
-        "id": "forge-39.0.66",
+        "id": "forge-39.1.2",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "v1.3",
+  "version": "v1.3.1-alpha",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -65,7 +65,7 @@
     },
     {
       "projectID": 252848,
-      "fileID": 3577265,
+      "fileID": 3684914,
       "required": true,
       "__meta": {
         "name": "Nature's Compass"
@@ -73,7 +73,7 @@
     },
     {
       "projectID": 271740,
-      "fileID": 3566996,
+      "fileID": 3639782,
       "required": true,
       "__meta": {
         "name": "Toast Control",
@@ -92,7 +92,7 @@
     },
     {
       "projectID": 276951,
-      "fileID": 3551239,
+      "fileID": 3650599,
       "required": true,
       "__meta": {
         "name": "Comforts (Forge)"
@@ -100,7 +100,7 @@
     },
     {
       "projectID": 280294,
-      "fileID": 3548891,
+      "fileID": 3680770,
       "required": true,
       "__meta": {
         "name": "FPS Reducer"
@@ -108,7 +108,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 3623934,
+      "fileID": 3647860,
       "required": true,
       "__meta": {
         "name": "Placebo"
@@ -116,7 +116,7 @@
     },
     {
       "projectID": 288885,
-      "fileID": 3567080,
+      "fileID": 3639779,
       "required": true,
       "__meta": {
         "name": "FastWorkbench",
@@ -127,7 +127,7 @@
     },
     {
       "projectID": 299540,
-      "fileID": 3568851,
+      "fileID": 3639777,
       "required": true,
       "__meta": {
         "name": "FastFurnace"
@@ -143,7 +143,7 @@
     },
     {
       "projectID": 309927,
-      "fileID": 3613028,
+      "fileID": 3661868,
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
@@ -152,7 +152,7 @@
     },
     {
       "projectID": 312353,
-      "fileID": 3584325,
+      "fileID": 3665638,
       "required": true,
       "__meta": {
         "name": "Artifacts",
@@ -164,7 +164,7 @@
     },
     {
       "projectID": 316582,
-      "fileID": 3625679,
+      "fileID": 3666069,
       "required": true,
       "__meta": {
         "name": "Corpse"
@@ -172,7 +172,7 @@
     },
     {
       "projectID": 318012,
-      "fileID": 3550329,
+      "fileID": 3696961,
       "required": true,
       "__meta": {
         "name": "DefaultSettings"
@@ -180,7 +180,7 @@
     },
     {
       "projectID": 349559,
-      "fileID": 3636272,
+      "fileID": 3640237,
       "required": true,
       "__meta": {
         "name": "FallingTree (Forge&Fabric)"
@@ -230,8 +230,16 @@
       }
     },
     {
+      "projectID": 401284,
+      "fileID": 3630901,
+      "required": true,
+      "__meta": {
+        "name": "Enderite Mod (for Forge)"
+      }
+    },
+    {
       "projectID": 403422,
-      "fileID": 3635110,
+      "fileID": 3656406,
       "required": true,
       "__meta": {
         "name": "Emotecraft (Forge)"
@@ -239,7 +247,7 @@
     },
     {
       "projectID": 406119,
-      "fileID": 3616338,
+      "fileID": 3655872,
       "required": true,
       "__meta": {
         "name": "Bongo",
@@ -267,7 +275,7 @@
     },
     {
       "projectID": 412525,
-      "fileID": 3620293,
+      "fileID": 3667631,
       "required": true,
       "__meta": {
         "name": "LibX"
@@ -275,7 +283,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3636476,
+      "fileID": 3710526,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -291,7 +299,7 @@
     },
     {
       "projectID": 429235,
-      "fileID": 3550045,
+      "fileID": 3652644,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
@@ -327,7 +335,7 @@
     },
     {
       "projectID": 457570,
-      "fileID": 3559398,
+      "fileID": 3640884,
       "required": true,
       "__meta": {
         "name": "Configured"
@@ -368,7 +376,7 @@
     },
     {
       "projectID": 521480,
-      "fileID": 3635466,
+      "fileID": 3672240,
       "required": true,
       "__meta": {
         "name": "Skin Layers 3D (Fabric/Forge)"
@@ -376,7 +384,7 @@
     },
     {
       "projectID": 526854,
-      "fileID": 3599856,
+      "fileID": 3667412,
       "required": true,
       "__meta": {
         "name": "Starlight (Forge)"
@@ -392,7 +400,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 3630241,
+      "fileID": 3658029,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -408,7 +416,7 @@
     },
     {
       "projectID": 551894,
-      "fileID": 3614758,
+      "fileID": 3655489,
       "required": true,
       "__meta": {
         "name": "Better Compatibility Checker"
