@@ -7,6 +7,8 @@
 [![Discord][discord-shield]][discord-url]
 [![PAX][pax-shield]][pax-url]
 
+# This project is currently temporary not maintenanced. I'll work again on this as soon as possible! 😌
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
