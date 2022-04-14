@@ -28,14 +28,14 @@ IF %ERRORLEVEL% EQU 0 (
 
 
 :MAIN
-java -jar serverstarter-2.2.0.jar
+java -jar serverstarter.jar
 GOTO EOF
 
 :CHECK
 REM Check if serverstarter JAR is already downloaded
 IF NOT EXIST "%cd%\serverstarter-2.2.0.jar" (
 	ECHO serverstarter binary not found, downloading serverstarter...
-	%SYSTEMROOT%\SYSTEM32\bitsadmin.exe /rawreturn /nowrap /transfer starter /dynamic /download /priority foreground https://github.com/BloodyMods/ServerStarter/releases/download/v2.2.0/serverstarter-2.2.0.jar "%cd%\serverstarter-2.2.0.jar"
+	%SYSTEMROOT%\SYSTEM32\bitsadmin.exe /rawreturn /nowrap /transfer starter /dynamic /download /priority foreground https://github.com/BloodyMods/ServerStarter/releases/download/v2.3.1/serverstarter-2.3.1.jar "%cd%\serverstarter.jar"
    GOTO MAIN
 ) ELSE (
    GOTO MAIN

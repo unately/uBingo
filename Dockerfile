@@ -1,11 +1,19 @@
-FROM eclipse-temurin:17-alpine
+FROM azul/zulu-openjdk-debian:17
 
-MAINTAINER Unately, <unatelyhq@gmail.com>
+LABEL maintainer="hello@unately.com"
 
-RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig 
+RUN apt-get update && apt-get install -y curl bash dos2unix
 
-WORKDIR /home/container
+WORKDIR /app
 
-COPY ./entrypoint.sh /entrypoint.sh
+COPY ./serverpack .
 
-CMD ["/bin/bash", "/entrypoint.sh"]
+RUN chmod +x install-only.sh && \
+    # Because windows and vscode
+    dos2unix install-only.sh && \
+    sh install-only.sh
+
+
+EXPOSE 25565
+
+CMD ["bash", "run.sh"]
