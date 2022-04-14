@@ -85,7 +85,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-> https://docs.jqshuv.xyz
+> https://docs.unately.com
 <!-- #### Using GDLauncher (Recommended) -->
 
 
