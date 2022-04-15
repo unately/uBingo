@@ -11,6 +11,9 @@ ModListCreator-2.0.1.jar
 ### Modpack ###
 .out/
 
+### Docker ###
+dockerfiles/mc-health
+
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false

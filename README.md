@@ -175,6 +175,7 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 * [📦 PAX by froehlichA][pax-link]
 * [📰 Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
 * [🎓 Modcreators](https://github.com/Unately/uBingo/blob/master/modlist.md)
+* [🐋 Docker Minecraft Server by itzg][itzg-docker-link]
 
 <br>
 <p align="center">
@@ -186,7 +187,6 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 <!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-shield]: https://img.shields.io/github/issues/Unately/uBingo.svg?style=for-the-badge
 [issues-url]: https://github.com/Unately/uBingo/issues
 
@@ -208,5 +208,5 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 [project-url]: https://github.com/Unately/uBingo/issues
 
 [bongo-link]: https://www.curseforge.com/minecraft/mc-mods/bongo
-
 [pax-link]: https://github.com/froehlichA/pax
+[itzg-docker-link]: https://github.com/itzg/docker-minecraft-server
