@@ -1,4 +1,0 @@
-branchName: 'feature/${issue.title}'
-autoCloseIssue: true
-defaultBranch: 'dev'
-silent: true

@@ -7,7 +7,7 @@
 [![Discord][discord-shield]][discord-url]
 [![PAX][pax-shield]][pax-url]
 
-# This project is currently temporary not maintenanced. I'll work again on this as soon as possible! 😌
+
 
 <!-- PROJECT LOGO -->
 <br />
@@ -85,7 +85,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-> https://docs.jqshuv.xyz
+> https://docs.unately.com
 <!-- #### Using GDLauncher (Recommended) -->
 
 
@@ -175,6 +175,7 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 * [📦 PAX by froehlichA][pax-link]
 * [📰 Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
 * [🎓 Modcreators](https://github.com/Unately/uBingo/blob/master/modlist.md)
+* [🐋 Docker Minecraft Server by itzg][itzg-docker-link]
 
 <br>
 <p align="center">
@@ -186,7 +187,6 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 <!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-shield]: https://img.shields.io/github/issues/Unately/uBingo.svg?style=for-the-badge
 [issues-url]: https://github.com/Unately/uBingo/issues
 
@@ -208,5 +208,5 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 [project-url]: https://github.com/Unately/uBingo/issues
 
 [bongo-link]: https://www.curseforge.com/minecraft/mc-mods/bongo
-
 [pax-link]: https://github.com/froehlichA/pax
+[itzg-docker-link]: https://github.com/itzg/docker-minecraft-server

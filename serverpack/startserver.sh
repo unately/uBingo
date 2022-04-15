@@ -25,23 +25,23 @@ if [ -f serverstarter-2.2.0.jar ]; then
     fi
     exit 0
 else
-    export URL="https://github.com/BloodyMods/ServerStarter/releases/download/v2.2.0/serverstarter-2.2.0.jar"
+    export URL="https://github.com/BloodyMods/ServerStarter/releases/download/v2.3.1/serverstarter-2.3.1.jar"
 fi
 echo $URL
 which wget >> /dev/null
 if [ $? -eq 0 ]; then
     echo "DEBUG: (wget) Downloading ${URL}"
-    wget -O serverstarter-2.2.0.jar "${URL}"
+    wget -O serverstarter.jar "${URL}"
 else
     which curl >> /dev/null
     if [ $? -eq 0 ]; then
         echo "DEBUG: (curl) Downloading ${URL}"
-        curl -o serverstarter-2.2.0.jar -L "${URL}"
+        curl -o serverstarter.jar -L "${URL}"
     else
         echo "Neither wget or curl were found on your system. Please install one and try again"
     fi
 fi
-java $JAVA_FLAGS -jar serverstarter-2.2.0.jar
+java $JAVA_FLAGS -jar serverstarter.jar
 if [[ $DO_RAMDISK -eq 1 ]]; then
     sudo umount $SAVE_DIR
     rm -rf $SAVE_DIR
