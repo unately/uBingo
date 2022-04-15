@@ -1,4 +1,4 @@
-FROM ghcr.io/unately/cogwheels:java-17-headless
+FROM azul/zulu-openjdk-debian:17 
 
 # Labels for Github packages
 LABEL maintainer="hello@unately.com"
