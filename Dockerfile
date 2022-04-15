@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/java/jre-headless:17-zulu-ubuntu
+FROM ghcr.io/unately/cogwheels:java-17-headless
 
 # Labels for Github packages
 LABEL maintainer="hello@unately.com"
