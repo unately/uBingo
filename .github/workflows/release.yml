@@ -99,10 +99,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: modpack
-      - name: "🖨️ Change Docker COnfig Version"
+      - name: "🖨️ Change Docker Config Version"
         uses: fjogeleit/yaml-update-action@master
         with:
-          valueFile: 'dockerfile/docker-setup-config.yaml'
+          valueFile: 'dockerfiles/docker-setup-config.yaml'
           propertyPath: 'install.modpackUrl'
           value: file://./${{ needs.modpack-info.outputs.tag }}/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           commitChange: false
