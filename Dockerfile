@@ -9,7 +9,7 @@ LABEL org.opencontainers.image.description Development Version
 # Setup environment
 RUN apt-get update && \
     apt-get install -y curl wget bash dos2unix
-EXPOSE 25565
+EXPOSE 25565 25567
 COPY dockerfiles/mc-send-to-console /usr/local/bin/mc-console
 RUN dos2unix /usr/local/bin/mc-console
 
