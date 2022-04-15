@@ -1,9 +1,9 @@
 {
   "minecraft": {
-    "version": "1.18.1",
+    "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "forge-39.1.2",
+        "id": "forge-40.0.2",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "v1.3.1-alpha",
+  "version": "v1.3.1",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -25,7 +25,7 @@
     },
     {
       "projectID": 230976,
-      "fileID": 3590415,
+      "fileID": 3693140,
       "required": true,
       "__meta": {
         "name": "Fast Leaf Decay"
@@ -92,7 +92,7 @@
     },
     {
       "projectID": 276951,
-      "fileID": 3650599,
+      "fileID": 3682307,
       "required": true,
       "__meta": {
         "name": "Comforts (Forge)"
@@ -135,7 +135,7 @@
     },
     {
       "projectID": 300331,
-      "fileID": 3564180,
+      "fileID": 3695908,
       "required": true,
       "__meta": {
         "name": "Simply Light"
@@ -143,7 +143,7 @@
     },
     {
       "projectID": 309927,
-      "fileID": 3661868,
+      "fileID": 3670447,
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
@@ -152,7 +152,7 @@
     },
     {
       "projectID": 312353,
-      "fileID": 3665638,
+      "fileID": 3696609,
       "required": true,
       "__meta": {
         "name": "Artifacts",
@@ -164,7 +164,7 @@
     },
     {
       "projectID": 316582,
-      "fileID": 3666069,
+      "fileID": 3694258,
       "required": true,
       "__meta": {
         "name": "Corpse"
@@ -180,7 +180,7 @@
     },
     {
       "projectID": 349559,
-      "fileID": 3640237,
+      "fileID": 3692424,
       "required": true,
       "__meta": {
         "name": "FallingTree (Forge&Fabric)"
@@ -188,7 +188,7 @@
     },
     {
       "projectID": 354339,
-      "fileID": 3618465,
+      "fileID": 3697234,
       "required": true,
       "__meta": {
         "name": "Open Loader"
@@ -215,7 +215,7 @@
     },
     {
       "projectID": 377281,
-      "fileID": 3618370,
+      "fileID": 3683664,
       "required": true,
       "__meta": {
         "name": "Dark Paintings"
@@ -247,7 +247,7 @@
     },
     {
       "projectID": 406119,
-      "fileID": 3655872,
+      "fileID": 3680038,
       "required": true,
       "__meta": {
         "name": "Bongo",
@@ -299,7 +299,7 @@
     },
     {
       "projectID": 429235,
-      "fileID": 3652644,
+      "fileID": 3672146,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
@@ -307,7 +307,7 @@
     },
     {
       "projectID": 435044,
-      "fileID": 3582045,
+      "fileID": 3697473,
       "required": true,
       "__meta": {
         "name": "Better Third Person"
@@ -315,7 +315,7 @@
     },
     {
       "projectID": 440998,
-      "fileID": 3606230,
+      "fileID": 3680040,
       "required": true,
       "__meta": {
         "name": "BingoLobby",
@@ -359,7 +359,7 @@
     },
     {
       "projectID": 465066,
-      "fileID": 3580591,
+      "fileID": 3678612,
       "required": true,
       "__meta": {
         "name": "ExpandAbility",
@@ -368,7 +368,7 @@
     },
     {
       "projectID": 495693,
-      "fileID": 3604395,
+      "fileID": 3686934,
       "required": true,
       "__meta": {
         "name": "Farsight[Forge/Fabric]"
@@ -400,7 +400,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 3658029,
+      "fileID": 3685074,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -416,7 +416,7 @@
     },
     {
       "projectID": 551894,
-      "fileID": 3655489,
+      "fileID": 3679781,
       "required": true,
       "__meta": {
         "name": "Better Compatibility Checker"
@@ -424,7 +424,7 @@
     },
     {
       "projectID": 556824,
-      "fileID": 3567250,
+      "fileID": 3568779,
       "required": true,
       "__meta": {
         "name": "Chromato Creeper"

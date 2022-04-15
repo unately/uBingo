@@ -1,4 +1,4 @@
-## uBingo - v1.3.1-alpha
+## uBingo - v1.3.1
 - [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) (by [QueenOfMissiles](https://www.curseforge.com/members/queenofmissiles/projects))
 - [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) (by [ochotonida](https://www.curseforge.com/members/ochotonida/projects))
 - [Balm (Forge Edition)](https://www.curseforge.com/minecraft/mc-mods/balm) (by [BlayTheNinth](https://www.curseforge.com/members/blaytheninth/projects))
