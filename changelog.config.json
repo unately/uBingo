@@ -7,10 +7,6 @@
       {
         "title": "## 🐛 Fixes",
         "labels": ["bugs"]
-      },
-      {
-        "title": "## 🧪 Tests",
-        "labels": ["test"]
       }
     ],
     "ignore_labels": [

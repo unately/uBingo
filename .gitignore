@@ -6,13 +6,16 @@ libssl*.dll
 libcrypto*.dll
 cacert.pem
 server_generator.exe
-ModListCreator-2.0.1.jar
+ModListCreator-*.jar
 
 ### Modpack ###
 .out/
 
 ### Docker ###
 dockerfiles/mc-health
+
+### Local environment ####
+html
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:

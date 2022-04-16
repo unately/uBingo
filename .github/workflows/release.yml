@@ -40,10 +40,10 @@ jobs:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
       - name: "✍️ Write Changelogs"
-        id: build_changelog
+        id: changelog
         uses: mikepenz/release-changelog-builder-action@v2.7.2
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.UNATELYBOT_KEY }}
 
   build_pack:
     runs-on: ubuntu-latest
@@ -68,8 +68,12 @@ jobs:
           valueFile: 'serverpack/server-setup-config.yaml'
           propertyPath: 'install.modpackUrl'
           value: https://github.com/Unately/uBingo/releases/download/${{ needs.modpack-info.outputs.tag }}/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          commitChange: false
+          commitChange: true
+          message: "⚙️ Update Server Pack Version"
+          token: ${{ secrets.UNATELYBOT_KEY }}
           updateFile: true
+          commitUserName: ${{ secrets.UNATELYBOT_USERNAME }}
+          commitUserEmail: ${{ secrets.UNATELYBOT_EMAIL }}
       - name: "🐙 Export server: Step 1/2"
         run: mv serverpack/* .
       - name: "🐙 Export server: Step 2/2"
@@ -149,14 +153,43 @@ jobs:
       - name: "🧬 Create release"
         uses: softprops/action-gh-release@v1
         with:
-          body_path: ${{steps.changelog.outputs.changelog}}
+          body_path: ${{ steps.changelog.outputs.changelog }}
           prerelease: ${{ steps.release-type.outputs.type }}
           files: |
             ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
             ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.UNATELYBOT_KEY }}
   
+  release-curseforge:
+    runs-on: ubuntu-latest
+    needs: [build_pack, changelog, modpack-info]
+    steps:
+      - name: "🔽 Download modpack"
+        uses: actions/download-artifact@v2
+        with:
+          name: modpack
+      - name: "🥨 Get release type"
+        id: release-type
+        run: |
+          rel_type="release"
+          case "${{ needs.modpack-info.outputs.tag }}" in
+            *alpha*) rel_type="alpha" ;;
+            *beta*) rel_type="beta" ;;
+            *) rel_type="release" ;;
+          esac
+          echo "::set-output name=type::$rel_type"
+      - name: "🛠️ Create release"
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          project_id: ${{ env.PROJECT_ID }}
+          game_endpoint: minecraft
+          file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          changelog: "${{ needs.changelog.outputs.changelog }}"
+          changelog_type: markdown
+          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }},Java 17,Forge"
+          release_type: ${{ steps.release-type.outputs.type }}
+          token: ${{ secrets.CURSEFORGE_TOKEN }}
+
   # discord_message:
   #   runs-on: ubuntu-latest
   #   needs: [release-github]

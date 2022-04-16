@@ -6,6 +6,7 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 [![PAX][pax-shield]][pax-url]
+[![wakatime][wakatime-shield]][wakatime-url]
 
 
 
@@ -206,6 +207,9 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 
 [project-shield]: https://img.shields.io/badge/Project-%F0%9F%93%91%20ToDo-red?style=for-the-badge&logo=github
 [project-url]: https://github.com/Unately/uBingo/issues
+
+[wakatime-shield]: https://wakatime.com/badge/github/Unately/uBingo.svg?style=for-the-badge
+[wakatime-url]: https://wakatime.com/badge/github/Unately/uBingo
 
 [bongo-link]: https://www.curseforge.com/minecraft/mc-mods/bongo
 [pax-link]: https://github.com/froehlichA/pax
