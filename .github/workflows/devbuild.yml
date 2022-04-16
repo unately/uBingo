@@ -13,7 +13,7 @@ on:
 
 jobs:
   modpack-info:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
@@ -31,7 +31,7 @@ jobs:
             echo "::set-output name=version::$version"
 
   changelog:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: "📜 Changelog"
     outputs:
       changelog: ${{steps.changelog.outputs.changelog}}
@@ -52,7 +52,7 @@ jobs:
           path: CHANGELOG.md
   
   modlist:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: "🗒️ Modlist"
     steps:
       - name: "🔁 Checkout"
@@ -75,7 +75,7 @@ jobs:
           path: modlist.md
 
   build_pack:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: [changelog, modpack-info]
     name: "📦 Build"
     steps:
@@ -110,7 +110,7 @@ jobs:
           path: serverpack/*
 
   build_image:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: [build_pack, modpack-info]
     name: "🐳 Build Package"
     steps:
@@ -145,7 +145,7 @@ jobs:
             ghcr.io/unately/ubingo:dev
   
   # discord_message:
-  #   runs-on: ubuntu-latest
+  #   runs-on: self-hosted
   #   needs: [build]
   #   name: "🦞 Post to Discord"
   #   steps:
