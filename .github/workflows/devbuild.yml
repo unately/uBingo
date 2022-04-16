@@ -13,7 +13,7 @@ on:
 
 jobs:
   modpack-info:
-    runs-on: [self-hosted, linux]
+    runs-on: [self-hosted, Linux]
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
@@ -31,7 +31,7 @@ jobs:
             echo "::set-output name=version::$version"
 
   changelog:
-    runs-on: [self-hosted, linux]
+    runs-on: [self-hosted, Linux]
     name: "📜 Changelog"
     outputs:
       changelog: ${{steps.changelog.outputs.changelog}}
@@ -52,7 +52,7 @@ jobs:
           path: CHANGELOG.md
   
   modlist:
-    runs-on: [self-hosted, linux]
+    runs-on: [self-hosted, Linux]
     name: "🗒️ Modlist"
     steps:
       - name: "🔁 Checkout"
@@ -75,7 +75,7 @@ jobs:
           path: modlist.md
 
   build_pack:
-    runs-on: [self-hosted, linux]
+    runs-on: [self-hosted, Linux]
     needs: [changelog, modpack-info]
     name: "📦 Build"
     steps:
@@ -110,7 +110,7 @@ jobs:
           path: serverpack/*
 
   build_image:
-    runs-on: [self-hosted, linux]
+    runs-on: [self-hosted, Linux]
     needs: [build_pack, modpack-info]
     name: "🐳 Build Package"
     steps:
