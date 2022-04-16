@@ -49,7 +49,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: Please paste any relevant log output. This will be automatically formatted into code, so no need for backticks. (If it happend on Multiplayer and you have permissions you can also use */mclogs*)
+      description: Please paste any relevant log output. This will be automatically formatted into code, so no need for backticks. (If it happend on Multiplayer and you have permissions you can also use **/mclogs**)
       render: shell
   - type: checkboxes
     id: terms
