@@ -154,7 +154,7 @@ jobs:
           files: |
             ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
             ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.UNATELYBOT_KEY }}
   
   # discord_message:
   #   runs-on: ubuntu-latest
