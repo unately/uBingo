@@ -21,3 +21,7 @@
 * [😲 Errors in console](tutorials/errors-in-console.md)
 * [⁉ Run Anyway? Virus?](tutorials/run-anyway-virus.md)
 * [🎹 SSH](tutorials/ssh.md)
+
+## DevOps
+
+* [🚩 Versioning](devops/versioning.md)
