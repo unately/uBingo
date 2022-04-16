@@ -53,7 +53,7 @@ jobs:
   
   modlist:
     runs-on: ubuntu-latest
-    name: "🗒️ Modliste"
+    name: "🗒️ Modlist"
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
@@ -65,7 +65,7 @@ jobs:
       - name: "⚾ Setup ModListCreator"
         uses: wei/wget@v1.1.1
         with:
-          args: -O sample.html ${{ secrets.MODLISTCREATOR_URL }}
+          args: ${{ secrets.MODLISTCREATOR_URL }}
       - name: "📫 Create list"
         run: java -jar ${{ secrets.MODLISTCREATOR_FILE }} --manifest .\modpack\manifest.json --output . --md
       - name: "💽 Save modlist"
