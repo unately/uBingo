@@ -72,6 +72,8 @@ jobs:
           message: "⚙️ Update Server Pack Version"
           token: ${{ secrets.UNATELYBOT_KEY }}
           updateFile: true
+          commitUserName: ${{ secrets.UNATELYBOT_USERNAME }}
+          commitUserEmail: ${{ secrets.UNATELYBOT_EMAIL }}
       - name: "🐙 Export server: Step 1/2"
         run: mv serverpack/* .
       - name: "🐙 Export server: Step 2/2"
@@ -184,7 +186,7 @@ jobs:
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
-          game_versions: ${{ needs.modpack-info.outputs.version }}
+          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }},Java 17,Forge"
           release_type: ${{ steps.release-type.outputs.type }}
           token: ${{ secrets.CURSEFORGE_TOKEN }}
 
