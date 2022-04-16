@@ -57,9 +57,9 @@ body:
       label: Review
       description: By submitting this issue, you agree that you checked the following.
       options:
-        - label: I agree to follow this project's (Code of Conduct)[https://www.contributor-covenant.org/]
+        - label: I agree to follow this project's
           required: true
-        - label: I've checked that this bug is not already submitted. ((Issues)[https://github.com/Unately/uBingo/issues])
+        - label: I've checked that this bug is not already submitted.
           required: true
         - label: I believe this is a bug with the software or mods and not with my system.
           required: true
