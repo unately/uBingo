@@ -156,6 +156,36 @@ jobs:
             ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
           token: ${{ secrets.UNATELYBOT_KEY }}
   
+  release-curseforge:
+    runs-on: ubuntu-latest
+    needs: [build_pack, changelog, modpack-info]
+    steps:
+      - name: "🔽 Download modpack"
+        uses: actions/download-artifact@v2
+        with:
+          name: modpack
+      - name: "🥨 Get release type"
+        id: release-type
+        run: |
+          rel_type="release"
+          case "${{ needs.modpack-info.outputs.tag }}" in
+            *alpha*) rel_type="alpha" ;;
+            *beta*) rel_type="beta" ;;
+            *) rel_type="release" ;;
+          esac
+          echo "::set-output name=type::$rel_type"
+      - name: "🛠️ Create release"
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          project_id: ${{ env.PROJECT_ID }}
+          game_endpoint: minecraft
+          file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          changelog: "${{ needs.changelog.outputs.changelog }}"
+          changelog_type: markdown
+          game_versions: ${{ needs.modpack-info.outputs.version }}
+          release_type: ${{ steps.release-type.outputs.type }}
+          token: ${{ secrets.CURSEFORGE_TOKEN }}
+
   # discord_message:
   #   runs-on: ubuntu-latest
   #   needs: [release-github]
