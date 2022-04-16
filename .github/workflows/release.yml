@@ -40,10 +40,10 @@ jobs:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
       - name: "✍️ Write Changelogs"
-        id: build_changelog
+        id: changelog
         uses: mikepenz/release-changelog-builder-action@v2.7.2
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.UNATELYBOT_KEY }}
 
   build_pack:
     runs-on: ubuntu-latest
@@ -149,7 +149,7 @@ jobs:
       - name: "🧬 Create release"
         uses: softprops/action-gh-release@v1
         with:
-          body_path: ${{steps.changelog.outputs.changelog}}
+          body_path: ${{ steps.changelog.outputs.changelog }}
           prerelease: ${{ steps.release-type.outputs.type }}
           files: |
             ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
