@@ -68,7 +68,9 @@ jobs:
           valueFile: 'serverpack/server-setup-config.yaml'
           propertyPath: 'install.modpackUrl'
           value: https://github.com/Unately/uBingo/releases/download/${{ needs.modpack-info.outputs.tag }}/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          commitChange: false
+          commitChange: true
+          message: "⚙️ Update Server Pack Version"
+          token: ${{ secrets.UNATELYBOT_KEY }}
           updateFile: true
       - name: "🐙 Export server: Step 1/2"
         run: mv serverpack/* .
