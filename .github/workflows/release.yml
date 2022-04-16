@@ -34,6 +34,7 @@ jobs:
   changelog:
     runs-on: ubuntu-latest
     name: "📜 Changelog"
+    needs: [build_image]
     outputs:
       changelog: ${{steps.changelog.outputs.changelog}}
     steps:
@@ -162,7 +163,7 @@ jobs:
   
   release-curseforge:
     runs-on: ubuntu-latest
-    needs: [build_pack, changelog, modpack-info]
+    needs: [build_pack, build_image, changelog, modpack-info]
     steps:
       - name: "🔽 Download modpack"
         uses: actions/download-artifact@v2
