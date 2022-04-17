@@ -34,7 +34,6 @@ jobs:
   changelog:
     runs-on: ubuntu-latest
     name: "📜 Changelog"
-    needs: [build_image]
     outputs:
       changelog: ${{steps.changelog.outputs.changelog}}
     steps:
