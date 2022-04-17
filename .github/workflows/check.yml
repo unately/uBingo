@@ -28,7 +28,6 @@ jobs:
   
   image:
     runs-on: ubuntu-latest
-    needs: [build]
     name: "🐳 Test Image"
     steps:
       - name: "🔁 Checkout"
