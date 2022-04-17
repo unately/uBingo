@@ -13,7 +13,7 @@ queue_rules:
   - name: default
     conditions:
       - and: *CheckRuns
-      - schedule=Mon-Fri 09:00-23:30[Europe/Berlin]
+      - schedule=Mon-Fri 09:00-23:45[Europe/Berlin]
 
 pull_request_rules:
   - name: automatic merge for hotfix
