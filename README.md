@@ -7,7 +7,7 @@
 [![Discord][discord-shield]][discord-url]
 [![PAX][pax-shield]][pax-url]
 [![wakatime][wakatime-shield]][wakatime-url]
-
+[![curseforge][curseforge-shield]][curseforge-url]
 
 
 <!-- PROJECT LOGO -->
@@ -208,8 +208,11 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 [project-shield]: https://img.shields.io/badge/Project-%F0%9F%93%91%20ToDo-red?style=for-the-badge&logo=github
 [project-url]: https://github.com/Unately/uBingo/issues
 
-[wakatime-shield]: https://wakatime.com/badge/user/b80127f3-fcf6-417a-9cdd-107757c5022f/project/eb900aa1-5ce1-426c-9282-a83e384304ea.svg
+[wakatime-shield]: https://wakatime.com/badge/user/b80127f3-fcf6-417a-9cdd-107757c5022f/project/eb900aa1-5ce1-426c-9282-a83e384304ea.svg?style=for-the-badge
 [wakatime-url]: https://wakatime.com/badge/user/b80127f3-fcf6-417a-9cdd-107757c5022f/project/eb900aa1-5ce1-426c-9282-a83e384304ea
+
+[curseforge-shield]: https://img.shields.io/badge/Curseforge-Modpack-6441A4?style=for-the-badge&logo=curseforge
+[curseforge-url]: https://www.curseforge.com/minecraft/modpacks/ubingo
 
 [bongo-link]: https://www.curseforge.com/minecraft/mc-mods/bongo
 [pax-link]: https://github.com/froehlichA/pax
