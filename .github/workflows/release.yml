@@ -130,7 +130,7 @@ jobs:
   release-github:
     runs-on: ubuntu-latest
     needs: [build_pack, changelog, modpack-info]
-    name: "🎉 Release"
+    name: "🐙 Release to Github"
     steps:
       - name: "🔽 Download modpack"
         uses: actions/download-artifact@v2
@@ -163,6 +163,7 @@ jobs:
   release-curseforge:
     runs-on: ubuntu-latest
     needs: [build_pack, build_image, changelog, modpack-info]
+    name: "🔨 Release to Curseforge"
     steps:
       - name: "🔽 Download modpack"
         uses: actions/download-artifact@v2
@@ -178,16 +179,27 @@ jobs:
             *) rel_type="release" ;;
           esac
           echo "::set-output name=type::$rel_type"
-      - name: "🛠️ Create release"
+      - name: "🛠️ Upload modpack"
         uses: itsmeow/curseforge-upload@v3
         with:
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          display_name: "${{ needs.modpack-info.outputs.projectname }} ${{ needs.modpack-info.outputs.tag }}"
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
           game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}"
           release_type: ${{ steps.release-type.outputs.type }}
+          token: ${{ secrets.CURSEFORGE_TOKEN }}
+      - name: "👾 Upload serverpack"
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          project_id: ${{ env.PROJECT_ID }}
+          game_endpoint: minecraft
+          file_path: ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
+          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}"
+          release_type: ${{ steps.release-type.outputs.type }}
+          parent_file_id: ${{ steps.release-curseforge.outputs.id }}
           token: ${{ secrets.CURSEFORGE_TOKEN }}
 
   # discord_message:
