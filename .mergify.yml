@@ -1,0 +1,41 @@
+defaults:
+  actions:
+    comment:
+      bot_account: UnatelyBot
+
+queue_rules:
+  - name: hotfix
+    conditions:
+      - and: &CheckRuns
+        - check-success=modpack
+        - check-success=build
+
+  - name: default
+    conditions:
+      - and: *CheckRuns
+      - schedule=Mon-Fri 09:00-23:30[Europe/Berlin]
+
+pull_request_rules:
+  - name: automatic merge for hotfix
+    conditions:
+      - label=hotfix
+      - and: *CheckRuns
+    actions:
+      queue:
+        name: hotfix
+
+  - name: automatic merge reviewed pull request
+    conditions:
+      - "#approved-reviews-by>=1"
+      - and: *CheckRuns
+    actions:
+      queue:
+        name: default
+        
+  - name: switch to master pulls
+    conditions:
+      - base=master
+    actions:
+      copy:
+        branches:
+          - dev
