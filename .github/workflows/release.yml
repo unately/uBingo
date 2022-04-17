@@ -27,7 +27,7 @@ jobs:
         with:
           filename: './modpack/manifest.json'
           key: 'version'
-          value: '${{ needs.modpack-info.outputs.tag }}'
+          value: '${{ steps.version.outputs.tag }}'
       - name: "💾 Get modpack info"
         id: info
         run: |
