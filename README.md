@@ -208,8 +208,8 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 [project-shield]: https://img.shields.io/badge/Project-%F0%9F%93%91%20ToDo-red?style=for-the-badge&logo=github
 [project-url]: https://github.com/Unately/uBingo/issues
 
-[wakatime-shield]: https://wakatime.com/badge/github/Unately/uBingo.svg?style=for-the-badge
-[wakatime-url]: https://wakatime.com/badge/github/Unately/uBingo
+[wakatime-shield]: https://wakatime.com/badge/user/b80127f3-fcf6-417a-9cdd-107757c5022f/project/eb900aa1-5ce1-426c-9282-a83e384304ea.svg
+[wakatime-url]: https://wakatime.com/badge/user/b80127f3-fcf6-417a-9cdd-107757c5022f/project/eb900aa1-5ce1-426c-9282-a83e384304ea
 
 [bongo-link]: https://www.curseforge.com/minecraft/mc-mods/bongo
 [pax-link]: https://github.com/froehlichA/pax
