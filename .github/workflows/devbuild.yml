@@ -4,6 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
+  push:
+    branches:
+      - dev
+      - 'feature/**'
+      - 'fix/**'
+      - 'release/**'
 
 jobs:
   modpack-info:
@@ -44,6 +50,29 @@ jobs:
         with:
           name: modpack
           path: CHANGELOG.md
+  
+  modlist:
+    runs-on: ubuntu-latest
+    name: "🗒️ Modlist"
+    steps:
+      - name: "🔁 Checkout"
+        uses: actions/checkout@v2
+      - name: "☕ Setup Java"
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      - name: "⚾ Setup ModListCreator"
+        uses: wei/wget@v1.1.1
+        with:
+          args: ${{ secrets.MODLISTCREATOR_URL }}
+      - name: "📫 Create list"
+        run: java -jar ${{ secrets.MODLISTCREATOR_FILE }} --manifest .\modpack\manifest.json --output . --md
+      - name: "💽 Save modlist"
+        uses: actions/upload-artifact@v2
+        with:
+          name: modpack
+          path: modlist.md
 
   build_pack:
     runs-on: ubuntu-latest
@@ -67,7 +96,7 @@ jobs:
           mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
       - name: "🚚 Unpack zip"
         run: unzip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip -d .out 
-      - name: "[müll] Delete main zip"
+      - name: "🗑️ Delete main zip"
         run: rm .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
       - name: "🔼 Upload zip"
         uses: actions/upload-artifact@v2
