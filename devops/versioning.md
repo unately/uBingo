@@ -13,7 +13,11 @@ For General Releases we're using the following format: **MAYOR.MINOR**\
 \
 If you're hotfixing something then you use this format: **MAYOR.MINOR.PATCH**\
 \
-**PATCH:** Only adds backwards-compatible bug fixes.
+**PATCH:** A little \*_bigger\*_ update which is temporary  till the next full release. It could contain eg. multiple Bug/Hotfixes and **little** features.
+
+Image to explain the difference between Bugfixes, Patches, Hotfixes and Coldfixes
+
+{% embed url="https://s7280.pcdn.co/wp-content/uploads/2020/11/key-34.png" %}
 
 ### Development Versions
 
