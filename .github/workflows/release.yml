@@ -19,6 +19,15 @@ jobs:
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
+      - name: "📛 Get tag"
+        id: version
+        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+      - name: "📯 Change manifest"
+        uses: MerthinTechnologies/edit-json-action@v1
+        with:
+          filename: './modpack/manifest.json'
+          key: 'version'
+          value: '${{ needs.modpack-info.outputs.tag }}'
       - name: "💾 Get modpack info"
         id: info
         run: |
@@ -27,9 +36,6 @@ jobs:
             echo "::set-output name=projectname::$projectname"
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
             echo "::set-output name=version::$version"
-      - name: "📛 Get tag"
-        id: version
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
   changelog:
     runs-on: ubuntu-latest
