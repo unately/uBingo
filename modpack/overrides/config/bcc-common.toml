@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "uBingo"
 	#The version of the modpack
-	modpackVersion = "v1.3"
+	modpackVersion = "dev"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
