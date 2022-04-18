@@ -1,4 +1,4 @@
-name: "🪛 Update Repository"
+name: "🔩 Update Repository"
 
 on:
   schedule:
