@@ -1,4 +1,4 @@
-## uBingo - v1.3.1-alpha
+## uBingo - dev
 - [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) (by [QueenOfMissiles](https://www.curseforge.com/members/queenofmissiles/projects))
 - [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) (by [ochotonida](https://www.curseforge.com/members/ochotonida/projects))
 - [Balm (Forge Edition)](https://www.curseforge.com/minecraft/mc-mods/balm) (by [BlayTheNinth](https://www.curseforge.com/members/blaytheninth/projects))
@@ -19,9 +19,7 @@
 - [Dark Paintings](https://www.curseforge.com/minecraft/mc-mods/dark-paintings) (by [DarkhaxDev](https://www.curseforge.com/members/darkhaxdev/projects))
 - [DefaultSettings](https://www.curseforge.com/minecraft/mc-mods/defaultsettings) (by [PT400C](https://www.curseforge.com/members/pt400c/projects))
 - [Ding](https://www.curseforge.com/minecraft/mc-mods/ding) (by [ohaiiChun](https://www.curseforge.com/members/ohaiichun/projects))
-- [Effective (Forge)](https://www.curseforge.com/minecraft/mc-mods/effective-forge) (by [BottomTextDanny](https://www.curseforge.com/members/bottomtextdanny/projects))
 - [Emotecraft (Forge)](https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge) (by [KosmX](https://www.curseforge.com/members/kosmx/projects))
-- [Enderite Mod (for Forge)](https://www.curseforge.com/minecraft/mc-mods/enderite-mod-for-forge) (by [pitti11](https://www.curseforge.com/members/pitti11/projects))
 - [ExpandAbility](https://www.curseforge.com/minecraft/mc-mods/expandability) (by [florensie](https://www.curseforge.com/members/florensie/projects))
 - [Falling Leaves (Forge)](https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge) (by [Cheaterpaul](https://www.curseforge.com/members/cheaterpaul/projects))
 - [FallingTree (Forge&Fabric)](https://www.curseforge.com/minecraft/mc-mods/falling-tree) (by [RakSrinaNa](https://www.curseforge.com/members/raksrinana/projects))
