@@ -68,14 +68,26 @@ jobs:
         run: |
           sudo chmod +x ./pax
           ./pax export
-      - name: "🖨️ Change Server Version"
+      - name: "🖨️ Change Server Config 1/2"
         uses: fjogeleit/yaml-update-action@master
         with:
           valueFile: 'serverpack/server-setup-config.yaml'
           propertyPath: 'install.modpackUrl'
           value: https://github.com/Unately/uBingo/releases/download/${{ needs.modpack-info.outputs.tag }}/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           commitChange: true
-          message: "⚙️ Update Server Pack Version"
+          message: "⚙️ Update Server Pack URL"
+          token: ${{ secrets.UNATELYBOT_KEY }}
+          updateFile: true
+          commitUserName: ${{ secrets.UNATELYBOT_USERNAME }}
+          commitUserEmail: ${{ secrets.UNATELYBOT_EMAIL }}
+      - name: "🖨️ Change Server Config 2/2"
+        uses: fjogeleit/yaml-update-action@master
+        with:
+          valueFile: 'serverpack/server-setup-config.yaml'
+          propertyPath: 'install.mcVersion'
+          value: ${{ needs.modpack-info.outputs.version }}
+          commitChange: true
+          message: "⚙️ Update Server Minecraft Version"
           token: ${{ secrets.UNATELYBOT_KEY }}
           updateFile: true
           commitUserName: ${{ secrets.UNATELYBOT_USERNAME }}
