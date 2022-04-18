@@ -76,6 +76,7 @@ This is a modpack to play bingo with your friends or alone. It's based on the [B
 * [PAX](https://github.com/froehlichA/pax/)
 * [Forge](https://forums.minecraftforge.net/)
 * [GDLauncher](https://gdevs.io/)
+* [CurseForge](https://www.curseforge.com/)
 
 
 
@@ -179,6 +180,7 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 * [📰 Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
 * [🎓 Modcreators](https://github.com/Unately/uBingo/blob/master/modlist.md)
 * [🐋 Docker Minecraft Server by itzg][itzg-docker-link]
+* [🔨 CurseForge by Overwolf](https://www.curseforge.com/)
 
 <br>
 <p align="center">
