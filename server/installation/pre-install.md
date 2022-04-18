@@ -8,7 +8,7 @@ description: Here you can see how to install the prerequisites
 
 {% tabs %}
 {% tab title="Windows" %}
-### On Windows
+#### On Windows
 
 For windows based systems.
 
@@ -22,18 +22,18 @@ For windows based systems.
 {% endtab %}
 
 {% tab title="Linux" %}
-### **On Linux**
+#### **On Linux**
 
 For all systems running on Linux
 
-#### **Ubuntu/Debian**
+**Ubuntu/Debian**
 
 ```bash
 sudo apt-get update
 sudo apt-get install openjdk-17-jdk
 ```
 
-#### **CentOS**
+**CentOS**
 
 ```bash
 sudo yum install java-11-openjdk

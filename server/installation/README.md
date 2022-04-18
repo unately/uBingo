@@ -20,7 +20,7 @@ description: This documentation will show you, how you create a server.
 
 {% tabs %}
 {% tab title="Windows" %}
-### On a Windows PC
+#### On a Windows PC
 
 1. Open the latest release page [_here_](https://github.com/Unately/uBingo/releases/latest)_._
 2. Download the serverpack by clicking on _**uBingo-Server-vX.X.X.zip**_.
@@ -30,7 +30,7 @@ description: This documentation will show you, how you create a server.
 {% endtab %}
 
 {% tab title="Linux" %}
-### On a Linux PC
+#### On a Linux PC
 
 * Open the Terminal.
 * Then create a new folder using the following command.
@@ -73,9 +73,7 @@ bash startserver.sh
 
 {% tabs %}
 {% tab title="Linux Server" %}
-
-
-### On a Linux Server
+#### On a Linux Server
 
 * Connect to your server via [ssh](../../tutorials/ssh.md).
 * Then create a new folder using the following command.
