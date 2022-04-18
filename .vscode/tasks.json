@@ -47,11 +47,25 @@
               }
         },
         {
-            "label": "Setup/Download server generator",
+            "label": "Cleanup",
             "type": "shell",
-            "command": "rm server_generator & curl https://github.com/henkelmax/curseforge-modpack-server-generator/releases/download/1.0.1/server_generator_linux_1.0.1 -O server_generator && chmod +x server_generator",
+            "command": "rm libssl*.dll & rm libcrypto*.dll & rm pax.exe & rm cacert.pem &rm -r .out",
             "windows": {
-                "command": "del server_generator.exe; curl https://github.com/henkelmax/curseforge-modpack-server-generator/releases/download/1.0.1/server_generator_win_1.0.1.exe -O server_generator.exe",
+                "command": "del libssl*.dll; del libcrypto*.dll; del pax.exe; del cacert.pem; Remove-Item -path .\\.out –force -recurse"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "close": true
+              }
+        },
+        {
+            "label": "Setup/Download ModListCreator",
+            "type": "shell",
+            "command": "rm ModListCreator* & curl https://github.com/ModdingX/ModListCreator/releases/download/v2.0.1/ModListCreator-2.0.1.jar -O ModListCreator-2.0.1.jar",
+            "windows":{
+                "command": "del ModListCreator*; curl https://github.com/ModdingX/ModListCreator/releases/download/v2.0.1/ModListCreator-2.0.1.jar -O ModListCreator-2.0.1.jar"
             },
             "problemMatcher": [],
             "presentation": {
@@ -59,34 +73,6 @@
                 "panel": "new",
                 "close": true
             }
-        },
-        {
-            "label": "Export Server",
-            "type": "shell",
-            "command": "./server_generator --modpack-zip \".out/uBingo.zip\" --destination-path \".out/uBingo-Server.zip\"",
-            "windows": {
-                "command": ".\\server_generator.exe --modpack-zip \".out/uBingo.zip\" --destination-path \".out/uBingo-Server.zip\""
-            },
-            "problemMatcher": [],
-            "presentation": {
-                "reveal": "always",
-                "panel": "new",
-                "close": true
-              }
-        },
-        {
-            "label": "Cleanup",
-            "type": "shell",
-            "command": "rm server_generator & rm libssl*.dll & rm libcrypto*.dll & rm pax.exe & rm cacert.pem &rm -r .out",
-            "windows": {
-                "command": "del libssl*.dll; del libcrypto*.dll; del pax.exe; del cacert.pem; del server_generator.exe; Remove-Item -path .\\.out –force -recurse"
-            },
-            "problemMatcher": [],
-            "presentation": {
-                "reveal": "always",
-                "panel": "new",
-                "close": true
-              }
         },
         {
             "label": "Create Modlist",
@@ -100,7 +86,7 @@
                 "reveal": "always",
                 "panel": "new",
                 "close": true
-              }
+            }
         }
     ]
 }
