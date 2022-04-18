@@ -186,12 +186,13 @@ jobs:
           esac
           echo "::set-output name=type::$rel_type"
       - name: "🛠️ Upload modpack"
+        id: modpack-upload
         uses: itsmeow/curseforge-upload@v3
         with:
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          display_name: "${{ needs.modpack-info.outputs.projectname }} ${{ needs.modpack-info.outputs.tag }}"
+          display_name: "${{ needs.modpack-info.outputs.tag }}"
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
           game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}"
@@ -205,24 +206,24 @@ jobs:
           file_path: ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
           game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}"
           release_type: ${{ steps.release-type.outputs.type }}
-          parent_file_id: ${{ steps.release-curseforge.outputs.id }}
+          parent_file_id: ${{ steps.modpack-upload.outputs.id }}
           token: ${{ secrets.CURSEFORGE_TOKEN }}
 
-  # discord_message:
-  #   runs-on: ubuntu-latest
-  #   needs: [release-github]
-  #   name: "🦞 Post to Discord"
-  #   steps:
-  #     - name: "👋🏻 Post in #news"
-  #       uses: tsickert/discord-webhook@v4.0.0
-  #       with:
-  #         webhook-url: ${{ secrets.WEBHOOK_URL }}
-  #         embed-author-name: "GitHub"
-  #         embed-author-url: "https://github.com/Unately/uBingo"
-  #         embed-color: 3696598
-  #         embed-title: "uBingo ${{ needs.modpack-info.outputs.tag }} Released! 🎉"
-  #         embed-description: "We released version ${{ needs.modpack-info.outputs.tag }} of the uBingo modpack.\n\nYou can now update it in Curseforge, GDLauncher etc.\n\nhttps://github.com/Unately/uBingo/releases"
-  #         embed-timestamp: "2008-03-13T19:14:00.000Z"
-  #         embed-footer-text: "Unately"
-  #         embed-thumbnail-url: "https://i.ibb.co/9cr792q/asd.png"
-  #         filename: modlist.md
+  discord_message:
+    runs-on: ubuntu-latest
+    needs: [release-github, release-curseforge]
+    name: "🦞 Post to Discord"
+    steps:
+      - name: "👋🏻 Post in #news"
+        uses: tsickert/discord-webhook@v4.0.0
+        with:
+          webhook-url: ${{ secrets.WEBHOOK_URL }}
+          embed-author-name: "GitHub"
+          embed-author-url: "https://github.com/Unately/uBingo"
+          embed-color: 3696598
+          embed-title: "uBingo ${{ needs.modpack-info.outputs.tag }} Released! 🎉"
+          embed-description: "We released version ${{ needs.modpack-info.outputs.tag }} of the uBingo modpack.\n\nYou can now update it in Curseforge, GDLauncher etc.\n\nhttps://github.com/Unately/uBingo/releases"
+          embed-timestamp: "2008-03-13T19:14:00.000Z"
+          embed-footer-text: "Unately"
+          embed-thumbnail-url: "https://i.ibb.co/9cr792q/asd.png"
+          filename: modlist.md

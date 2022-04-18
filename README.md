@@ -67,6 +67,8 @@
 
 This is a modpack to play bingo with your friends or alone. It's based on the [Bongo Mod][bongo-link] by noeppinoeppi and the modpack manager [PAX][pax-link] by froehlichA. It contains some extra mods to improve the gameplay and run it more smooth.
 
+**Info:** Please only use the pre-build files from CurseForge and Github bacause selfbuilding can brake the pack and you could get banned from official servers. 
+
 
 
 ### Built With
