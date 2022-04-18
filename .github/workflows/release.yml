@@ -175,6 +175,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: modpack
+      - name: "⏬ Download serverpack"
+        uses: actions/download-artifact@v2
+        with:
+          name: server
       - name: "🥨 Get release type"
         id: release-type
         run: |
