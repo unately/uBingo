@@ -29,6 +29,7 @@ jobs:
   image:
     runs-on: ubuntu-latest
     name: "🐳 Test Image"
+    needs: [modpack]
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
