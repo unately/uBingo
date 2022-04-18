@@ -4,16 +4,16 @@
         "version": "PTDL_v1",
         "update_url": null
     },
-    "exported_at": "2022-02-05T01:31:26+01:00",
+    "exported_at": "2022-04-18T21:01:18+02:00",
     "name": "uBingo",
-    "author": "jqshuv@gmail.com",
+    "author": "hello@unately.com",
     "description": "A Bingo Modpack based on the Bongo mod with much features.",
     "features": null,
     "images": [
         "ghcr.io\/pterodactyl\/yolks:java_17"
     ],
     "file_denylist": [],
-    "startup": "java @user_jvm_args.txt @libraries\/net\/minecraftforge\/forge\/1.18.1-39.0.64\/unix_args.txt \"$@\"",
+    "startup": "sh run.sh",
     "config": {
         "files": "{\r\n    \"server.properties\": {\r\n        \"parser\": \"properties\",\r\n        \"find\": {\r\n            \"server-ip\": \"0.0.0.0\",\r\n            \"server-port\": \"{{server.build.default.port}}\",\r\n            \"query.port\": \"{{server.build.default.port}}\"\r\n        }\r\n    }\r\n}",
         "startup": "{\r\n    \"done\": \")! For help, type \"\r\n}",
@@ -22,10 +22,20 @@
     },
     "scripts": {
         "installation": {
-            "script": "-",
-            "container": "ghcr.io/pterodactyl/installers:alpine",
-            "entrypoint": "ash"
+            "script": "#!\/bin\/bash\r\n\r\nLATEST_TAG=`curl --silent \"https:\/\/api.github.com\/repos\/unately\/ubingo\/releases\/latest\" | grep '\"tag_name\":' | sed -E 's\/.*\"([^\"]+)\".*\/\\1\/'`\r\n\r\nif [ \"${MODPACK_VERSION}\" == \"latest\" ] || [ \"${MODPACK_VERSION}\" == \"\" ] || [ \"${MODPACK_VERSION}\" == \" \" ] || [ -n \"${MODPACK_VERSION}\" ]; then\r\n    cd \/mnt\/server\r\n    wget https:\/\/github.com\/Unately\/uBingo\/releases\/download\/${LATEST_TAG}\/uBingo-Server-${LATEST_TAG}.zip\r\n    unzip uBingo-Server-${LATEST_TAG}.zip\r\n    rm uBingo-Server-${LATEST_TAG}.zip\r\n\r\n    wget https:\/\/github.com\/Unately\/uBingo\/raw\/master\/dockerfiles\/server-install-script -O install.sh\r\n    dos2unix install.sh\r\n    bash install.sh\r\n    rm install.sh\r\nelse\r\n    cd \/mnt\/server\r\n    wget https:\/\/github.com\/Unately\/uBingo\/releases\/download\/${MODPACK_VERSION}\/uBingo-Server-${MODPACK_VERSION}.zip\r\n    unzip uBingo-Server-${MODPACK_VERSION}.zip\r\n    rm uBingo-Server-${MODPACK_VERSION}.zip\r\n\r\n    wget https:\/\/github.com\/Unately\/uBingo\/raw\/master\/dockerfiles\/server-install-script -O install.sh\r\n    dos2unix install.sh\r\n    bash install.sh\r\n    rm install.sh\r\nfi",
+            "container": "ghcr.io\/unately\/linux:ubuntu-focal",
+            "entrypoint": "bash"
         }
     },
-    "variables": []
+    "variables": [
+        {
+            "name": "Version",
+            "description": "The version of the uBingo modpack to install.",
+            "env_variable": "MODPACK_VERSION",
+            "default_value": "latest",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string|max:20"
+        }
+    ]
 }
