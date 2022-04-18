@@ -186,12 +186,13 @@ jobs:
           esac
           echo "::set-output name=type::$rel_type"
       - name: "🛠️ Upload modpack"
+        id: modpack-upload
         uses: itsmeow/curseforge-upload@v3
         with:
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          display_name: "${{ needs.modpack-info.outputs.projectname }} ${{ needs.modpack-info.outputs.tag }}"
+          display_name: "${{ needs.modpack-info.outputs.tag }}"
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
           game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}"
@@ -205,7 +206,7 @@ jobs:
           file_path: ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
           game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}"
           release_type: ${{ steps.release-type.outputs.type }}
-          parent_file_id: ${{ steps.release-curseforge.outputs.id }}
+          parent_file_id: ${{ steps.modpack-upload.outputs.id }}
           token: ${{ secrets.CURSEFORGE_TOKEN }}
 
   # discord_message:
