@@ -13,33 +13,12 @@ modpack:
 
 # settings regarding the installation of the modpack
 install:
-  # version of minecraft, needs the exact version
-  mcVersion: 1.18.1
-
-  # exact version of forge or fabric that is supposed to be used
-  # if this value is a null value so ( ~, null, or "" ) then the version from the mod pack is going to be used
-  loaderVersion: ~
-
-  # If a custom installer is supposed to used, specify the url here: (Otherwise put "", ~ or null here)
-  # supports variables: {{@loaderversion@}} and {{@mcversion@}}
-  # For forge: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
-  # For Fabric: "https://maven.fabricmc.net/net/fabricmc/fabric-installer/{{@loaderversion@}}/fabric-installer-{{@loaderversion@}}.jar"
-  installerUrl: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
-
-  # Installer Arguments
-  # These Arguments have to be passed to the installer
-  #
-  # For Fabric:
-  # installerArguments:
-  #   - "-downloadMinecraft"
-  #   - "server"
-  #
-  # For Forge:
-  # installerArguments:
-  #   - "--installServer"
+  mcVersion: 1.18.2
+  loaderVersion: null
+  installerUrl: https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar
   installerArguments:
     - '--installServer'
-  modpackUrl: https://github.com/Unately/uBingo/releases/download/v1.5.1/uBingo-v1.5.1.zip
+  modpackUrl: https://github.com/Unately/uBingo/releases/download/v1.5.3/uBingo-v1.5.3.zip
   modpackFormat: curse
 
   # Settings which are specific to the format used, might not be needed in some casese

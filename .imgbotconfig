@@ -2,6 +2,9 @@
     "schedule": "daily",
     "aggressiveCompression": "false",
     "compressWiki": "true",
+    "ignoredFiles": [
+        "serverpack/server-icon.png",
+    ],
     "minKBReduced": 10,
     "prTitle" : "🖌️  Optimize Images",        
     "prBody" : " Your image file size has been reduced by {optimization_ratio} 🎉 
