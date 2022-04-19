@@ -4,13 +4,13 @@
         "version": "PTDL_v1",
         "update_url": null
     },
-    "exported_at": "2022-04-18T21:01:18+02:00",
+    "exported_at": "2022-04-19T16:15:49+02:00",
     "name": "uBingo",
     "author": "hello@unately.com",
     "description": "A Bingo Modpack based on the Bongo mod with much features.",
     "features": null,
     "images": [
-        "ghcr.io\/pterodactyl\/yolks:java_17"
+        "ghcr.io\/dispenserstudios\/gears:java-17"
     ],
     "file_denylist": [],
     "startup": "sh run.sh",
@@ -22,7 +22,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\n\r\nLATEST_TAG=`curl --silent \"https:\/\/api.github.com\/repos\/unately\/ubingo\/releases\/latest\" | grep '\"tag_name\":' | sed -E 's\/.*\"([^\"]+)\".*\/\\1\/'`\r\n\r\nif [ \"${MODPACK_VERSION}\" == \"latest\" ] || [ \"${MODPACK_VERSION}\" == \"\" ] || [ \"${MODPACK_VERSION}\" == \" \" ] || [ -n \"${MODPACK_VERSION}\" ]; then\r\n    cd \/mnt\/server\r\n    wget https:\/\/github.com\/Unately\/uBingo\/releases\/download\/${LATEST_TAG}\/uBingo-Server-${LATEST_TAG}.zip\r\n    unzip uBingo-Server-${LATEST_TAG}.zip\r\n    rm uBingo-Server-${LATEST_TAG}.zip\r\n\r\n    wget https:\/\/github.com\/Unately\/uBingo\/raw\/master\/dockerfiles\/server-install-script -O install.sh\r\n    dos2unix install.sh\r\n    bash install.sh\r\n    rm install.sh\r\nelse\r\n    cd \/mnt\/server\r\n    wget https:\/\/github.com\/Unately\/uBingo\/releases\/download\/${MODPACK_VERSION}\/uBingo-Server-${MODPACK_VERSION}.zip\r\n    unzip uBingo-Server-${MODPACK_VERSION}.zip\r\n    rm uBingo-Server-${MODPACK_VERSION}.zip\r\n\r\n    wget https:\/\/github.com\/Unately\/uBingo\/raw\/master\/dockerfiles\/server-install-script -O install.sh\r\n    dos2unix install.sh\r\n    bash install.sh\r\n    rm install.sh\r\nfi",
+            "script": "#!\/bin\/bash\r\n\r\nLATEST_TAG=`curl --silent \"https:\/\/api.github.com\/repos\/unately\/ubingo\/releases\/latest\" | grep '\"tag_name\":' | sed -E 's\/.*\"([^\"]+)\".*\/\\1\/'`\r\n\r\nif [ \"${MODPACK_VERSION}\" == \"latest\" ] || [ \"${MODPACK_VERSION}\" == \"\" ] || [ \"${MODPACK_VERSION}\" == \" \" ] || [ -n \"${MODPACK_VERSION}\" ]; then\r\n    cd \/mnt\/server\r\n    wget https:\/\/github.com\/Unately\/uBingo\/releases\/download\/${LATEST_TAG}\/uBingo-Server-${LATEST_TAG}.zip\r\n    unzip uBingo-Server-${LATEST_TAG}.zip\r\n    rm uBingo-Server-${LATEST_TAG}.zip\r\n\r\n    wget https:\/\/github.com\/Unately\/uBingo\/raw\/master\/dockerfiles\/server-install-script -O install.sh\r\n    dos2unix install.sh\r\n    bash install.sh\r\n    rm install.sh\r\nelse\r\n    cd \/mnt\/server\r\n    wget https:\/\/github.com\/Unately\/uBingo\/releases\/download\/v${MODPACK_VERSION}\/uBingo-Server-v${MODPACK_VERSION}.zip\r\n    unzip uBingo-Server-v${MODPACK_VERSION}.zip\r\n    rm uBingo-Serverv-${MODPACK_VERSION}.zip\r\n\r\n    wget https:\/\/github.com\/Unately\/uBingo\/raw\/master\/dockerfiles\/server-install-script -O install.sh\r\n    dos2unix install.sh\r\n    bash install.sh\r\n    rm install.sh\r\nfi",
             "container": "ghcr.io\/unately\/linux:ubuntu-focal",
             "entrypoint": "bash"
         }
