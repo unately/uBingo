@@ -28,4 +28,4 @@ This is for more _advanced_ users. But I will explain this here in an extra opti
 We _(Unately)_ do **NOT** support any other Launcher than the both aprove. We only can say this:
 
 * You can always download the latest modpack zip file **(in curseforge format)** from our [GitHub](https://github.com/Unately/uBingo/releases/latest).
-* If you have any questions related to this don't ask any team member (you will get ignored). You could ask in the community help channel in our Discord Server or in the Off-Topic Category of our GitHub [discussions](https://github.com/Unately/uBingo/discussions/categories/off-topic).
+* If you have any questions related to this don't ask any team member (you will get ignored). You could ask in the community help channel in our [Discord Server](https://discord.gg/msqZF3ZQ84) or in the Off-Topic Category of our GitHub [discussions](https://github.com/Unately/uBingo/discussions/categories/off-topic).
