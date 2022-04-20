@@ -18,7 +18,7 @@ install:
   installerUrl: https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar
   installerArguments:
     - '--installServer'
-  modpackUrl: https://github.com/Unately/uBingo/releases/download/v1.5.3/uBingo-v1.5.3.zip
+  modpackUrl: https://github.com/Unately/uBingo/releases/download/v1.5.4/uBingo-v1.5.4.zip
   modpackFormat: curse
 
   # Settings which are specific to the format used, might not be needed in some casese
