@@ -9,7 +9,7 @@
             "type": "shell",
             "command": "rm pax & curl https://github.com/froehlichA/pax/releases/latest/download/pax -O pax && chmod +x pax",
             "windows": {
-                "command": "del libssl*.dll; del libcrypto*.dll; del pax.exe; del cacert.pem; curl https://github.com/froehlichA/pax/releases/latest/download/pax-windows.zip -O pax-windows.zip; tar -xf pax-windows.zip; del pax-windows.zip",
+                "command": "del libssl*.dll; del libcrypto*.dll; del pax.exe; del cacert.pem; curl https://github.com/froehlichA/pax/releases/latest/download/pax-windows.zip -O pax-windows.zip; tar -xf pax-windows.zip; del pax-windows.zip"
             },
             "problemMatcher": [],
             "presentation": {
