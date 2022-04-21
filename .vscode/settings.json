@@ -1,0 +1,7 @@
+{
+    "git.autofetch": true,
+    "files.autoSave": "afterDelay",
+    "licenser.author": "Jqshuv",
+    "licenser.license": "MIT",
+    "licenser.projectName": "uBingo",
+}
