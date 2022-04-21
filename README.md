@@ -6,7 +6,7 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 [![PAX][pax-shield]][pax-url]
-[![wakatime][wakatime-shield]][wakatime-url]
+[![wakatime][wakatime-shield]][wakatime-url](Since 17th April)
 [![curseforge][curseforge-shield]][curseforge-url]
 
 
