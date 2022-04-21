@@ -8,7 +8,9 @@ LABEL org.opencontainers.image.description Development Version
 
 # Setup environment
 RUN apt-get update && \
-    apt-get install -y curl wget bash dos2unix
+    apt-get install -y --no-install-recommends curl wget bash dos2unix && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 EXPOSE 25565 25567
 COPY dockerfiles/mc-send-to-console /usr/local/bin/mc-console
 RUN dos2unix /usr/local/bin/mc-console
@@ -21,9 +23,9 @@ RUN wget https://github.com/froehlichA/pax/releases/latest/download/pax && \
     chmod +x pax && \
     ./pax export && \
     mkdir /server && \
-    mv .out/*.zip /server/modpack.zip && \
-    cd .. && \
-    rm -r modpack
+    mv .out/*.zip /server/modpack.zip
+WORKDIR /
+RUN rm -r modpack
 
 # Setup Server
 WORKDIR /server
