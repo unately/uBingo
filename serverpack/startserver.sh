@@ -10,8 +10,8 @@ fi
 # TODO: Haha
 
 DO_RAMDISK=0
-if [[ $(< server-setup-config.yaml | grep 'ramDisk:' | awk 'BEGIN {FS=":"}{print $2}') =~ "yes" ]]; then
-    SAVE_DIR=$(< server.properties | grep 'level-name' | awk 'BEGIN {FS="="}{print $2}')
+if [[ $(< server-setup-config.yaml grep 'ramDisk:' | awk 'BEGIN {FS=":"}{print $2}') =~ "yes" ]]; then
+    SAVE_DIR=$(< server.propertiesf grep 'level-name' | awk 'BEGIN {FS="="}{print $2}')
     mv "$SAVE_DIR" "${SAVE_DIR}_backup"
     mkdir "$SAVE_DIR"
     sudo mount -t tmpfs -o size=2G tmpfs $SAVE_DIR
