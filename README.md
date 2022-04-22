@@ -1,3 +1,6 @@
+```diff
+- This project is currently not maintained. I will work on this as soon as possible. For more check out our Discord.
+```
 
 <div id="top"></div>
 
