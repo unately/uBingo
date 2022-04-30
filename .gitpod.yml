@@ -1,0 +1,4 @@
+tasks:
+  - name: Export Modpack
+    init: rm pax & curl https://github.com/froehlichA/pax/releases/latest/download/pax -O pax && chmod +x pax
+    command: ./pax -y upgrade
