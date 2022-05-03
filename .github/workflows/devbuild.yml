@@ -115,7 +115,7 @@ jobs:
     name: "🐳 Build Package"
     steps:
       - name: "🔁 Checkout"
-        uses: codecov/codecov-action@v2
+        uses: actions/checkout@v2
       - name: "🔽 Download modpack"
         uses: actions/download-artifact@v2
         with:
