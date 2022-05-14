@@ -57,7 +57,7 @@
     },
     {
       "projectID": 242995,
-      "fileID": 3712330,
+      "fileID": 3764674,
       "required": true,
       "__meta": {
         "name": "Custom Crosshair Mod"
@@ -108,7 +108,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 3725741,
+      "fileID": 3781199,
       "required": true,
       "__meta": {
         "name": "Placebo"
@@ -152,7 +152,7 @@
     },
     {
       "projectID": 312353,
-      "fileID": 3736897,
+      "fileID": 3771085,
       "required": true,
       "__meta": {
         "name": "Artifacts",
@@ -180,7 +180,7 @@
     },
     {
       "projectID": 349559,
-      "fileID": 3740503,
+      "fileID": 3777696,
       "required": true,
       "__meta": {
         "name": "FallingTree (Forge&Fabric)"
@@ -231,7 +231,7 @@
     },
     {
       "projectID": 403422,
-      "fileID": 3656406,
+      "fileID": 3783866,
       "required": true,
       "__meta": {
         "name": "Emotecraft (Forge)"
@@ -267,7 +267,7 @@
     },
     {
       "projectID": 412525,
-      "fileID": 3759850,
+      "fileID": 3760304,
       "required": true,
       "__meta": {
         "name": "LibX"
@@ -275,7 +275,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3757130,
+      "fileID": 3789158,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -299,7 +299,7 @@
     },
     {
       "projectID": 429235,
-      "fileID": 3672146,
+      "fileID": 3767288,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
@@ -327,7 +327,7 @@
     },
     {
       "projectID": 453763,
-      "fileID": 3704526,
+      "fileID": 3776982,
       "required": true,
       "__meta": {
         "name": "Fresh Animations"
@@ -376,7 +376,7 @@
     },
     {
       "projectID": 521480,
-      "fileID": 3739536,
+      "fileID": 3772834,
       "required": true,
       "__meta": {
         "name": "Skin Layers 3D (Fabric/Forge)"
@@ -400,7 +400,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 3710117,
+      "fileID": 3767671,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -416,7 +416,7 @@
     },
     {
       "projectID": 551894,
-      "fileID": 3679781,
+      "fileID": 3779786,
       "required": true,
       "__meta": {
         "name": "Better Compatibility Checker"

@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+		"vector-of-bool.gitflow",
+		"editorconfig.editorconfig",
+		"wayou.vscode-todo-highlight",
+                "ymotongpoo.licenser"
+	]
+}
