@@ -275,7 +275,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3825848,
+      "fileID": 3834590,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -307,7 +307,7 @@
     },
     {
       "projectID": 435044,
-      "fileID": 3827558,
+      "fileID": 3834420,
       "required": true,
       "__meta": {
         "name": "Better Third Person"
