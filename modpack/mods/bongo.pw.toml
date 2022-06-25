@@ -1,0 +1,13 @@
+name = "Bongo"
+filename = "Bongo-1.18.2-2.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "28e5cd4a1874e321781c594311ddd2237e732d5f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3680038
+project-id = 406119

@@ -1,0 +1,13 @@
+name = "Simply Light"
+filename = "simplylight-1.18.2-1.4.2-build.31.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "06b48712c91b2631a811925ddab9bf8258803bb4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3741435
+project-id = 300331

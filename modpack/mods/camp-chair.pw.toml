@@ -1,0 +1,13 @@
+name = "Camp Chair"
+filename = "campchair-forge.1.18-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "50e47983e2baf96f8a11339578894ce346e9d77d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3548494
+project-id = 531744

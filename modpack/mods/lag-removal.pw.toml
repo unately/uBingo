@@ -1,0 +1,13 @@
+name = "Lag Removal"
+filename = "lag_removal-1.1.1-1.18.jar.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "213d4cafc5627488ce00f7674a5d9de9d9c1b463"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3544433
+project-id = 232607

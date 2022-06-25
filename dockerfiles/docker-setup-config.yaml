@@ -40,7 +40,7 @@ install:
   installerArguments:
     - "--installServer"
 
-  # Link to where the file where the modpack can be distributed
+  # Link to where the file where themodpack can be distributed
   # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
   modpackUrl: file://./modpack.zip
 

@@ -1,0 +1,13 @@
+name = "Chromato Creeper"
+filename = "chromatocreeper-1.18-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ec023190ee1953d35e4abceeda2665cf6687db55"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3568779
+project-id = 556824

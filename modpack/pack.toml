@@ -1,0 +1,13 @@
+name = "uBingo"
+author = "Jqshuv"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3c543d7f0594f6f768ae55499a24125ec10476bc23ea6bd730ed27936eb3ba88"
+
+[versions]
+forge = "40.0.54"
+minecraft = "1.18.2"
