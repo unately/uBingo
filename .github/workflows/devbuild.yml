@@ -65,7 +65,6 @@ jobs:
           -   name: "🔁 Checkout"
               uses: actions/checkout@v2
           -   name: "🚀 Download PACKWIZ"
-              uses: dsaltares/fetch-gh-release-asset@master
               run: wget https://cdn.unately.com/packwiz
               working-directory: ${{ env.workdir }}
           -   name: "🍿 Create folders"
