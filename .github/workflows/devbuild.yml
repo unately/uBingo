@@ -15,20 +15,24 @@ jobs:
   modpack-info:
     runs-on: ubuntu-latest
     outputs:
-      projectname: ${{ steps.info.outputs.projectname }}
-      version: ${{ steps.info.outputs.version }}
+      projectname: ${{ steps.name.outputs.value }}
+      version: ${{ steps.version.outputs.value }}
     name: "📙 Modpack Info"
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v2
-      - name: "💾 Get modpack info"
-        id: info
-        run: |
-            manifestjson=`cat ./modpack/manifest.json`
-            projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-            echo "::set-output name=projectname::$projectname"
-            version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-            echo "::set-output name=version::$version"
+      - name: "💾 Get modpack version"
+        id: version
+        uses: SebRollen/toml-action@v1.0.0
+        with:
+            file: 'modpack/pack.toml'
+            field: 'version'
+      - name: "💾 Get modpack name"
+        id: name
+        uses: SebRollen/toml-action@v1.0.0
+        with:
+            file: 'modpack/pack.toml'
+            field: 'name'
 
   changelog:
     runs-on: ubuntu-latest
@@ -51,98 +55,110 @@ jobs:
           name: modpack
           path: CHANGELOG.md
 
-  modlist:
-    runs-on: ubuntu-latest
-    name: "🗒️ Modlist"
-    steps:
-      - name: "🔁 Checkout"
-        uses: actions/checkout@v2
-      - name: "☕ Setup Java"
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin'
-          java-version: '17'
-      - name: "⚾ Setup ModListCreator"
-        uses: wei/wget@v1.1.1
-        with:
-          args: ${{ secrets.MODLISTCREATOR_URL }}
-      - name: "📫 Create list"
-        run: java -jar ${{ secrets.MODLISTCREATOR_FILE }} --manifest .\modpack\manifest.json --output . --md
-      - name: "💽 Save modlist"
-        uses: actions/upload-artifact@v2
-        with:
-          name: modpack
-          path: modlist.md
-
   build_pack:
-    runs-on: ubuntu-latest
-    needs: [changelog, modpack-info]
-    name: "📦 Build"
-    steps:
-      - name: "🔁 Checkout"
-        uses: actions/checkout@v2
-      - name: "🚀 Download PAX"
-        uses: dsaltares/fetch-gh-release-asset@master
-        with:
-          repo: froehlichA/pax
-          file: "pax"
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: "🚢 Export modpack"
-        run: |
-          sudo chmod +x ./pax
-          ./pax export
-      - name: "🏹 Rename zip"
-        run: |
-          mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
-      - name: "🚚 Unpack zip"
-        run: unzip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip -d .out
-      - name: "🗑️ Delete main zip"
-        run: rm .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
-      - name: "🔼 Upload zip"
-        uses: actions/upload-artifact@v2
-        with:
-          name: modpack
-          path: .out/*
-      - name: "🔼 Upload Server zip"
-        uses: actions/upload-artifact@v2
-        with:
-          name: server
-          path: serverpack/*
+      runs-on: ubuntu-latest
+      needs: [ changelog, modpack-info ]
+      name: "📦 Build"
+      env: 
+          workdir: ./modpack
+      steps:
+          -   name: "🔁 Checkout"
+              uses: actions/checkout@v2
+          -   name: "🚀 Download PACKWIZ"
+              uses: dsaltares/fetch-gh-release-asset@master
+              run: wget https://cdn.unately.com/packwiz
+              working-directory: ${{ env.workdir }}
+          -   name: "🍿 Create folders"
+              run: |
+                  mkdir build
+                  mkdir cursebuild
+              working-directory: ${{ env.workdir }}
+          -   name: "🚢 Export modpack curseforge"
+              run: |
+                  sudo chmod +x ./packwiz
+                  ./packwiz curseforge export --output build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
+              working-directory: ${{ env.workdir }}
+          -   name: " Export modpack modrinth"
+              run: |
+                  ./packwiz modrinth export --output build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.mrpack
+              working-directory: ${{ env.workdir }}
+          -   name: "🚚 Unpack zip"
+              run: unzip build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip -d cursebuild
+              working-directory: ${{ env.workdir }}
+          -   name: "🔼 Upload curseforge"
+              uses: actions/upload-artifact@v2
+              with:
+                  name: modpack-curseforge
+                  path: modpack/cursebuild/*
+          -   name: "🔼 Upload modrinth"
+              uses: actions/upload-artifact@v2
+              with:
+                  name: modpack-curseforge
+                  path: modpack/build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.mrpack
+          -   name: "🔼 Upload Server zip"
+              uses: actions/upload-artifact@v2
+              with:
+                  name: server
+                  path:
+                      serverpack/*  
 
-  build_image:
-    runs-on: ubuntu-latest
-    needs: [build_pack, modpack-info]
-    name: "🐳 Build Package"
-    steps:
-      - name: "🔁 Checkout"
-        uses: actions/checkout@v2
-      - name: "🔽 Download modpack"
-        uses: actions/download-artifact@v2
-        with:
-          name: modpack
-      - name: "🖨️ Change Docker Config Version"
-        uses: fjogeleit/yaml-update-action@master
-        with:
-          valueFile: 'dockerfiles/docker-setup-config.yaml'
-          propertyPath: 'install.modpackUrl'
-          value: file://./${{ needs.modpack-info.outputs.tag }}/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          commitChange: false
-          updateFile: true
-      - uses: docker/login-action@v1
-        with:
-          registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.REGISTRY_TOKEN }}
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
-      - name: Build and push
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          file: ./Dockerfile
-          push: true
-          tags: |
-            ghcr.io/unately/ubingo:dev
+#  modlist:
+#    runs-on: ubuntu-latest
+#    name: "🗒️ Modlist"
+#    steps:
+#      - name: "🔁 Checkout"
+#        uses: actions/checkout@v2
+#      - name: "☕ Setup Java"
+#        uses: actions/setup-java@v3
+#        with:
+#          distribution: 'temurin'
+#          java-version: '17'
+#      - name: "⚾ Setup ModListCreator"
+#        uses: wei/wget@v1.1.1
+#        with:
+#          args: ${{ secrets.MODLISTCREATOR_URL }}
+#      - name: "📫 Create list"
+#        run: java -jar ${{ secrets.MODLISTCREATOR_FILE }} --manifest .\modpack\manifest.json --output . --md
+#      - name: "💽 Save modlist"
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: modpack
+#          path: modlist.md
+
+#  build_image:
+#    runs-on: ubuntu-latest
+#    needs: [build_pack, modpack-info]
+#    name: "🐳 Build Package"
+#    steps:
+#      - name: "🔁 Checkout"
+#        uses: actions/checkout@v2
+#      - name: "🔽 Download modpack"
+#        uses: actions/download-artifact@v2
+#        with:
+#          name: modpack
+#      - name: "🖨️ Change Docker Config Version"
+#        uses: fjogeleit/yaml-update-action@master
+#        with:
+#          valueFile: 'dockerfiles/docker-setup-config.yaml'
+#          propertyPath: 'install.modpackUrl'
+#          value: file://./${{ needs.modpack-info.outputs.tag }}/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+#          commitChange: false
+#          updateFile: true
+#      - uses: docker/login-action@v1
+#        with:
+#          registry: ghcr.io
+#          username: ${{ github.repository_owner }}
+#          password: ${{ secrets.REGISTRY_TOKEN }}
+#      - name: Set up Docker Buildx
+#        uses: docker/setup-buildx-action@v1
+#      - name: Build and push
+#        uses: docker/build-push-action@v2
+#        with:
+#          context: .
+#          file: ./Dockerfile
+#          push: true
+#          tags: |
+#            ghcr.io/unately/ubingo:dev
 
   # discord_message:
   #   runs-on: ubuntu-latest
