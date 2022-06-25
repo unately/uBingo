@@ -1,4 +1,3 @@
-
 <div id="top"></div>
 
 [![Issues][issues-shield]][issues-url]
@@ -6,7 +5,7 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 [![PAX][pax-shield]][pax-url]
-[![wakatime][wakatime-shield]][wakatime-url](Since 17th April)
+[![wakatime][wakatime-shield]][wakatime-url]
 [![curseforge][curseforge-shield]][curseforge-url]
 
 
