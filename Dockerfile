@@ -1,4 +1,4 @@
-FROM ghcr.io/unately/cogwheels:java-17
+FROM ghcr.io/upackages/java:17
 
 # Labels for Github packages
 LABEL maintainer="hello@unately.com"

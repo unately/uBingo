@@ -50,7 +50,7 @@ jobs:
         with:
           name: modpack
           path: CHANGELOG.md
-  
+
   modlist:
     runs-on: ubuntu-latest
     name: "🗒️ Modlist"
@@ -95,7 +95,7 @@ jobs:
         run: |
           mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
       - name: "🚚 Unpack zip"
-        run: unzip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip -d .out 
+        run: unzip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip -d .out
       - name: "🗑️ Delete main zip"
         run: rm .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.version }}.zip
       - name: "🔼 Upload zip"
@@ -141,9 +141,9 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: | 
+          tags: |
             ghcr.io/unately/ubingo:dev
-  
+
   # discord_message:
   #   runs-on: ubuntu-latest
   #   needs: [build]

@@ -49,7 +49,7 @@
     },
     {
       "projectID": 233019,
-      "fileID": 3543562,
+      "fileID": 3798941,
       "required": true,
       "__meta": {
         "name": "AI Improvements"
@@ -57,7 +57,7 @@
     },
     {
       "projectID": 242995,
-      "fileID": 3712330,
+      "fileID": 3764674,
       "required": true,
       "__meta": {
         "name": "Custom Crosshair Mod"
@@ -108,7 +108,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 3725741,
+      "fileID": 3845997,
       "required": true,
       "__meta": {
         "name": "Placebo"
@@ -143,7 +143,7 @@
     },
     {
       "projectID": 309927,
-      "fileID": 3748873,
+      "fileID": 3841948,
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
@@ -152,7 +152,7 @@
     },
     {
       "projectID": 312353,
-      "fileID": 3736897,
+      "fileID": 3771085,
       "required": true,
       "__meta": {
         "name": "Artifacts",
@@ -164,7 +164,7 @@
     },
     {
       "projectID": 316582,
-      "fileID": 3694258,
+      "fileID": 3829457,
       "required": true,
       "__meta": {
         "name": "Corpse"
@@ -180,7 +180,7 @@
     },
     {
       "projectID": 349559,
-      "fileID": 3740503,
+      "fileID": 3777696,
       "required": true,
       "__meta": {
         "name": "FallingTree (Forge&Fabric)"
@@ -215,7 +215,7 @@
     },
     {
       "projectID": 377281,
-      "fileID": 3683664,
+      "fileID": 3796183,
       "required": true,
       "__meta": {
         "name": "Dark Paintings"
@@ -231,7 +231,7 @@
     },
     {
       "projectID": 403422,
-      "fileID": 3656406,
+      "fileID": 3840014,
       "required": true,
       "__meta": {
         "name": "Emotecraft (Forge)"
@@ -250,7 +250,7 @@
     },
     {
       "projectID": 407174,
-      "fileID": 3544525,
+      "fileID": 3759881,
       "required": true,
       "__meta": {
         "name": "Shutup Experimental Settings!"
@@ -267,7 +267,7 @@
     },
     {
       "projectID": 412525,
-      "fileID": 3755838,
+      "fileID": 3829113,
       "required": true,
       "__meta": {
         "name": "LibX"
@@ -275,7 +275,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3757130,
+      "fileID": 3834590,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -283,7 +283,7 @@
     },
     {
       "projectID": 417365,
-      "fileID": 3725777,
+      "fileID": 3803641,
       "required": true,
       "__meta": {
         "name": "More Crafting Tables for Forge!"
@@ -299,7 +299,7 @@
     },
     {
       "projectID": 429235,
-      "fileID": 3672146,
+      "fileID": 3767288,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
@@ -307,7 +307,7 @@
     },
     {
       "projectID": 435044,
-      "fileID": 3738180,
+      "fileID": 3834420,
       "required": true,
       "__meta": {
         "name": "Better Third Person"
@@ -327,7 +327,7 @@
     },
     {
       "projectID": 453763,
-      "fileID": 3704526,
+      "fileID": 3776982,
       "required": true,
       "__meta": {
         "name": "Fresh Animations"
@@ -343,7 +343,7 @@
     },
     {
       "projectID": 459701,
-      "fileID": 3721991,
+      "fileID": 3803098,
       "required": true,
       "__meta": {
         "name": "Catalogue"
@@ -368,7 +368,7 @@
     },
     {
       "projectID": 495693,
-      "fileID": 3752368,
+      "fileID": 3810400,
       "required": true,
       "__meta": {
         "name": "Farsight[Forge/Fabric]"
@@ -376,7 +376,7 @@
     },
     {
       "projectID": 521480,
-      "fileID": 3739536,
+      "fileID": 3808404,
       "required": true,
       "__meta": {
         "name": "Skin Layers 3D (Fabric/Forge)"
@@ -400,7 +400,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 3710117,
+      "fileID": 3830790,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -416,7 +416,7 @@
     },
     {
       "projectID": 551894,
-      "fileID": 3679781,
+      "fileID": 3846597,
       "required": true,
       "__meta": {
         "name": "Better Compatibility Checker"
