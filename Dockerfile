@@ -2,8 +2,8 @@ FROM ghcr.io/upackages/java:17
 
 # Labels for Github packages
 LABEL maintainer="hello@unately.com"
-LABEL org.opencontainers.image.source https://github.com/unately/ubingo
-LABEL org.opencontainers.image.description Development Version
+LABEL org.opencontainers.image.source "https://github.com/unately/ubingo"
+LABEL org.opencontainers.image.description "Development Version"
 
 
 # Setup environment
@@ -38,7 +38,10 @@ RUN chmod 0777 install.sh && \
     sh install.sh && \
     rm install.sh
 
+# TODO: Add heathcheck
 # COPY --chmod=755 dockerfiles/mc-health /health.sh
+
+# FIXME: Fix rcon to connect to it.
 
 # Run the thing
 

@@ -1,4 +1,4 @@
-## uBingo - dev
+## uBingo - 1.5.6
 - [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) (by [QueenOfMissiles](https://www.curseforge.com/members/queenofmissiles/projects))
 - [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) (by [ochotonida](https://www.curseforge.com/members/ochotonida/projects))
 - [Balm (Forge Edition)](https://www.curseforge.com/minecraft/mc-mods/balm) (by [BlayTheNinth](https://www.curseforge.com/members/blaytheninth/projects))
@@ -7,7 +7,7 @@
 - [Better Third Person](https://www.curseforge.com/minecraft/mc-mods/better-third-person) (by [Socolio](https://www.curseforge.com/members/socolio/projects))
 - [BingoLobby](https://www.curseforge.com/minecraft/mc-mods/bingolobby) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
 - [Bongo](https://www.curseforge.com/minecraft/mc-mods/bongo) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
-- [Borderless Window](https://www.curseforge.com/minecraft/mc-mods/borderless) (by [nekeras](https://www.curseforge.com/members/nekeras/projects))
+- [Borderless Window](https://www.curseforge.com/minecraft/mc-mods/borderless) (by [SgtSalocin](https://www.curseforge.com/members/sgtsalocin/projects))
 - [Camp Chair](https://www.curseforge.com/minecraft/mc-mods/camp-chair) (by [dmitrylovin](https://www.curseforge.com/members/dmitrylovin/projects))
 - [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue) (by [MrCrayfish](https://www.curseforge.com/members/mrcrayfish/projects))
 - [Chromato Creeper](https://www.curseforge.com/minecraft/mc-mods/chromato-creeper) (by [xx1th](https://www.curseforge.com/members/xx1th/projects))
@@ -29,7 +29,7 @@
 - [FastWorkbench](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) (by [Shadows_of_Fire](https://www.curseforge.com/members/shadows_of_fire/projects))
 - [FerriteCore (Forge)](https://www.curseforge.com/minecraft/mc-mods/ferritecore) (by [malte0811](https://www.curseforge.com/members/malte0811/projects))
 - [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer) (by [bre2el](https://www.curseforge.com/members/bre2el/projects))
-- [Fresh Animations](https://www.curseforge.com/minecraft/texture-packs/fresh-animations) (by [FreshLX_official](https://www.curseforge.com/members/freshlx_official/projects))
+- [Fresh Animations](https://www.curseforge.com/minecraft/texture-packs/fresh-animations) (by [Fresh__LX](https://www.curseforge.com/members/fresh__lx/projects))
 - [Global GameRules](https://www.curseforge.com/minecraft/mc-mods/global-gamerules) (by [GoryMoon](https://www.curseforge.com/members/gorymoon/projects))
 - [Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge) (by [dmitrylovin](https://www.curseforge.com/members/dmitrylovin/projects))
 - [Just Zoom [Forge]](https://www.curseforge.com/minecraft/mc-mods/just-zoom-forge) (by [Keksuccino](https://www.curseforge.com/members/keksuccino/projects))
@@ -37,7 +37,7 @@
 - [Ksyxis](https://www.curseforge.com/minecraft/mc-mods/ksyxis) (by [VidTu](https://www.curseforge.com/members/vidtu/projects))
 - [Lag Removal](https://www.curseforge.com/minecraft/mc-mods/lag-removal) (by [SWDTeam](https://www.curseforge.com/members/swdteam/projects))
 - [LibX](https://www.curseforge.com/minecraft/mc-mods/libx) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
-- [mclo.gs](https://www.curseforge.com/minecraft/mc-mods/mclo-gs) (by [AternosDBO](https://www.curseforge.com/members/aternosdbo/projects))
+- [Mclogs - mclo.gs](https://www.curseforge.com/minecraft/mc-mods/mclo-gs) (by [AternosDBO](https://www.curseforge.com/members/aternosdbo/projects))
 - [More Crafting Tables for Forge!](https://www.curseforge.com/minecraft/mc-mods/more-crafting-tables-for-forge) (by [roleunplaying](https://www.curseforge.com/members/roleunplaying/projects))
 - [Nature's Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass) (by [Chaosyr](https://www.curseforge.com/members/chaosyr/projects))
 - [Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader) (by [DarkhaxDev](https://www.curseforge.com/members/darkhaxdev/projects))
