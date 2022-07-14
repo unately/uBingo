@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "forge-40.0.54",
+        "id": "forge-40.1.60",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "1.5.6",
+  "version": "1.5.11",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
