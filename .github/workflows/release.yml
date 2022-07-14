@@ -28,6 +28,13 @@ jobs:
           filename: './modpack/manifest.json'
           key: 'version'
           value: '${{ steps.version.outputs.tag }}'
+      - name: "📯 Commit manifest"
+        run: |
+          git config --local user.email "unatelyhq@gmail.com"
+          git config --local user.name "UnatelyBot"
+          git add -A
+          git commit -m "⚙️ Update pack manifest"
+          git push
       - name: "💾 Get modpack info"
         id: info
         run: |
