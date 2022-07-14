@@ -34,6 +34,7 @@ jobs:
           git config --local user.name "UnatelyBot"
           git add -A
           git commit -m "⚙️ Update pack manifest"
+          git remote add origin https://github.com/Unately/uBingo.git
           git push
       - name: "💾 Get modpack info"
         id: info
