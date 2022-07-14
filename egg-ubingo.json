@@ -10,7 +10,7 @@
     "description": "A Bingo Modpack based on the Bongo mod with much features.",
     "features": null,
     "images": [
-        "ghcr.io\/dispenserstudios\/gears:java-17"
+        "Main Image|ghcr.io\/upackages\/gears:java-17"
     ],
     "file_denylist": [],
     "startup": "sh run.sh",
