@@ -7,8 +7,6 @@ if (( $(java -version 2>&1 | head -1 | cut -d'"' -f2 | sed '/^1\./s///' | cut -d
     JAVA_FLAGS="-d64"
 fi
 
-# TODO: Haha
-
 DO_RAMDISK=0
 if [[ $(< server-setup-config.yaml grep 'ramDisk:' | awk 'BEGIN {FS=":"}{print $2}') =~ "yes" ]]; then
     SAVE_DIR=$(< server.propertiesf grep 'level-name' | awk 'BEGIN {FS="="}{print $2}')

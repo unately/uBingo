@@ -7,7 +7,7 @@
         {
             "label": "Setup/Update PAX",
             "type": "shell",
-            "command": "rm pax & curl https://github.com/froehlichA/pax/releases/latest/download/pax -O pax && chmod +x pax",
+            "command": "rm pax & wget https://github.com/froehlichA/pax/releases/latest/download/pax -O pax && chmod +x pax",
             "windows": {
                 "command": "del libssl*.dll; del libcrypto*.dll; del pax.exe; del cacert.pem; curl https://github.com/froehlichA/pax/releases/latest/download/pax-windows.zip -O pax-windows.zip; tar -xf pax-windows.zip; del pax-windows.zip"
             },
@@ -49,7 +49,7 @@
         {
             "label": "Cleanup",
             "type": "shell",
-            "command": "rm libssl*.dll & rm libcrypto*.dll & rm pax.exe & rm cacert.pem &rm -r .out",
+            "command": "rm libssl*.dll & rm libcrypto*.dll & rm pax.exe & rm cacert.pem & rm -r .out",
             "windows": {
                 "command": "del libssl*.dll; del libcrypto*.dll; del pax.exe; del cacert.pem; Remove-Item -path .\\.out –force -recurse"
             },
@@ -63,7 +63,7 @@
         {
             "label": "Setup/Update ModListCreator",
             "type": "shell",
-            "command": "rm ModListCreator* & curl https://github.com/ModdingX/ModListCreator/releases/download/v2.0.1/ModListCreator-2.0.1.jar -O ModListCreator-2.0.1.jar",
+            "command": "rm ModListCreator* & wget https://github.com/ModdingX/ModListCreator/releases/download/v2.0.1/ModListCreator-2.0.1.jar -O ModListCreator-2.0.1.jar",
             "windows":{
                 "command": "del ModListCreator*; curl https://github.com/ModdingX/ModListCreator/releases/download/v2.0.1/ModListCreator-2.0.1.jar -O ModListCreator-2.0.1.jar"
             },
@@ -77,7 +77,7 @@
         {
             "label": "Create Modlist",
             "type": "shell",
-            "command": "java -jar ./ModListCreator-2.0.1.jar --manifest ./odpack/anifest.json --output . --md",
+            "command": "java -jar ./ModListCreator-2.0.1.jar --manifest ./modpack/manifest.json --output . --md",
             "windows": {
                 "command": "java -jar .\\ModListCreator-2.0.1.jar --manifest .\\modpack\\manifest.json --output . --md"
             },

@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "1.5.5",
+  "version": "1.5.6",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -65,7 +65,7 @@
     },
     {
       "projectID": 252848,
-      "fileID": 3684917,
+      "fileID": 3858196,
       "required": true,
       "__meta": {
         "name": "Nature's Compass"
@@ -84,7 +84,7 @@
     },
     {
       "projectID": 272515,
-      "fileID": 3749537,
+      "fileID": 3848850,
       "required": true,
       "__meta": {
         "name": "Better Advancements"
@@ -180,7 +180,7 @@
     },
     {
       "projectID": 349559,
-      "fileID": 3777696,
+      "fileID": 3856246,
       "required": true,
       "__meta": {
         "name": "FallingTree (Forge&Fabric)"
@@ -275,7 +275,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3834590,
+      "fileID": 3872500,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
