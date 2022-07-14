@@ -69,7 +69,7 @@ jobs:
         with:
           file: 'modpack/overrides/config/bcc-common.toml'
           field: 'general.modpackVersion'
-          value: "${{ needs.modpack-info.outputs.version }}"
+          value: "${{ steps.version.outputs.tag }}"
       - name: "🚢 Export modpack"
         run: |
           sudo chmod +x ./pax
