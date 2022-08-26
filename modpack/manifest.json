@@ -172,7 +172,7 @@
     },
     {
       "projectID": 318012,
-      "fileID": 3934652,
+      "fileID": 3951367,
       "required": true,
       "__meta": {
         "name": "DefaultSettings"
@@ -231,7 +231,7 @@
     },
     {
       "projectID": 403422,
-      "fileID": 3950437,
+      "fileID": 3951246,
       "required": true,
       "__meta": {
         "name": "Emotecraft (Forge)"
@@ -275,7 +275,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3944671,
+      "fileID": 3951706,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
