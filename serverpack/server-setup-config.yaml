@@ -10,6 +10,7 @@ install:
     - '--installServer'
   modpackUrl: https://github.com/Unately/uBingo/releases/download/v1.5.11/uBingo-v1.5.11.zip
   modpackFormat: curse
+  curseForgeAPIKey: $2a$10$wGENGvLKuQLEWDge5kVQIetN8DjtTKHFjAY9GJyB8YhhVTJrKc84y
   formatSpecific:
     ignoreProject:
       - 242995

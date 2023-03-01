@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "forge-40.1.60",
+        "id": "forge-40.2.0",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "1.5.11",
+  "version": "1.5.12",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -33,7 +33,7 @@
     },
     {
       "projectID": 231275,
-      "fileID": 3548400,
+      "fileID": 4382946,
       "required": true,
       "__meta": {
         "name": "Ding"
@@ -49,7 +49,7 @@
     },
     {
       "projectID": 233019,
-      "fileID": 3798941,
+      "fileID": 4019126,
       "required": true,
       "__meta": {
         "name": "AI Improvements"
@@ -73,7 +73,7 @@
     },
     {
       "projectID": 271740,
-      "fileID": 3717855,
+      "fileID": 3929072,
       "required": true,
       "__meta": {
         "name": "Toast Control",
@@ -84,7 +84,7 @@
     },
     {
       "projectID": 272515,
-      "fileID": 3848850,
+      "fileID": 4111314,
       "required": true,
       "__meta": {
         "name": "Better Advancements"
@@ -92,7 +92,7 @@
     },
     {
       "projectID": 276951,
-      "fileID": 3682307,
+      "fileID": 4398246,
       "required": true,
       "__meta": {
         "name": "Comforts (Forge)"
@@ -108,7 +108,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 3845997,
+      "fileID": 4035110,
       "required": true,
       "__meta": {
         "name": "Placebo"
@@ -116,7 +116,7 @@
     },
     {
       "projectID": 288885,
-      "fileID": 3717873,
+      "fileID": 4030000,
       "required": true,
       "__meta": {
         "name": "FastWorkbench",
@@ -135,7 +135,7 @@
     },
     {
       "projectID": 300331,
-      "fileID": 3741435,
+      "fileID": 4016411,
       "required": true,
       "__meta": {
         "name": "Simply Light"
@@ -143,7 +143,7 @@
     },
     {
       "projectID": 309927,
-      "fileID": 3841948,
+      "fileID": 4398051,
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
@@ -152,7 +152,7 @@
     },
     {
       "projectID": 312353,
-      "fileID": 3771085,
+      "fileID": 3984105,
       "required": true,
       "__meta": {
         "name": "Artifacts",
@@ -172,7 +172,7 @@
     },
     {
       "projectID": 318012,
-      "fileID": 3726367,
+      "fileID": 3951367,
       "required": true,
       "__meta": {
         "name": "DefaultSettings"
@@ -180,7 +180,7 @@
     },
     {
       "projectID": 349559,
-      "fileID": 3856246,
+      "fileID": 3975186,
       "required": true,
       "__meta": {
         "name": "FallingTree (Forge&Fabric)"
@@ -204,7 +204,7 @@
     },
     {
       "projectID": 358191,
-      "fileID": 3717818,
+      "fileID": 4050356,
       "required": true,
       "__meta": {
         "name": "PackMenu",
@@ -215,7 +215,7 @@
     },
     {
       "projectID": 377281,
-      "fileID": 3796183,
+      "fileID": 4357110,
       "required": true,
       "__meta": {
         "name": "Dark Paintings"
@@ -231,7 +231,7 @@
     },
     {
       "projectID": 403422,
-      "fileID": 3840014,
+      "fileID": 4173798,
       "required": true,
       "__meta": {
         "name": "Emotecraft (Forge)"
@@ -258,7 +258,7 @@
     },
     {
       "projectID": 410295,
-      "fileID": 3593196,
+      "fileID": 4136427,
       "required": true,
       "__meta": {
         "name": "Konkrete [Forge]",
@@ -267,7 +267,7 @@
     },
     {
       "projectID": 412525,
-      "fileID": 3829113,
+      "fileID": 3909225,
       "required": true,
       "__meta": {
         "name": "LibX"
@@ -275,7 +275,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 3872500,
+      "fileID": 4372207,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -291,7 +291,7 @@
     },
     {
       "projectID": 420561,
-      "fileID": 3602226,
+      "fileID": 4096679,
       "required": true,
       "__meta": {
         "name": "mclo.gs"
@@ -299,7 +299,7 @@
     },
     {
       "projectID": 429235,
-      "fileID": 3767288,
+      "fileID": 4074294,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
@@ -307,7 +307,7 @@
     },
     {
       "projectID": 435044,
-      "fileID": 3834420,
+      "fileID": 4177087,
       "required": true,
       "__meta": {
         "name": "Better Third Person"
@@ -327,7 +327,7 @@
     },
     {
       "projectID": 453763,
-      "fileID": 3776982,
+      "fileID": 4360370,
       "required": true,
       "__meta": {
         "name": "Fresh Animations"
@@ -335,7 +335,7 @@
     },
     {
       "projectID": 457570,
-      "fileID": 3721946,
+      "fileID": 4010624,
       "required": true,
       "__meta": {
         "name": "Configured"
@@ -376,7 +376,7 @@
     },
     {
       "projectID": 521480,
-      "fileID": 3808404,
+      "fileID": 4001976,
       "required": true,
       "__meta": {
         "name": "Skin Layers 3D (Fabric/Forge)"
@@ -400,7 +400,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 3830790,
+      "fileID": 4414499,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -416,7 +416,7 @@
     },
     {
       "projectID": 551894,
-      "fileID": 3846597,
+      "fileID": 4358571,
       "required": true,
       "__meta": {
         "name": "Better Compatibility Checker"
@@ -439,6 +439,22 @@
         "dependencies": [
           410295
         ]
+      }
+    },
+    {
+      "projectID": 623373,
+      "fileID": 3930014,
+      "required": true,
+      "__meta": {
+        "name": "bendy-lib"
+      }
+    },
+    {
+      "projectID": 658587,
+      "fileID": 4413345,
+      "required": true,
+      "__meta": {
+        "name": "playerAnimator"
       }
     }
   ]
