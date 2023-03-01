@@ -1,4 +1,4 @@
-## uBingo - 1.5.12
+## uBingo - 1.5.13
 - [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) (by [QueenOfMissiles](https://www.curseforge.com/members/queenofmissiles/projects))
 - [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) (by [ochotonida](https://www.curseforge.com/members/ochotonida/projects))
 - [Balm (Forge Edition)](https://www.curseforge.com/minecraft/mc-mods/balm) (by [BlayTheNinth](https://www.curseforge.com/members/blaytheninth/projects))
@@ -38,7 +38,6 @@
 - [Ksyxis](https://www.curseforge.com/minecraft/mc-mods/ksyxis) (by [VidTu](https://www.curseforge.com/members/vidtu/projects))
 - [Lag Removal](https://www.curseforge.com/minecraft/mc-mods/lag-removal) (by [SWDTeam](https://www.curseforge.com/members/swdteam/projects))
 - [LibX](https://www.curseforge.com/minecraft/mc-mods/libx) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
-- [Mclogs - mclo.gs](https://www.curseforge.com/minecraft/mc-mods/mclo-gs) (by [AternosDBO](https://www.curseforge.com/members/aternosdbo/projects))
 - [More Crafting Tables for Forge!](https://www.curseforge.com/minecraft/mc-mods/more-crafting-tables-for-forge) (by [DaveDuart](https://www.curseforge.com/members/daveduart/projects))
 - [Nature's Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass) (by [Chaosyr](https://www.curseforge.com/members/chaosyr/projects))
 - [Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader) (by [DarkhaxDev](https://www.curseforge.com/members/darkhaxdev/projects))

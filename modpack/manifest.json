@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "1.5.12",
+  "version": "1.5.13",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -287,14 +287,6 @@
       "required": true,
       "__meta": {
         "name": "More Crafting Tables for Forge!"
-      }
-    },
-    {
-      "projectID": 420561,
-      "fileID": 4096679,
-      "required": true,
-      "__meta": {
-        "name": "mclo.gs"
       }
     },
     {
