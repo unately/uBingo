@@ -25,7 +25,7 @@ if [ -f serverstarter-2.2.0.jar ]; then
     fi
     exit 0
 else
-    export URL="https://github.com/BloodyMods/ServerStarter/releases/download/v2.3.1/serverstarter-2.3.1.jar"
+    export URL="https://github.com/Ocraftyone/ServerStarter-CFCorePatch/releases/download/v2.3.1/serverstarter-2.3.1.jar"
 fi
 echo $URL
 which wget >> /dev/null
