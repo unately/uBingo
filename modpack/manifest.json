@@ -33,7 +33,7 @@
     },
     {
       "projectID": 231275,
-      "fileID": 3548400,
+      "fileID": 4382946,
       "required": true,
       "__meta": {
         "name": "Ding"
@@ -84,7 +84,7 @@
     },
     {
       "projectID": 272515,
-      "fileID": 3848850,
+      "fileID": 4111314,
       "required": true,
       "__meta": {
         "name": "Better Advancements"
@@ -92,7 +92,7 @@
     },
     {
       "projectID": 276951,
-      "fileID": 4019552,
+      "fileID": 4398246,
       "required": true,
       "__meta": {
         "name": "Comforts (Forge)"
@@ -143,7 +143,7 @@
     },
     {
       "projectID": 309927,
-      "fileID": 3841948,
+      "fileID": 4398051,
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
@@ -215,7 +215,7 @@
     },
     {
       "projectID": 377281,
-      "fileID": 3796183,
+      "fileID": 4357110,
       "required": true,
       "__meta": {
         "name": "Dark Paintings"
@@ -231,7 +231,7 @@
     },
     {
       "projectID": 403422,
-      "fileID": 4022066,
+      "fileID": 4173798,
       "required": true,
       "__meta": {
         "name": "Emotecraft (Forge)"
@@ -258,7 +258,7 @@
     },
     {
       "projectID": 410295,
-      "fileID": 4031715,
+      "fileID": 4136427,
       "required": true,
       "__meta": {
         "name": "Konkrete [Forge]",
@@ -275,7 +275,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4051677,
+      "fileID": 4372207,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -291,7 +291,7 @@
     },
     {
       "projectID": 420561,
-      "fileID": 3602226,
+      "fileID": 4096679,
       "required": true,
       "__meta": {
         "name": "mclo.gs"
@@ -299,7 +299,7 @@
     },
     {
       "projectID": 429235,
-      "fileID": 3767288,
+      "fileID": 4074294,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
@@ -307,7 +307,7 @@
     },
     {
       "projectID": 435044,
-      "fileID": 3834420,
+      "fileID": 4177087,
       "required": true,
       "__meta": {
         "name": "Better Third Person"
@@ -327,7 +327,7 @@
     },
     {
       "projectID": 453763,
-      "fileID": 3919226,
+      "fileID": 4360370,
       "required": true,
       "__meta": {
         "name": "Fresh Animations"
@@ -400,7 +400,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 3914491,
+      "fileID": 4414499,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -416,7 +416,7 @@
     },
     {
       "projectID": 551894,
-      "fileID": 3846597,
+      "fileID": 4358571,
       "required": true,
       "__meta": {
         "name": "Better Compatibility Checker"
