@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "forge-40.1.60",
+        "id": "forge-40.2.0",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "1.5.11",
+  "version": "1.5.13",
   "author": "Jqshuv",
   "name": "uBingo",
   "files": [
@@ -143,7 +143,7 @@
     },
     {
       "projectID": 309927,
-      "fileID": 4418032,
+      "fileID": 4398051,
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
@@ -290,14 +290,6 @@
       }
     },
     {
-      "projectID": 420561,
-      "fileID": 4096679,
-      "required": true,
-      "__meta": {
-        "name": "mclo.gs"
-      }
-    },
-    {
       "projectID": 429235,
       "fileID": 4074294,
       "required": true,
@@ -400,7 +392,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 4418648,
+      "fileID": 4414499,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -439,6 +431,22 @@
         "dependencies": [
           410295
         ]
+      }
+    },
+    {
+      "projectID": 623373,
+      "fileID": 3930014,
+      "required": true,
+      "__meta": {
+        "name": "bendy-lib"
+      }
+    },
+    {
+      "projectID": 658587,
+      "fileID": 4413345,
+      "required": true,
+      "__meta": {
+        "name": "playerAnimator"
       }
     }
   ]

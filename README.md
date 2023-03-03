@@ -183,8 +183,8 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 
 <br>
 <p align="center">
-  <a href="https://zap-hosting.com/jqshuv3">
-  <img src="https://zap-hosting.com/interface/download/images.php?type=affiliate&id=197035" />
+  <a href="https://billing.kinetichosting.net/aff.php?aff=184">
+  <img src=".github/images/kineticpartner.png" />
 </p>
 
 
@@ -194,10 +194,10 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 [issues-shield]: https://img.shields.io/github/issues/Unately/uBingo.svg?style=for-the-badge
 [issues-url]: https://github.com/Unately/uBingo/issues
 
-[workflow-shield]: https://img.shields.io/github/workflow/status/unately/ubingo/main?style=for-the-badge
+[workflow-shield]: https://img.shields.io/github/actions/workflow/status/unately/ubingo/devbuild.yml?style=for-the-badge
 [workflow-url]: https://github.com/Unately/uBingo/actions
 
-[license-shield]: https://img.shields.io/github/workflow/status/unately/ubingo/%F0%9F%8D%BA%20Release%20Build?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/unately/ubingo?style=for-the-badge
 [license-url]: https://github.com/Unately/uBingo/blob/master/LICENSE
 
 [product-screenshot]: .github/images/screenshot.png
