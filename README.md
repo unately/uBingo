@@ -184,7 +184,7 @@ Project Link: [https://github.com/unately/ubingo](https://github.com/unately/ubi
 <br>
 <p align="center">
   <a href="https://billing.kinetichosting.net/aff.php?aff=184">
-  <img src="https://cdn.jqshuv.com/que/jqv.png" />
+  <img src=".github/images/kineticpartner.png" />
 </p>
 
 
