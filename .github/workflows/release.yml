@@ -228,7 +228,7 @@ jobs:
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
           file_path: ${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip
-          game_versions: "Minecraft 1.18:${{ needs.modpack-info.outputs.version }}"
+          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}"
           release_type: ${{ steps.release-type.outputs.type }}
           parent_file_id: ${{ steps.modpack-upload.outputs.id }}
 
