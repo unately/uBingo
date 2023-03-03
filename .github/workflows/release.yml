@@ -218,7 +218,7 @@ jobs:
           display_name: "${{ needs.modpack-info.outputs.tag }}"
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
-          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}"
+          game_versions: "${{ needs.modpack-info.outputs.version }}"
           release_type: ${{ steps.release-type.outputs.type }}
           token: ${{ secrets.CURSEFORGE_TOKEN }}
       - name: "👾 Upload serverpack"
