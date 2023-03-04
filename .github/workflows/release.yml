@@ -18,7 +18,7 @@ jobs:
     name: "📙 Modpack Info"
     steps:
       - name: "🔁 Checkout"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: "📛 Get tag"
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
@@ -34,9 +34,9 @@ jobs:
         run: |
             manifestjson=`cat ./modpack/manifest.json`
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-            echo "::set-output name=projectname::$projectname"
+			echo "projectname=$projectname" >> $GITHUB_OUTPUT
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-            echo "::set-output name=version::$version"
+			echo "version=$version" >> $GITHUB_OUTPUT
 
   changelog:
     runs-on: ubuntu-latest
@@ -45,7 +45,7 @@ jobs:
       changelog: ${{steps.changelog.outputs.changelog}}
     steps:
       - name: "🔁 Checkout"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: "✍️ Write Changelogs"
         id: changelog
         uses: mikepenz/release-changelog-builder-action@v2.7.2
@@ -58,7 +58,7 @@ jobs:
     name: "📦 Build Pack"
     steps:
       - name: "🔁 Checkout"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: "🚀 Download PAX"
         uses: dsaltares/fetch-gh-release-asset@1.0.0
         with:
@@ -123,7 +123,7 @@ jobs:
     name: "🐳 Build Package"
     steps:
       - name: "🔁 Checkout"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: "🔽 Download modpack"
         uses: actions/download-artifact@v2
         with:
@@ -174,7 +174,7 @@ jobs:
             *beta*) rel_type="true" ;;
             *) rel_type="false" ;;
           esac
-          echo "::set-output name=type::$rel_type"
+		  echo "type=$rel_type" >> $GITHUB_OUTPUT
       - name: "🧬 Create release"
         uses: softprops/action-gh-release@v1
         with:
@@ -207,7 +207,7 @@ jobs:
             *beta*) rel_type="beta" ;;
             *) rel_type="release" ;;
           esac
-          echo "::set-output name=type::$rel_type"
+		  echo "type=$rel_type" >> $GITHUB_OUTPUT
       - name: "🛠️ Upload modpack"
         id: modpack-upload
         uses: itsmeow/curseforge-upload@v3
