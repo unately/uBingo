@@ -26,9 +26,9 @@ jobs:
         run: |
             manifestjson=`cat ./modpack/manifest.json`
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-			echo "projectname=$projectname" >> $GITHUB_OUTPUT
+            echo "projectname=$projectname" >> $GITHUB_OUTPUT
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-			echo "version=$version" >> $GITHUB_OUTPUT
+            echo "version=$version" >> $GITHUB_OUTPUT
 
   changelog:
     runs-on: ubuntu-latest
