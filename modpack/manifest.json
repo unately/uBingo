@@ -162,11 +162,7 @@
     },
     {
       "projectID": 309927,
-<<<<<<< Updated upstream
-      "fileID": 4418032,
-=======
       "fileID": 4418021,
->>>>>>> Stashed changes
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
@@ -428,11 +424,7 @@
     },
     {
       "projectID": 531761,
-<<<<<<< Updated upstream
-      "fileID": 4418648,
-=======
       "fileID": 4418651,
->>>>>>> Stashed changes
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -498,11 +490,7 @@
     },
     {
       "projectID": 658587,
-<<<<<<< Updated upstream
-      "fileID": 4418152,
-=======
       "fileID": 4418149,
->>>>>>> Stashed changes
       "required": true,
       "__meta": {
         "name": "playerAnimator"
