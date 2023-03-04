@@ -219,7 +219,7 @@ jobs:
           display_name: "${{ needs.modpack-info.outputs.tag }}"
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
-          game_versions: "Minecraft 1.18:${{ needs.modpack-info.outputs.version }}"
+          game_versions: "Minecraft 1.19:${{ needs.modpack-info.outputs.version }}"
           release_type: ${{ steps.release-type.outputs.type }}
       - name: "👾 Upload serverpack"
         uses: itsmeow/curseforge-upload@v3
