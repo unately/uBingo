@@ -207,7 +207,7 @@ jobs:
             *beta*) rel_type="beta" ;;
             *) rel_type="release" ;;
           esac
-		  echo "type=$rel_type" >> $GITHUB_OUTPUT
+          echo "type=$rel_type" >> $GITHUB_OUTPUT
       - name: "🛠️ Upload modpack"
         id: modpack-upload
         uses: itsmeow/curseforge-upload@v3
