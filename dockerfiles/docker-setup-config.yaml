@@ -61,7 +61,6 @@ install:
       - 272515
       - 378979
       - 459701
-      - 556824
       - 457570
       - 463155
       - 495693
@@ -93,7 +92,6 @@ install:
     - config/betteradvancements-client.toml
     - config/bongo-client.toml
     - config/borderlesswindow-client.toml
-    - config/chromatocreeper-client.toml
     - config/craftpresence.properties
     - config/fallingleaves-client.toml
     - config/farsight-common.toml
@@ -111,8 +109,8 @@ install:
     #  destination: mods/restrictedportals-1.15-1.0.jar
     #- url: https://media.forgecdn.net/files/2874/966/Morpheus-1.15.2-4.2.46.jar
     #  destination: mods/Morpheus-1.15.2-4.2.46.jar
-    #- url: https://media.forgecdn.net/files/2876/89/spark-forge.jar
-    #  destination: mods/spark-forge.jar
+    - url: https://media.forgecdn.net/files/4381/167/spark-1.10.29-forge.jar
+	  destination: mods/spark-forge.jar
 
   # For often there are config which the user wants to change, here is the place to put the local path to configs, jars or whatever
   # You can copy files or folders

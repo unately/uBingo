@@ -1,9 +1,9 @@
 {
   "minecraft": {
-    "version": "1.18.2",
+    "version": "1.19.2",
     "modLoaders": [
       {
-        "id": "forge-40.2.0",
+        "id": "forge-43.2.0",
         "primary": true
       }
     ]
@@ -17,15 +17,23 @@
   "files": [
     {
       "projectID": 227657,
-      "fileID": 3583363,
+      "fileID": 3925028,
       "required": true,
       "__meta": {
         "name": "Global GameRules"
       }
     },
     {
+      "projectID": 228525,
+      "fileID": 4354814,
+      "required": true,
+      "__meta": {
+        "name": "Bookshelf"
+      }
+    },
+    {
       "projectID": 230976,
-      "fileID": 3693140,
+      "fileID": 3894512,
       "required": true,
       "__meta": {
         "name": "Fast Leaf Decay"
@@ -33,15 +41,26 @@
     },
     {
       "projectID": 231275,
-      "fileID": 4382946,
+      "fileID": 4382947,
       "required": true,
       "__meta": {
         "name": "Ding"
       }
     },
     {
+      "projectID": 232131,
+      "fileID": 3832590,
+      "required": true,
+      "__meta": {
+        "name": "Default Options",
+        "dependencies": [
+          531761
+        ]
+      }
+    },
+    {
       "projectID": 232607,
-      "fileID": 3544433,
+      "fileID": 3855700,
       "required": true,
       "__meta": {
         "name": "Lag Removal"
@@ -49,7 +68,7 @@
     },
     {
       "projectID": 233019,
-      "fileID": 4019126,
+      "fileID": 4019127,
       "required": true,
       "__meta": {
         "name": "AI Improvements"
@@ -57,7 +76,7 @@
     },
     {
       "projectID": 242995,
-      "fileID": 3764674,
+      "fileID": 4028906,
       "required": true,
       "__meta": {
         "name": "Custom Crosshair Mod"
@@ -65,7 +84,7 @@
     },
     {
       "projectID": 252848,
-      "fileID": 3858196,
+      "fileID": 4118390,
       "required": true,
       "__meta": {
         "name": "Nature's Compass"
@@ -73,7 +92,7 @@
     },
     {
       "projectID": 271740,
-      "fileID": 3929072,
+      "fileID": 4028343,
       "required": true,
       "__meta": {
         "name": "Toast Control",
@@ -84,7 +103,7 @@
     },
     {
       "projectID": 272515,
-      "fileID": 4111314,
+      "fileID": 4276529,
       "required": true,
       "__meta": {
         "name": "Better Advancements"
@@ -92,7 +111,7 @@
     },
     {
       "projectID": 276951,
-      "fileID": 4398246,
+      "fileID": 4105213,
       "required": true,
       "__meta": {
         "name": "Comforts (Forge)"
@@ -100,7 +119,7 @@
     },
     {
       "projectID": 280294,
-      "fileID": 3680770,
+      "fileID": 3931329,
       "required": true,
       "__meta": {
         "name": "FPS Reducer"
@@ -108,7 +127,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 4035110,
+      "fileID": 4344915,
       "required": true,
       "__meta": {
         "name": "Placebo"
@@ -116,7 +135,7 @@
     },
     {
       "projectID": 288885,
-      "fileID": 4030000,
+      "fileID": 4029996,
       "required": true,
       "__meta": {
         "name": "FastWorkbench",
@@ -127,7 +146,7 @@
     },
     {
       "projectID": 299540,
-      "fileID": 3717883,
+      "fileID": 4028348,
       "required": true,
       "__meta": {
         "name": "FastFurnace"
@@ -135,7 +154,7 @@
     },
     {
       "projectID": 300331,
-      "fileID": 4016411,
+      "fileID": 4016401,
       "required": true,
       "__meta": {
         "name": "Simply Light"
@@ -143,7 +162,11 @@
     },
     {
       "projectID": 309927,
+<<<<<<< Updated upstream
       "fileID": 4418032,
+=======
+      "fileID": 4418021,
+>>>>>>> Stashed changes
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
@@ -152,7 +175,7 @@
     },
     {
       "projectID": 312353,
-      "fileID": 3984105,
+      "fileID": 4013928,
       "required": true,
       "__meta": {
         "name": "Artifacts",
@@ -164,23 +187,15 @@
     },
     {
       "projectID": 316582,
-      "fileID": 3829457,
+      "fileID": 3920717,
       "required": true,
       "__meta": {
         "name": "Corpse"
       }
     },
     {
-      "projectID": 318012,
-      "fileID": 3951367,
-      "required": true,
-      "__meta": {
-        "name": "DefaultSettings"
-      }
-    },
-    {
       "projectID": 349559,
-      "fileID": 3975186,
+      "fileID": 3968312,
       "required": true,
       "__meta": {
         "name": "FallingTree (Forge&Fabric)"
@@ -188,7 +203,7 @@
     },
     {
       "projectID": 354339,
-      "fileID": 3697234,
+      "fileID": 3943067,
       "required": true,
       "__meta": {
         "name": "Open Loader"
@@ -196,7 +211,7 @@
     },
     {
       "projectID": 357540,
-      "fileID": 3565981,
+      "fileID": 4153724,
       "required": true,
       "__meta": {
         "name": "Inventory HUD+"
@@ -204,7 +219,7 @@
     },
     {
       "projectID": 358191,
-      "fileID": 4050356,
+      "fileID": 4028351,
       "required": true,
       "__meta": {
         "name": "PackMenu",
@@ -215,7 +230,7 @@
     },
     {
       "projectID": 377281,
-      "fileID": 4357110,
+      "fileID": 4357106,
       "required": true,
       "__meta": {
         "name": "Dark Paintings"
@@ -223,15 +238,24 @@
     },
     {
       "projectID": 378979,
-      "fileID": 3543891,
+      "fileID": 3906414,
       "required": true,
       "__meta": {
         "name": "Borderless Window"
       }
     },
     {
+      "projectID": 388172,
+      "fileID": 4407241,
+      "required": true,
+      "__meta": {
+        "name": "GeckoLib",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 403422,
-      "fileID": 4173798,
+      "fileID": 4173796,
       "required": true,
       "__meta": {
         "name": "Emotecraft (Forge)"
@@ -239,10 +263,11 @@
     },
     {
       "projectID": 406119,
-      "fileID": 3680038,
+      "fileID": 4046533,
       "required": true,
       "__meta": {
         "name": "Bongo",
+        "pinned": true,
         "dependencies": [
           412525
         ]
@@ -258,7 +283,7 @@
     },
     {
       "projectID": 410295,
-      "fileID": 4136427,
+      "fileID": 4136430,
       "required": true,
       "__meta": {
         "name": "Konkrete [Forge]",
@@ -267,15 +292,26 @@
     },
     {
       "projectID": 412525,
-      "fileID": 3909225,
+      "fileID": 4052778,
       "required": true,
       "__meta": {
         "name": "LibX"
       }
     },
     {
+      "projectID": 414401,
+      "fileID": 4411179,
+      "required": true,
+      "__meta": {
+        "name": "Creatures and Beasts",
+        "dependencies": [
+          388172
+        ]
+      }
+    },
+    {
       "projectID": 416089,
-      "fileID": 4372207,
+      "fileID": 4372220,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -283,7 +319,7 @@
     },
     {
       "projectID": 417365,
-      "fileID": 3803641,
+      "fileID": 3938942,
       "required": true,
       "__meta": {
         "name": "More Crafting Tables for Forge!"
@@ -291,7 +327,7 @@
     },
     {
       "projectID": 429235,
-      "fileID": 4074294,
+      "fileID": 4117906,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
@@ -299,7 +335,7 @@
     },
     {
       "projectID": 435044,
-      "fileID": 4177087,
+      "fileID": 4177088,
       "required": true,
       "__meta": {
         "name": "Better Third Person"
@@ -307,7 +343,7 @@
     },
     {
       "projectID": 440998,
-      "fileID": 3743898,
+      "fileID": 3874177,
       "required": true,
       "__meta": {
         "name": "BingoLobby",
@@ -327,7 +363,7 @@
     },
     {
       "projectID": 457570,
-      "fileID": 4010624,
+      "fileID": 4011355,
       "required": true,
       "__meta": {
         "name": "Configured"
@@ -335,7 +371,7 @@
     },
     {
       "projectID": 459701,
-      "fileID": 3803098,
+      "fileID": 4171024,
       "required": true,
       "__meta": {
         "name": "Catalogue"
@@ -343,7 +379,7 @@
     },
     {
       "projectID": 463155,
-      "fileID": 3705945,
+      "fileID": 4124035,
       "required": true,
       "__meta": {
         "name": "Falling Leaves (Forge)"
@@ -351,7 +387,7 @@
     },
     {
       "projectID": 465066,
-      "fileID": 3678612,
+      "fileID": 3984029,
       "required": true,
       "__meta": {
         "name": "ExpandAbility",
@@ -360,7 +396,7 @@
     },
     {
       "projectID": 495693,
-      "fileID": 3810400,
+      "fileID": 4017307,
       "required": true,
       "__meta": {
         "name": "Farsight[Forge/Fabric]"
@@ -368,7 +404,7 @@
     },
     {
       "projectID": 521480,
-      "fileID": 4001976,
+      "fileID": 4001980,
       "required": true,
       "__meta": {
         "name": "Skin Layers 3D (Fabric/Forge)"
@@ -376,7 +412,7 @@
     },
     {
       "projectID": 526854,
-      "fileID": 3706539,
+      "fileID": 3836016,
       "required": true,
       "__meta": {
         "name": "Starlight (Forge)"
@@ -384,7 +420,7 @@
     },
     {
       "projectID": 531744,
-      "fileID": 3548494,
+      "fileID": 3930598,
       "required": true,
       "__meta": {
         "name": "Camp Chair"
@@ -392,7 +428,11 @@
     },
     {
       "projectID": 531761,
+<<<<<<< Updated upstream
       "fileID": 4418648,
+=======
+      "fileID": 4418651,
+>>>>>>> Stashed changes
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -408,28 +448,43 @@
     },
     {
       "projectID": 551894,
-      "fileID": 4358571,
+      "fileID": 4058404,
       "required": true,
       "__meta": {
         "name": "Better Compatibility Checker"
       }
     },
     {
-      "projectID": 556824,
-      "fileID": 3568779,
+      "projectID": 561625,
+      "fileID": 4412632,
       "required": true,
       "__meta": {
-        "name": "Chromato Creeper"
+        "name": "Creeper Overhaul",
+        "dependencies": [
+          388172,
+          388172
+        ]
       }
     },
     {
       "projectID": 561885,
-      "fileID": 3601619,
+      "fileID": 3869607,
       "required": true,
       "__meta": {
         "name": "Just Zoom [Forge]",
         "dependencies": [
           410295
+        ]
+      }
+    },
+    {
+      "projectID": 564989,
+      "fileID": 3901574,
+      "required": true,
+      "__meta": {
+        "name": "Winter Overhaul",
+        "dependencies": [
+          388172
         ]
       }
     },
@@ -443,7 +498,11 @@
     },
     {
       "projectID": 658587,
+<<<<<<< Updated upstream
       "fileID": 4418152,
+=======
+      "fileID": 4418149,
+>>>>>>> Stashed changes
       "required": true,
       "__meta": {
         "name": "playerAnimator"
