@@ -3,7 +3,7 @@ modpack:
   name: uBingo
   description: A Bingo Modpack based on the Bongo mod with much features.
 install:
-  mcVersion: 1.18.2
+  mcVersion: 1.19.2
   loaderVersion: null
   installerUrl: https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar
   installerArguments:
@@ -19,7 +19,6 @@ install:
       - 272515
       - 378979
       - 459701
-      - 556824
       - 457570
       - 463155
       - 495693

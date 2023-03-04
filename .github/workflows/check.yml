@@ -9,7 +9,7 @@ jobs:
     name: "📦 Test Modpack"
     steps:
       - name: "🔁 Checkout"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: "🚀 Download PAX"
         uses: dsaltares/fetch-gh-release-asset@master
         with:
@@ -32,7 +32,7 @@ jobs:
     needs: [modpack]
     steps:
       - name: "🔁 Checkout"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: "🔽 Download modpack"
         uses: actions/download-artifact@v2
         with:

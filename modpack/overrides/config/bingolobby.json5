@@ -36,11 +36,11 @@
     {
       "color": "#1AA1F3",
       "text": "twitter.com/jqshuv"
-    },
-    {
-      "color": "#333",
-      "text": "github.com/unately"
     }
+    //{
+    //  "color": "#333",
+    //  "text": "github.com/unately"
+    //}
   ],
   
   // The title to be shown in the sidebar while in the lobby.
