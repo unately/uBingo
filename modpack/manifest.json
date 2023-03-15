@@ -207,6 +207,17 @@
       }
     },
     {
+      "projectID": 355440,
+      "fileID": 4385516,
+      "required": true,
+      "__meta": {
+        "name": "Immersive Portals (for Forge)",
+        "dependencies": [
+          348521
+        ]
+      }
+    },
+    {
       "projectID": 357540,
       "fileID": 4153724,
       "required": true,

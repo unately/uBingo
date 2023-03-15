@@ -1,4 +1,4 @@
-## uBingo - 1.6.1
+## uBingo - 1.6.0
 - [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) (by [QueenOfMissiles](https://www.curseforge.com/members/queenofmissiles/projects))
 - [Architectury API (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/architectury-api) (by [shedaniel](https://www.curseforge.com/members/shedaniel/projects))
 - [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) (by [ochotonida](https://www.curseforge.com/members/ochotonida/projects))
@@ -37,7 +37,7 @@
 - [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer) (by [bre2el](https://www.curseforge.com/members/bre2el/projects))
 - [Fresh Animations](https://www.curseforge.com/minecraft/texture-packs/fresh-animations) (by [Fresh__LX](https://www.curseforge.com/members/fresh__lx/projects))
 - [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib) (by [ThanosGecko](https://www.curseforge.com/members/thanosgecko/projects))
-- [Global GameRules](https://www.curseforge.com/minecraft/mc-mods/global-gamerules) (by [GoryMoon](https://www.curseforge.com/members/gorymoon/projects))
+- [Immersive Portals (for Forge)](https://www.curseforge.com/minecraft/mc-mods/immersive-portals-for-forge) (by [qouteall](https://www.curseforge.com/members/qouteall/projects))
 - [Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge) (by [dmitrylovin](https://www.curseforge.com/members/dmitrylovin/projects))
 - [Just Zoom [Forge]](https://www.curseforge.com/minecraft/mc-mods/just-zoom-forge) (by [Keksuccino](https://www.curseforge.com/members/keksuccino/projects))
 - [Konkrete [Forge]](https://www.curseforge.com/minecraft/mc-mods/konkrete) (by [Keksuccino](https://www.curseforge.com/members/keksuccino/projects))
