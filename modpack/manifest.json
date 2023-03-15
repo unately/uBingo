@@ -274,14 +274,6 @@
       }
     },
     {
-      "projectID": 403422,
-      "fileID": 4173796,
-      "required": true,
-      "__meta": {
-        "name": "Emotecraft (Forge)"
-      }
-    },
-    {
       "projectID": 406119,
       "fileID": 4046533,
       "required": true,
@@ -299,15 +291,6 @@
       "required": true,
       "__meta": {
         "name": "Shutup Experimental Settings!"
-      }
-    },
-    {
-      "projectID": 410295,
-      "fileID": 4136430,
-      "required": true,
-      "__meta": {
-        "name": "Konkrete [Forge]",
-        "explicit": false
       }
     },
     {
@@ -472,6 +455,14 @@
       }
     },
     {
+      "projectID": 546670,
+      "fileID": 3918566,
+      "required": true,
+      "__meta": {
+        "name": "ESSENTIAL Mod"
+      }
+    },
+    {
       "projectID": 551894,
       "fileID": 4058404,
       "required": true,
@@ -488,17 +479,6 @@
         "dependencies": [
           388172,
           388172
-        ]
-      }
-    },
-    {
-      "projectID": 561885,
-      "fileID": 3869607,
-      "required": true,
-      "__meta": {
-        "name": "Just Zoom [Forge]",
-        "dependencies": [
-          410295
         ]
       }
     },
