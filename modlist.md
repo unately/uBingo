@@ -24,6 +24,7 @@
 - [Dark Paintings](https://www.curseforge.com/minecraft/mc-mods/dark-paintings) (by [DarkhaxDev](https://www.curseforge.com/members/darkhaxdev/projects))
 - [Default Options](https://www.curseforge.com/minecraft/mc-mods/default-options) (by [BlayTheNinth](https://www.curseforge.com/members/blaytheninth/projects))
 - [Ding (Forge)](https://www.curseforge.com/minecraft/mc-mods/ding) (by [ohaiiChun](https://www.curseforge.com/members/ohaiichun/projects))
+- [Do a Barrel Roll](https://www.curseforge.com/minecraft/mc-mods/do-a-barrel-roll) (by [enjarai](https://www.curseforge.com/members/enjarai/projects))
 - [Emotecraft (Forge)](https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge) (by [KosmX](https://www.curseforge.com/members/kosmx/projects))
 - [Enderite Mod (for Forge)](https://www.curseforge.com/minecraft/mc-mods/enderite-mod-for-forge) (by [pitti11](https://www.curseforge.com/members/pitti11/projects))
 - [ExpandAbility](https://www.curseforge.com/minecraft/mc-mods/expandability) (by [florensie](https://www.curseforge.com/members/florensie/projects))

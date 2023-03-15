@@ -528,6 +528,14 @@
       "__meta": {
         "name": "playerAnimator"
       }
+    },
+    {
+      "projectID": 663658,
+      "fileID": 4385174,
+      "required": true,
+      "__meta": {
+        "name": "Do a Barrel Roll"
+      }
     }
   ]
 }
