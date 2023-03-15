@@ -16,16 +16,8 @@
   "name": "uBingo",
   "files": [
     {
-      "projectID": 227657,
-      "fileID": 3925028,
-      "required": true,
-      "__meta": {
-        "name": "Global GameRules"
-      }
-    },
-    {
       "projectID": 228525,
-      "fileID": 4354814,
+      "fileID": 4426591,
       "required": true,
       "__meta": {
         "name": "Bookshelf"
@@ -127,7 +119,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 4344915,
+      "fileID": 4426703,
       "required": true,
       "__meta": {
         "name": "Placebo"
@@ -171,7 +163,7 @@
     },
     {
       "projectID": 312353,
-      "fileID": 4013928,
+      "fileID": 4430856,
       "required": true,
       "__meta": {
         "name": "Artifacts",
@@ -190,6 +182,15 @@
       }
     },
     {
+      "projectID": 348521,
+      "fileID": 3972423,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (Fabric/Forge)",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 349559,
       "fileID": 3968312,
       "required": true,
@@ -203,6 +204,17 @@
       "required": true,
       "__meta": {
         "name": "Open Loader"
+      }
+    },
+    {
+      "projectID": 355440,
+      "fileID": 4385516,
+      "required": true,
+      "__meta": {
+        "name": "Immersive Portals (for Forge)",
+        "dependencies": [
+          348521
+        ]
       }
     },
     {
@@ -250,11 +262,15 @@
       }
     },
     {
-      "projectID": 403422,
-      "fileID": 4173796,
+      "projectID": 401284,
+      "fileID": 4282088,
       "required": true,
       "__meta": {
-        "name": "Emotecraft (Forge)"
+        "name": "Enderite Mod (for Forge)",
+        "dependencies": [
+          348521,
+          419699
+        ]
       }
     },
     {
@@ -275,15 +291,6 @@
       "required": true,
       "__meta": {
         "name": "Shutup Experimental Settings!"
-      }
-    },
-    {
-      "projectID": 410295,
-      "fileID": 4136430,
-      "required": true,
-      "__meta": {
-        "name": "Konkrete [Forge]",
-        "explicit": false
       }
     },
     {
@@ -319,6 +326,15 @@
       "required": true,
       "__meta": {
         "name": "More Crafting Tables for Forge!"
+      }
+    },
+    {
+      "projectID": 419699,
+      "fileID": 4384406,
+      "required": true,
+      "__meta": {
+        "name": "Architectury API (Fabric/Forge)",
+        "explicit": false
       }
     },
     {
@@ -439,6 +455,14 @@
       }
     },
     {
+      "projectID": 546670,
+      "fileID": 3918566,
+      "required": true,
+      "__meta": {
+        "name": "ESSENTIAL Mod"
+      }
+    },
+    {
       "projectID": 551894,
       "fileID": 4058404,
       "required": true,
@@ -455,17 +479,6 @@
         "dependencies": [
           388172,
           388172
-        ]
-      }
-    },
-    {
-      "projectID": 561885,
-      "fileID": 3869607,
-      "required": true,
-      "__meta": {
-        "name": "Just Zoom [Forge]",
-        "dependencies": [
-          410295
         ]
       }
     },
@@ -494,6 +507,14 @@
       "required": true,
       "__meta": {
         "name": "playerAnimator"
+      }
+    },
+    {
+      "projectID": 663658,
+      "fileID": 4385174,
+      "required": true,
+      "__meta": {
+        "name": "Do a Barrel Roll"
       }
     }
   ]

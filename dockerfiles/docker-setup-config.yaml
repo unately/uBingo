@@ -65,8 +65,6 @@ install:
       - 463155
       - 495693
       - 280294
-      - 561885
-      - 294574
       - 358191
       - 407174
       - 271740
@@ -74,6 +72,7 @@ install:
       - 297038
       - 357540
       - 537533
+      - 546670
 
   # The base path where the server should be installed to, ~ for current path
   baseInstallPath: ~
@@ -84,10 +83,10 @@ install:
   ignoreFiles:
     - resources/**
     - packmenu/**
+    - essential/**
     - crosshair_config.ccmcfg
     - crash-reports/**
     - config/fpsreducer/**
-    - config/justzoom/**
     - config/betterthirdperson-common.toml
     - config/betteradvancements-client.toml
     - config/bongo-client.toml
@@ -96,7 +95,6 @@ install:
     - config/fallingleaves-client.toml
     - config/farsight-common.toml
     - config/inventoryhud-client.toml
-    - config/musicplayer-client.toml
     - config/toastcontrol-common.toml
     - config/skinlayers.json
     - config/packmenu.cfg
