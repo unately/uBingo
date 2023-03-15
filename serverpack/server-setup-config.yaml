@@ -30,12 +30,12 @@ install:
       - 297038
       - 357540
       - 537533
-	  - 546670
+      - 546670
   baseInstallPath: null
   ignoreFiles:
     - resources/**
     - packmenu/**
-	- essential/**
+    - essential/**
     - crosshair_config.ccmcfg
     - crash-reports/**
     - config/fpsreducer/**
