@@ -16,14 +16,6 @@
   "name": "uBingo",
   "files": [
     {
-      "projectID": 227657,
-      "fileID": 3925028,
-      "required": true,
-      "__meta": {
-        "name": "Global GameRules"
-      }
-    },
-    {
       "projectID": 228525,
       "fileID": 4354814,
       "required": true,
