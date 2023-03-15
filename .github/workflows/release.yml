@@ -49,8 +49,9 @@ jobs:
       - name: "✍️ Write Changelogs"
         id: changelog
         uses: mikepenz/release-changelog-builder-action@v2.7.2
-        env:
-          GITHUB_TOKEN: ${{ secrets.UNATELYBOT_KEY }}
+        with:
+          commitMode: true
+          token: ${{ secrets.UNATELYBOT_KEY }}
 
   build_pack:
     runs-on: ubuntu-latest
@@ -219,7 +220,7 @@ jobs:
           display_name: "${{ needs.modpack-info.outputs.tag }}"
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
-          game_versions: "Minecraft 1.18:${{ needs.modpack-info.outputs.version }}"
+          game_versions: "Minecraft 1.19:${{ needs.modpack-info.outputs.version }}"
           release_type: ${{ steps.release-type.outputs.type }}
       - name: "👾 Upload serverpack"
         uses: itsmeow/curseforge-upload@v3
@@ -231,7 +232,6 @@ jobs:
           game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}"
           release_type: ${{ steps.release-type.outputs.type }}
           parent_file_id: ${{ steps.modpack-upload.outputs.id }}
-
   #discord_message:
   #  runs-on: ubuntu-latest
   #  needs: [release-github, release-curseforge]

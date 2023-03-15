@@ -8,7 +8,7 @@ install:
   installerUrl: https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar
   installerArguments:
     - '--installServer'
-  modpackUrl: https://github.com/Unately/uBingo/releases/download/v1.5.16/uBingo-v1.5.16.zip
+  modpackUrl: https://github.com/Unately/uBingo/releases/download/v1.7.1/uBingo-v1.7.1.zip
   modpackFormat: curse
   curseForgeAPIKey: $2a$10$wGENGvLKuQLEWDge5kVQIetN8DjtTKHFjAY9GJyB8YhhVTJrKc84y
   formatSpecific:
@@ -30,12 +30,12 @@ install:
       - 297038
       - 357540
       - 537533
-	  - 546670
+      - 546670
   baseInstallPath: null
   ignoreFiles:
     - resources/**
     - packmenu/**
-	- essential/**
+    - essential/**
     - crosshair_config.ccmcfg
     - crash-reports/**
     - config/fpsreducer/**

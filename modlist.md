@@ -1,4 +1,4 @@
-## uBingo - 1.6.0
+## uBingo - 1.7.1
 - [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) (by [QueenOfMissiles](https://www.curseforge.com/members/queenofmissiles/projects))
 - [Architectury API (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/architectury-api) (by [shedaniel](https://www.curseforge.com/members/shedaniel/projects))
 - [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) (by [ochotonida](https://www.curseforge.com/members/ochotonida/projects))
