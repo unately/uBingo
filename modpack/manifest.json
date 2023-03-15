@@ -190,6 +190,15 @@
       }
     },
     {
+      "projectID": 348521,
+      "fileID": 3972423,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (Fabric/Forge)",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 349559,
       "fileID": 3968312,
       "required": true,
@@ -247,6 +256,18 @@
       "__meta": {
         "name": "GeckoLib",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 401284,
+      "fileID": 4282088,
+      "required": true,
+      "__meta": {
+        "name": "Enderite Mod (for Forge)",
+        "dependencies": [
+          348521,
+          419699
+        ]
       }
     },
     {
@@ -319,6 +340,15 @@
       "required": true,
       "__meta": {
         "name": "More Crafting Tables for Forge!"
+      }
+    },
+    {
+      "projectID": 419699,
+      "fileID": 4384406,
+      "required": true,
+      "__meta": {
+        "name": "Architectury API (Fabric/Forge)",
+        "explicit": false
       }
     },
     {
