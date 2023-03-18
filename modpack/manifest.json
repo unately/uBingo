@@ -119,7 +119,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 4426703,
+      "fileID": 4441950,
       "required": true,
       "__meta": {
         "name": "Placebo"
@@ -440,7 +440,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 4418651,
+      "fileID": 4442591,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -464,7 +464,7 @@
     },
     {
       "projectID": 551894,
-      "fileID": 4058404,
+      "fileID": 4441760,
       "required": true,
       "__meta": {
         "name": "Better Compatibility Checker"
