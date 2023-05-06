@@ -154,7 +154,7 @@
     },
     {
       "projectID": 309927,
-      "fileID": 4493912,
+      "fileID": 4523009,
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
@@ -314,7 +314,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4500394,
+      "fileID": 4523032,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
