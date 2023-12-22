@@ -175,7 +175,7 @@
     },
     {
       "projectID": 316582,
-      "fileID": 4913868,
+      "fileID": 4973429,
       "required": true,
       "__meta": {
         "name": "Corpse"
@@ -183,7 +183,7 @@
     },
     {
       "projectID": 348521,
-      "fileID": 4633416,
+      "fileID": 4973444,
       "required": true,
       "__meta": {
         "name": "Cloth Config API (Fabric/Forge)",
@@ -456,7 +456,7 @@
     },
     {
       "projectID": 546670,
-      "fileID": 4970162,
+      "fileID": 4971437,
       "required": true,
       "__meta": {
         "name": "ESSENTIAL Mod"
