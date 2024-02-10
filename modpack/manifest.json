@@ -208,7 +208,7 @@
     },
     {
       "projectID": 355440,
-      "fileID": 4896844,
+      "fileID": 5093111,
       "required": true,
       "__meta": {
         "name": "Immersive Portals (for Forge)",
@@ -314,7 +314,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 5069031,
+      "fileID": 5093300,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
