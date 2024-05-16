@@ -3,7 +3,7 @@
     "version": "1.19.2",
     "modLoaders": [
       {
-        "id": "forge-43.2.0",
+        "id": "forge-43.3.0",
         "primary": true
       }
     ]
@@ -275,11 +275,10 @@
     },
     {
       "projectID": 406119,
-      "fileID": 4046533,
+      "fileID": 4061158,
       "required": true,
       "__meta": {
         "name": "Bongo",
-        "pinned": true,
         "dependencies": [
           412525
         ]
@@ -456,7 +455,7 @@
     },
     {
       "projectID": 546670,
-      "fileID": 5330530,
+      "fileID": 5346044,
       "required": true,
       "__meta": {
         "name": "ESSENTIAL Mod"
