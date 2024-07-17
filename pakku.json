@@ -1,0 +1,15 @@
+{
+    "name": "uBingo",
+    "version": "1.6.0",
+    "description": "A Bingo modpack to play with your Friends.",
+    "author": "",
+    "overrides": [
+        "config"
+    ],
+    "server_overrides": [
+    ],
+    "client_overrides": [
+    ],
+    "projects": {
+    }
+}

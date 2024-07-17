@@ -1,58 +1,42 @@
-## uBingo - 1.7.1
-- [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) (by [QueenOfMissiles](https://www.curseforge.com/members/queenofmissiles/projects))
-- [Architectury API (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/architectury-api) (by [shedaniel](https://www.curseforge.com/members/shedaniel/projects))
-- [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) (by [ochotonida](https://www.curseforge.com/members/ochotonida/projects))
-- [Balm (Forge Edition)](https://www.curseforge.com/minecraft/mc-mods/balm) (by [BlayTheNinth](https://www.curseforge.com/members/blaytheninth/projects))
-- [bendy-lib](https://www.curseforge.com/minecraft/mc-mods/bendy-lib) (by [KosmX](https://www.curseforge.com/members/kosmx/projects))
-- [Better Advancements](https://www.curseforge.com/minecraft/mc-mods/better-advancements) (by [way2muchnoise](https://www.curseforge.com/members/way2muchnoise/projects))
-- [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) (by [Gaz_](https://www.curseforge.com/members/gaz_/projects))
-- [Better Third Person](https://www.curseforge.com/minecraft/mc-mods/better-third-person) (by [Socolio](https://www.curseforge.com/members/socolio/projects))
-- [BingoLobby](https://www.curseforge.com/minecraft/mc-mods/bingolobby) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
-- [Bongo](https://www.curseforge.com/minecraft/mc-mods/bongo) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
-- [Bookshelf](https://www.curseforge.com/minecraft/mc-mods/bookshelf) (by [DarkhaxDev](https://www.curseforge.com/members/darkhaxdev/projects))
-- [Borderless Window](https://www.curseforge.com/minecraft/mc-mods/borderless) (by [SgtSalocin](https://www.curseforge.com/members/sgtsalocin/projects))
-- [Camp Chair](https://www.curseforge.com/minecraft/mc-mods/camp-chair) (by [dmitrylovin](https://www.curseforge.com/members/dmitrylovin/projects))
-- [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue) (by [MrCrayfish](https://www.curseforge.com/members/mrcrayfish/projects))
-- [Cloth Config API (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/cloth-config) (by [shedaniel](https://www.curseforge.com/members/shedaniel/projects))
-- [Comforts (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/comforts) (by [TheIllusiveC4](https://www.curseforge.com/members/theillusivec4/projects))
-- [Configured](https://www.curseforge.com/minecraft/mc-mods/configured) (by [MrCrayfish](https://www.curseforge.com/members/mrcrayfish/projects))
-- [Corpse](https://www.curseforge.com/minecraft/mc-mods/corpse) (by [henkelmax](https://www.curseforge.com/members/henkelmax/projects))
-- [Creatures and Beasts](https://www.curseforge.com/minecraft/mc-mods/creatures-and-beasts) (by [joosh_7889](https://www.curseforge.com/members/joosh_7889/projects))
-- [Creeper Overhaul](https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul) (by [joosh_7889](https://www.curseforge.com/members/joosh_7889/projects))
-- [Curios API (Forge)](https://www.curseforge.com/minecraft/mc-mods/curios) (by [TheIllusiveC4](https://www.curseforge.com/members/theillusivec4/projects))
-- [Custom Crosshair Mod](https://www.curseforge.com/minecraft/mc-mods/custom-crosshair-mod) (by [Sparkless101](https://www.curseforge.com/members/sparkless101/projects))
-- [Dark Paintings](https://www.curseforge.com/minecraft/mc-mods/dark-paintings) (by [DarkhaxDev](https://www.curseforge.com/members/darkhaxdev/projects))
-- [Default Options](https://www.curseforge.com/minecraft/mc-mods/default-options) (by [BlayTheNinth](https://www.curseforge.com/members/blaytheninth/projects))
-- [Ding (Forge)](https://www.curseforge.com/minecraft/mc-mods/ding) (by [ohaiiChun](https://www.curseforge.com/members/ohaiichun/projects))
-- [Do a Barrel Roll](https://www.curseforge.com/minecraft/mc-mods/do-a-barrel-roll) (by [enjarai](https://www.curseforge.com/members/enjarai/projects))
-- [Enderite Mod (for Forge)](https://www.curseforge.com/minecraft/mc-mods/enderite-mod-for-forge) (by [pitti11](https://www.curseforge.com/members/pitti11/projects))
-- [ESSENTIAL Mod](https://www.curseforge.com/minecraft/mc-mods/essential-mod) (by [SparkUniverse_](https://www.curseforge.com/members/sparkuniverse_/projects))
-- [ExpandAbility](https://www.curseforge.com/minecraft/mc-mods/expandability) (by [florensie](https://www.curseforge.com/members/florensie/projects))
-- [Falling Leaves (Forge)](https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge) (by [Cheaterpaul](https://www.curseforge.com/members/cheaterpaul/projects))
-- [FallingTree (Forge&Fabric)](https://www.curseforge.com/minecraft/mc-mods/falling-tree) (by [rakambda](https://www.curseforge.com/members/rakambda/projects))
-- [Farsight [Forge]](https://www.curseforge.com/minecraft/mc-mods/farsight) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
-- [Fast Leaf Decay](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay) (by [olafskiii](https://www.curseforge.com/members/olafskiii/projects))
-- [FastFurnace](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) (by [Shadows_of_Fire](https://www.curseforge.com/members/shadows_of_fire/projects))
-- [FastWorkbench](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) (by [Shadows_of_Fire](https://www.curseforge.com/members/shadows_of_fire/projects))
-- [FerriteCore (Forge)](https://www.curseforge.com/minecraft/mc-mods/ferritecore) (by [malte0811](https://www.curseforge.com/members/malte0811/projects))
-- [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer) (by [bre2el](https://www.curseforge.com/members/bre2el/projects))
-- [Fresh Animations](https://www.curseforge.com/minecraft/texture-packs/fresh-animations) (by [Fresh__LX](https://www.curseforge.com/members/fresh__lx/projects))
-- [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib) (by [ThanosGecko](https://www.curseforge.com/members/thanosgecko/projects))
-- [Immersive Portals (for Forge)](https://www.curseforge.com/minecraft/mc-mods/immersive-portals-for-forge) (by [qouteall](https://www.curseforge.com/members/qouteall/projects))
-- [Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge) (by [dmitrylovin](https://www.curseforge.com/members/dmitrylovin/projects))
-- [Ksyxis](https://www.curseforge.com/minecraft/mc-mods/ksyxis) (by [VidTu](https://www.curseforge.com/members/vidtu/projects))
-- [Lag Removal](https://www.curseforge.com/minecraft/mc-mods/lag-removal) (by [SWDTeam](https://www.curseforge.com/members/swdteam/projects))
-- [LibX](https://www.curseforge.com/minecraft/mc-mods/libx) (by [noeppinoeppi](https://www.curseforge.com/members/noeppinoeppi/projects))
-- [More Crafting Tables for Forge!](https://www.curseforge.com/minecraft/mc-mods/more-crafting-tables-for-forge) (by [DaveDuart](https://www.curseforge.com/members/daveduart/projects))
-- [Nature's Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass) (by [Chaosyr](https://www.curseforge.com/members/chaosyr/projects))
-- [Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader) (by [DarkhaxDev](https://www.curseforge.com/members/darkhaxdev/projects))
-- [PackMenu](https://www.curseforge.com/minecraft/mc-mods/packmenu) (by [Shadows_of_Fire](https://www.curseforge.com/members/shadows_of_fire/projects))
-- [Placebo](https://www.curseforge.com/minecraft/mc-mods/placebo) (by [Shadows_of_Fire](https://www.curseforge.com/members/shadows_of_fire/projects))
-- [playerAnimator](https://www.curseforge.com/minecraft/mc-mods/playeranimator) (by [KosmX](https://www.curseforge.com/members/kosmx/projects))
-- [Shutup Experimental Settings!](https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings) (by [Corgi_Taco](https://www.curseforge.com/members/corgi_taco/projects))
-- [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat) (by [henkelmax](https://www.curseforge.com/members/henkelmax/projects))
-- [Simply Light](https://www.curseforge.com/minecraft/mc-mods/simply-light) (by [Flanks255](https://www.curseforge.com/members/flanks255/projects))
-- [Skin Layers 3D (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d) (by [tr9zw](https://www.curseforge.com/members/tr9zw/projects))
-- [Starlight (Forge)](https://www.curseforge.com/minecraft/mc-mods/starlight-forge) (by [Spottedstar](https://www.curseforge.com/members/spottedstar/projects))
-- [Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control) (by [Shadows_of_Fire](https://www.curseforge.com/members/shadows_of_fire/projects))
-- [Winter Overhaul](https://www.curseforge.com/minecraft/mc-mods/winter-overhaul) (by [joosh_7889](https://www.curseforge.com/members/joosh_7889/projects))
+### Mods
+- 3D Skin Layers
+- AI Improvements
+- Architectury API
+- Artifacts
+- Balm
+- Better Advancements
+- Better Compatibility Checker
+- BingoLobby
+- Bongo
+- Bookshelf
+- Cloth Config API
+- Comforts
+- Corpse
+- CraftPresence
+- Creeper Overhaul
+- Curios API
+- Dark Paintings
+- Default Options
+- Ding
+- Do a Barrel Roll
+- Enderite Mod
+- Falling Leaves (NeoForge/Forge)
+- FallingTree
+- FerriteCore
+- FPS Reducer
+- Geckolib
+- Global GameRules
+- iChunUtil
+- JqshuvPack
+- Ksyxis
+- Leaves Be Gone
+- LibX
+- More Crafting Tables (MCT)
+- Nature's Compass
+- Open Loader
+- Puzzles Lib
+- Quad
+- Resourceful Config
+- Resourceful Lib
+- Simple Voice Chat
+- Tips
