@@ -175,7 +175,7 @@
     },
     {
       "projectID": 316582,
-      "fileID": 5661472,
+      "fileID": 5793933,
       "required": true,
       "__meta": {
         "name": "Corpse"
@@ -313,7 +313,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 5779016,
+      "fileID": 5794957,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
