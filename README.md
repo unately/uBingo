@@ -19,7 +19,7 @@
   <p align="center">
     A Bingo Modpack based on the Bongo mod with much features.
     <br />
-    <a href="https://docs.unately.com/"><strong>Explore the docs »</strong></a>
+    <a href="https://unately.com/oss/ubingo/about"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Unately/uBingo/actions/workflows/devbuild.yml?query=is%3Asuccess">Development Builds</a>
@@ -29,6 +29,12 @@
     <a href="https://github.com/Unately/uBingo/issues">Request Feature</a>
   </p>
 </div>
+
+
+> [!CAUTION]
+> This project is currently archived and no longer maintained.
+> We do not guarantee a resumption of development.
+> We accept no liability for any damage.
 
 
 
@@ -62,7 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Screenshot][product-screenshot]](https://cdn.jqshuv.xyz/screenshot.png)
+[![Screenshot][product-screenshot]](https://raw.githubusercontent.com/unately/uBingo/revamped/.github/images/screenshot.png)
 
 This is a modpack to play bingo with your friends or alone. It's based on the [Bongo Mod][bongo-link] by noeppinoeppi and the modpack manager [PAX][pax-link] by froehlichA. It contains some extra mods to improve the gameplay and run it more smooth.
 
@@ -88,7 +94,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-> https://docs.unately.com
+> [Documentation](https://unately.com/oss/ubingo/about)
 <!-- #### Using GDLauncher (Recommended) -->
 
 
