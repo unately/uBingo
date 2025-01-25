@@ -1,4 +1,12 @@
 /README.md
+/TODO.md
+/SECURITY.md
+/.vscode
+/.github
+/egg-ubingo.json
+/.editorconfig
+/.gitignore
+/.dockerignore
 
 /config/fabric
 /config/yet-another-minecraft-bingo/stats.db
@@ -8,3 +16,4 @@
 /config/sodium-fingerprint.json
 /config/sodium-mixin.properties
 /config/yacl.json5
+

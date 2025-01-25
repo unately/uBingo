@@ -7,7 +7,7 @@
         {
             "goal": {
                 "type": "lines",
-                "lines": 3
+                "lines": 1
             },
             "itemDistribution": [
                 0,
