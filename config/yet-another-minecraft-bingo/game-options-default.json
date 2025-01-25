@@ -1,0 +1,177 @@
+{
+    "winCondition": {
+        "type": "cards",
+        "cards": 1
+    },
+    "cards": [
+        {
+            "goal": {
+                "type": "lines",
+                "lines": 3
+            },
+            "itemDistribution": [
+                0,
+                0,
+                0,
+                9,
+                16
+            ],
+            "itemFilter": "-tedious -unobtainable",
+            "isLockoutMode": false,
+            "isInventoryMode": false,
+            "isHiddenItemsMode": false,
+            "isConsumeItemsMode": false
+        }
+    ],
+    "skipCardWhenLost": true,
+    "endGameWhenStalemate": true,
+    "endGameWhen": {
+        "type": "first_win"
+    },
+    "timeLimit": null,
+    "isElytra": false,
+    "isNightVision": false,
+    "isUnlockRecipes": true,
+    "isPvpEnabled": true,
+    "isKeepInventory": false,
+    "spawnDimension": "minecraft:overworld",
+    "spawnDistance": 25,
+    "showRemainingTime": true,
+    "showCompletedItems": true,
+    "showCompletedLines": true,
+    "showLeadingTeam": true,
+    "showPreviewCard": true,
+    "showHiddenTiers": false,
+    "isPlayerKit": false,
+    "playerKitItems": [
+        {
+            "id": "minecraft:netherite_helmet",
+            "nbt": "{Enchantments:[{lvl:4,id:protection},{lvl:1,id:aqua_affinity},{lvl:3,id:respiration}],Unbreakable:1}",
+            "components": {
+                "minecraft:enchantments": "{\"levels\":{\"protection\":4,\"aqua_affinity\":1,\"respiration\":3}}",
+                "minecraft:unbreakable": "{}"
+            },
+            "count": 1
+        },
+        {
+            "id": "minecraft:netherite_chestplate",
+            "nbt": "{Enchantments:[{lvl:4,id:protection}],Unbreakable:1}",
+            "components": {
+                "minecraft:enchantments": "{\"levels\":{\"protection\":4}}",
+                "minecraft:unbreakable": "{}"
+            },
+            "count": 1
+        },
+        {
+            "id": "minecraft:netherite_leggings",
+            "nbt": "{Enchantments:[{lvl:4,id:protection},{lvl:3,id:swift_sneak}],Unbreakable:1}",
+            "components": {
+                "minecraft:enchantments": "{\"levels\":{\"protection\":4,\"swift_sneak\":3}}",
+                "minecraft:unbreakable": "{}"
+            },
+            "count": 1
+        },
+        {
+            "id": "minecraft:netherite_boots",
+            "nbt": "{Enchantments:[{lvl:4,id:protection},{lvl:4,id:feather_falling},{lvl:3,id:depth_strider}],Unbreakable:1}",
+            "components": {
+                "minecraft:enchantments": "{\"levels\":{\"protection\":4,\"feather_falling\":4,\"depth_strider\":3}}",
+                "minecraft:unbreakable": "{}"
+            },
+            "count": 1
+        },
+        {
+            "id": "minecraft:netherite_pickaxe",
+            "nbt": "{Enchantments:[{lvl:5,id:efficiency},{lvl:3,id:fortune}],Unbreakable:1}",
+            "components": {
+                "minecraft:enchantments": "{\"levels\":{\"efficiency\":5,\"fortune\":3}}",
+                "minecraft:unbreakable": "{}"
+            },
+            "count": 1
+        },
+        {
+            "id": "minecraft:netherite_axe",
+            "nbt": "{Enchantments:[{lvl:5,id:efficiency},{lvl:5,id:sharpness}],Unbreakable:1}",
+            "components": {
+                "minecraft:enchantments": "{\"levels\":{\"efficiency\":5,\"sharpness\":5}}",
+                "minecraft:unbreakable": "{}"
+            },
+            "count": 1
+        },
+        {
+            "id": "minecraft:netherite_sword",
+            "nbt": "{Enchantments:[{lvl:2,id:knockback},{lvl:3,id:looting},{lvl:5,id:sharpness}],Unbreakable:1}",
+            "components": {
+                "minecraft:enchantments": "{\"levels\":{\"knockback\":2,\"looting\":3,\"sharpness\":5}}",
+                "minecraft:unbreakable": "{}"
+            },
+            "count": 1
+        },
+        {
+            "id": "minecraft:netherite_shovel",
+            "nbt": "{Enchantments:[{lvl:5,id:efficiency}],Unbreakable:1}",
+            "components": {
+                "minecraft:enchantments": "{\"levels\":{\"efficiency\":5}}",
+                "minecraft:unbreakable": "{}"
+            },
+            "count": 1
+        },
+        {
+            "id": "minecraft:iron_pickaxe",
+            "nbt": "{Enchantments:[{lvl:1,id:silk_touch}],Unbreakable:1}",
+            "components": {
+                "minecraft:enchantments": "{\"levels\":{\"silk_touch\":1}}",
+                "minecraft:unbreakable": "{}"
+            },
+            "count": 1
+        },
+        {
+            "id": "minecraft:shield",
+            "nbt": null,
+            "components": {
+                "minecraft:unbreakable": "{}"
+            },
+            "count": 1
+        },
+        {
+            "id": "minecraft:torch",
+            "nbt": null,
+            "components": null,
+            "count": 64
+        },
+        {
+            "id": "minecraft:golden_carrot",
+            "nbt": null,
+            "components": null,
+            "count": 64
+        },
+        {
+            "id": "minecraft:oak_log",
+            "nbt": null,
+            "components": null,
+            "count": 16
+        }
+    ],
+    "isTeamKit": false,
+    "teamKitItems": [
+        {
+            "id": "minecraft:iron_ingot",
+            "nbt": null,
+            "components": null,
+            "count": 64
+        },
+        {
+            "id": "minecraft:oak_log",
+            "nbt": null,
+            "components": null,
+            "count": 64
+        },
+        {
+            "id": "minecraft:torch",
+            "nbt": null,
+            "components": null,
+            "count": 64
+        }
+    ],
+    "startCountdownSeconds": 8
+}

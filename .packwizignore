@@ -1,11 +1,4 @@
-# Exclude exported CurseForge zip files
-*.zip
-
-# Exclude exported Modrinth modpacks
-*.mrpack
-
-.DS_Store
-
+/README.md
 
 /config/fabric
 /config/yet-another-minecraft-bingo/stats.db
@@ -15,4 +8,3 @@
 /config/sodium-fingerprint.json
 /config/sodium-mixin.properties
 /config/yacl.json5
-

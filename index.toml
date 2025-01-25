@@ -1,0 +1,78 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/advancements.tierlist.json"
+hash = "123d5a85b8a6ade644d7a12de4208af33ea3bf246e18f2083a11cc9059d9dc1f"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/challenge.tierlist.json"
+hash = "52463292c6f3c4b83aecd749389c96f4ca972b9176600edb8b59f54ad35b3a15"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/config.json"
+hash = "612a29e563596be7dbf4f57e64635b9b17fd36d5caf65e2a08126af0c98cf98a"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/game-options-default.json"
+hash = "2cfce9b7064f59b825dd79c94e16b81286fa2ab59079d50d490789bbf62ce192"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/game-options.json"
+hash = "2cfce9b7064f59b825dd79c94e16b81286fa2ab59079d50d490789bbf62ce192"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/items.tierlist.json"
+hash = "ba97bb5573a7acbb0dbae3d6348362d727bc7b4b040327645c65124d7e6aa766"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/player-settings.json"
+hash = "6d3ea626b52aeab197f5f6b6b0a59e3aedd90c3c39e1e526525dde8540bcd4f9"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/simplified.tierlist.json"
+hash = "cc7512a21260c7b3d2b09c80246da4015a4943ccb8cd79aba293edfd88e0e113"
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "4c4aa73a3c39122d34c95ca5d2b60c26c81aced32760bde7bb3b9c0dfdfa646c"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "82e7a1244febc6b4699e17bcee523567efc9c8c005d67057f9c4c40e7fba2a5a"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "f4070441d1f1bdeb3e6a594b5ba1c3f314b8f13815a67619cb38621c0f6a1fec"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "57d85950ff52812e642cc62cdb703e1397b5c635e8f159216963b29b0225b2b2"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "170af2cc47538de9caf10b714d81402b0e13a6b15a3e1e14d35f483f9cb276bd"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "56a0e243140dc1dbdb89c5a7a1cbcbe6e8d6da5499242bd1eabf548bbb8e3481"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "e0e1e55bfd57838d03dbcd49d3e056352db0284b15e45210205c5d85f83b76d4"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "4b7c266cf6c560aec780394f515cbe880c72fb07286f60694823fde3b926f184"
+metafile = true
+
+[[files]]
+file = "mods/yet-another-minecraft-bingo.pw.toml"
+hash = "ea6cbffa95c33e0b2d7eb51edf03d77d2611f60deb76709814dff7a67c5a31df"
+metafile = true
