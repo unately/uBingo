@@ -1,7 +1,7 @@
 {
-  "clientCapeType": "MINECRAFT",
+  "clientCapeType": "OPTIFINE",
   "enableOptifine": true,
-  "enableLabyMod": false,
+  "enableLabyMod": true,
   "enableWynntils": false,
   "enableMinecraftCapesMod": false,
   "enableCosmetica": false,

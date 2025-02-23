@@ -15,4 +15,6 @@
 /config/sodium-fingerprint.json
 /config/sodium-mixins.properties
 /config/yacl.json5
-
+/config/iris-excluded.json
+/config/forgeconfigapiport.toml
+/config/cardinal-components-api.properties
