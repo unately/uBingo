@@ -7,6 +7,7 @@
 /.editorconfig
 /.gitignore
 /.dockerignore
+/instance
 
 /config/fabric
 /config/yet-another-minecraft-bingo/stats.db
@@ -21,3 +22,4 @@
 /config/cardinal-components-api.properties
 /config/resourceful-config-web.json
 /config/debugify-descriptions.json
+/config/yet-another-minecraft-bingo/bingo.db

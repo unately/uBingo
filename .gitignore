@@ -1,10 +1,9 @@
 # Exclude exported CurseForge zip files
 *.zip
-
 # Exclude exported Modrinth modpacks
 *.mrpack
-
 .DS_Store
+instance
 
 
 /config/fabric
@@ -20,3 +19,4 @@
 /config/cardinal-components-api.properties
 /config/resourceful-config-web.json
 /config/debugify-descriptions.json
+/config/yet-another-minecraft-bingo/bingo.db
