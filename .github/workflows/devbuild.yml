@@ -79,12 +79,8 @@ jobs:
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v3
-      - name: "🚀 Download PAX"
-        uses: dsaltares/fetch-gh-release-asset@master
-        with:
-          repo: froehlichA/pax
-          file: "pax"
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "🚀 Download Pckwiz"
+        run: "wget https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip -O packwiz.zip && unzip packwiz.zip && chmod +x packwiz && rm packwiz.zip && mv packwiz /usr/local/bin/packwiz && packwiz --version"
       - name: "🚢 Export modpack"
         run: |
           sudo chmod +x ./pax

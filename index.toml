@@ -2,27 +2,51 @@ hash-format = "sha256"
 
 [[files]]
 file = "LICENSE"
-hash = "63649718e99e762ee2bff59f46677abf25132fdfd9a7fe7ed655b907b93da6b9"
+hash = "af1c1e8025224526d1005b8ae827bb14fa91d0b7354e9a620f7c770e85058b80"
+
+[[files]]
+file = "config/NoChatReports/NCR-Client.json"
+hash = "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
+
+[[files]]
+file = "config/NoChatReports/NCR-Common.json"
+hash = "0eaad2630bd70ade719f7810e805810ada25379269ea194e43d3eea30c51dec0"
+
+[[files]]
+file = "config/NoChatReports/NCR-Encryption.json"
+hash = "914ff467c04be14074e19741255b5f890db2bc0458554b984b2c02d3674bb824"
+
+[[files]]
+file = "config/NoChatReports/NCR-ServerPreferences.json"
+hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
+
+[[files]]
+file = "config/NoChatReports/README.md"
+hash = "c52b76ccad2bd1063a22c7f6bb9e7c5db6b00fb53a6fd605585972ee0e5fc01f"
+
+[[files]]
+file = "config/authme.jsonc"
+hash = "06d833200bcd1718d2961f690ec901df2aae19ed4f4bbe8eba7f837cf5163b5b"
 
 [[files]]
 file = "config/capes.json5"
-hash = "4e9200004d059501f2d5b122a56a311688762483d21d05ba95ae84edafc67aa8"
-
-[[files]]
-file = "config/cardinal-components-api.properties"
-hash = "8d3ae8c9240fc60475fbb98a87b7e2e0874703b173a449fb346fb0857ada7bba"
+hash = "566c88938c1a9ad02bfcb8f0f6c80c477e888af0c968f3b44cd9f25565dd030d"
 
 [[files]]
 file = "config/chat_heads.json5"
-hash = "744e6977b53f264ff47a1925451f7bd7083eb6bd7bff2505980cc3e9ca4ca0e2"
+hash = "2557a3fbfe31a7a8acdd87bf1df0b11efc4c240e2cac670b25675f2100c1b764"
 
 [[files]]
 file = "config/continuity.json"
 hash = "cabe00d1fd6091202d1180bd86d31bca69a5999a43317c3a77aea94da4f76016"
 
 [[files]]
-file = "config/debugify-descriptions.json"
-hash = "79f5c19a246877862a3614908e999413a66e773faa01b0dc4f5634f16ca92c0a"
+file = "config/fastquit.toml"
+hash = "e85f39867513fe26179ba3cf7a00d343e9642ceaa96e7ea3cde6a1c3aa69dd4e"
+
+[[files]]
+file = "config/freeLook.json"
+hash = "0ada32209077cfc617ded5e01c1360c24915a485ae69fdd8caec24116397f41c"
 
 [[files]]
 file = "config/freecam.json5"
@@ -34,70 +58,70 @@ hash = "722b612b9b0688a7d5881c5c12182df882bb089f07caf098eb6654d5e6a95b15"
 
 [[files]]
 file = "config/modmenu.json"
-hash = "359d15f9c4d26eeb284ce638c46152d1081feddce790ed5cc455e428f87ee0d2"
+hash = "e560f32a8573b1a6492596edb951bb19c61247e3734fe66c64bc00da141ff9d3"
 
 [[files]]
 file = "config/notenoughanimations.json"
-hash = "c458b8eec97a7cb2d2a9076f479c7049e93c8afc6968df7ec5b0f94cea439c75"
+hash = "ed5963ab9132632e89ea83f63f992f793f102d114b77938514d89d255a5754f7"
 
 [[files]]
 file = "config/notenoughcrashes.json"
 hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
+file = "config/scoreboard-overhaul.json"
+hash = "c3e4b10ae199ed4c239f1fb37a483b9540168cf092f4643b88b37e1718353dd0"
+
+[[files]]
+file = "config/simple-rpc/server-entries.toml"
+hash = "6dfd7e6dfd8bb89d93c9eadc92716a7d8cd05005f526beec8174db4ca3ebb019"
+
+[[files]]
+file = "config/simple-rpc/simple-rpc.toml"
+hash = "5da7b0b61ea0292bdc7c54a60d358a880eb572615be649d8c94636b2f4c7fe65"
+
+[[files]]
+file = "config/skinlayers.json"
+hash = "6938dedbced0a6bb0ef345264f8df432b6db8b759f6614b32bae655ca72e131d"
+
+[[files]]
 file = "config/sodium-extra-options.json"
 hash = "f614f1e1ebf5e598068f456ec333e6417b9836ffbc94e386aa0a434319734da9"
 
 [[files]]
-file = "config/sodium-mixins.properties"
-hash = "35d3939d1bc306839c6ad538803288b3d2bc8a2dfed4948eae569d540d6b8058"
-
-[[files]]
 file = "config/sodium-options.json"
-hash = "be255ff4587feee964e11feba338d417485c7d26e4e7881f00eea2762fe9b7ca"
+hash = "e212aff6b742001804c62c4e4033733473cf2400fbd5e89b06662a2721aa06db"
 
 [[files]]
 file = "config/travelersbackpack.json5"
-hash = "1f4a1c5168a76d5e6a163fc3c41f19b373fbe57f4be2047142a187d103a52df0"
+hash = "b85e6510c32c405e90defdb0e9b229b599d8d6059d9c9144b11cc0f5575692e9"
+
+[[files]]
+file = "config/vanish.hocon"
+hash = "433d76bd741619ee19a64ad1855e13be0536bdf335599d1112d8c6d1d0c43cd8"
 
 [[files]]
 file = "config/voicechat/translations.properties"
-hash = "693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1"
-
-[[files]]
-file = "config/voicechat/username-cache.json"
-hash = "9b4dc0475e9a2b9d61f5d83e11cbcb92fdd335e9e33598ac46230a2cb0877dd2"
+hash = "b258a94a5ed60fbf93b66c452c3d6e36b044f630741f90e5b13852a4805b235e"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "c83a61e09cab7ea7551549b6267fc1123c665c10524a1f82f70cd7c6a6ec8ca3"
+hash = "3a4d29a89478929da8500e1f29f7f78ae02f300c941002875eb764212b1b0ec0"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "7669de2d5b5c6aa876fa7931b4340a0e49b2705113ce397be8aa0546776c0426"
+hash = "cb450037493aa53f001f786a3b56085a2969df858205600f2a10d1466334e5b3"
 
 [[files]]
 file = "config/voicechat/voicechat-volumes.properties"
-hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
+hash = "33afebdb8ef07a3d774086931dec8d899f4da7aeba5b448fd4eee540ba5e02a2"
 
 [[files]]
 file = "config/waveycapes.json"
 hash = "8ba8caf036bac59033157842f7812cf3eca3434a02d2e7e59648214fe42c48fc"
 
 [[files]]
-file = "config/yet-another-minecraft-bingo/advancements.tierlist.json"
-hash = "740f706e417c605e47186c1e737a5f4dfb545f1ab16aa5ac9acb3db1757fafc4"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/challenge.tierlist.json"
-hash = "c429c1addb133f4c6f948d2a9d51d21afb24531fc6771d79c7e25d23e18847ef"
-
-[[files]]
 file = "config/yet-another-minecraft-bingo/commands/on_countdown.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/commands/on_loading.mcfunction"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
@@ -113,28 +137,80 @@ file = "config/yet-another-minecraft-bingo/commands/on_pregame.mcfunction"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/yet-another-minecraft-bingo/commands/on_starting.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/yet-another-minecraft-bingo/config.json"
-hash = "180307f94f3ebf44be37a0e6e682e63cef415e36dd839133450e71d42b8f7c85"
+hash = "5d40ce6c639f4664f1a1eaa8850c2264676984f68a089c2d0887949d260728e1"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/files.json"
+hash = "689146fecedc683d0912290b4860266b106fcef2a2b059ac0ec610ed5a5e796f"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/game-options-default.json"
-hash = "2cfce9b7064f59b825dd79c94e16b81286fa2ab59079d50d490789bbf62ce192"
+hash = "90d8330bc7e6229eb2ead664a9f1ce52866a8fe27a94778364620c99ddcc8f86"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/game-options.json"
-hash = "4b7abef44e9d53915193e9c82383e32c5609d5083c15de8205076e93f747e3fb"
+hash = "1cf49697c6adf0ef39ba99a933b280a6452a9cb191f5cc70705a5107ec00e880"
 
 [[files]]
-file = "config/yet-another-minecraft-bingo/items.tierlist.json"
-hash = "bbc378bb60d51fb6ca2d2781d8424f28f84f3bfd50e075030ba2a02b4589a4b2"
+file = "config/yet-another-minecraft-bingo/messages/game_end.json"
+hash = "b23ec1c654971a73d9fc0b2ca1bde22270b81bb9f4740e6c02fdfe92a99e03b5"
 
 [[files]]
-file = "config/yet-another-minecraft-bingo/player-settings.json"
-hash = "744b7855d53602e22852b2222f0fe0da239906b4c4bc01971ea54c64a22a56fe"
+file = "config/yet-another-minecraft-bingo/messages/game_start.json"
+hash = "3465118bc84f5b3a8825ccb6a464ecbcb598b032f3178d9c8243de9fa0560c53"
 
 [[files]]
-file = "config/yet-another-minecraft-bingo/simplified.tierlist.json"
-hash = "fbe282551e8293de06b280a19b0a1b5a09c88d1fa1917b72d7d43b5974761b5a"
+file = "config/yet-another-minecraft-bingo/messages/scoreboard.json"
+hash = "24e942693513f2cdb8df6bef5b317b6c6a6a0b498359bcd5f550a5f050e67c59"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tags/biome_specific.json"
+hash = "1348f07137defcd4f7f97ef698cff56cddb6ee42b7eee98af436700c06f2b4a2"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tags/in_overworld.json"
+hash = "e57026437efa12dbaf36d9341b78727723928fc62b0cee5d06f0eddc352072c2"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tags/in_the_end.json"
+hash = "a8f4c08cf1e8d78ee0a52a9874d33d51708e96bde15b8b15242e99b2e95fab7e"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tags/in_the_nether.json"
+hash = "c88d592aa3c21c5613168c495336809786b262eeac65f84ac3cc57e38f41f5a3"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tags/tedious.json"
+hash = "69860ebdfd768250fa93fed16a7a7c023a5b83269b09b3e7126df64f2b6a5b37"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tags/unobtainable.json"
+hash = "a9c27a8487dd1577baeac6251dcfd77e010490db2a4b3fc992c28d73a7f70745"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tierlists/advancements.tierlist.json"
+hash = "e940ed9296e80db6d2c3cb3aa97c601cd8f04029dbb1b9a41a87b942470675b5"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tierlists/challenge.tierlist.json"
+hash = "e2a01f899be2e582699f0fcde9688648533702c9c86b5acdda273f0073ca8db6"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tierlists/items.tierlist.json"
+hash = "91833029ffd58f64a6a2c70dc0865dc571b6af3a35051d2968997d17f5c1b537"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tierlists/simplified.tierlist.json"
+hash = "464b14f60fbc4c15fd5d5310e45f3908d196764dc04f709dff58a3c921663324"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/voicechat.json"
+hash = "cf3d474d2d96f1f2526f300ad78cd1afa5cda42314ba1ad87db3fec3b722aaa9"
 
 [[files]]
 file = "config/zoomify.json"
@@ -191,6 +267,11 @@ hash = "d7bc58034de4a1afb4702d0038b9849e7d2664a85d460f3a05a29b4df1a230fc"
 metafile = true
 
 [[files]]
+file = "mods/craterlib.pw.toml"
+hash = "ab3f072a135236fced46bf7930409643fd0eb23ff24d27bc8eb8d08597f8700c"
+metafile = true
+
+[[files]]
 file = "mods/dark-loading-screen.pw.toml"
 hash = "0104803f2e11d336656660c2fcde2acbf0a54d93cef8f5a7a45d6d676b84ab43"
 metafile = true
@@ -198,6 +279,11 @@ metafile = true
 [[files]]
 file = "mods/debugify.pw.toml"
 hash = "f605331d864b266407b9d4486a4355febbc80b5e2e6ef75e4d92d45d2b29bc8f"
+metafile = true
+
+[[files]]
+file = "mods/e4mc.pw.toml"
+hash = "b7fdfb5fd43a75faa5a84bc9307b1e5dd31620e33b0636de7c4b04a4ed5ca8b7"
 metafile = true
 
 [[files]]
@@ -291,6 +377,11 @@ hash = "55a727cabdd9d6e84fb0232b49d0dfa207751002e7f1f63b959baa35e2f29868"
 metafile = true
 
 [[files]]
+file = "mods/scoreboard-overhaul.pw.toml"
+hash = "1d93599397574f7c92d9fda61ce5fa1d1a178a3107464f026ea9c345a7b54de6"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "7ead84f8df46c7e292fb00079d11aa78d15724398b150db11d06e6713583fcb0"
 metafile = true
@@ -301,13 +392,18 @@ hash = "0a6fccc10af5a38576a0bb21944403a64a498abdad8b067978c632e69a3e5ab7"
 metafile = true
 
 [[files]]
+file = "mods/simple-discord-rpc.pw.toml"
+hash = "b7ee2bef91899b2e8a291862eeaea40c5b0d268f7e8ee161701f4cb5d55aea0a"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "45da1c92a92078a5d35ce8e043484b7464836e6627beaaac70f21dc3fc1bf648"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "23f75aa3624b1378d1dd74cca6ba2bdbe74b969880830a96d1516dc76629496d"
+hash = "56a0e243140dc1dbdb89c5a7a1cbcbe6e8d6da5499242bd1eabf548bbb8e3481"
 metafile = true
 
 [[files]]
@@ -321,18 +417,13 @@ hash = "d6a1be851d91cd1f73db3f3d579eb594c4d17330bc22b42671edb5ef655fa138"
 metafile = true
 
 [[files]]
-file = "mods/visual-workbench.pw.toml"
-hash = "5af4ca216a4813516eac9c740f13665fb1913072e08ebe906842c54405b5680b"
-metafile = true
-
-[[files]]
 file = "mods/wavey-capes.pw.toml"
 hash = "ff46d9d0cb8e6c228b93508bef548f1011c802b63c8f90324e39ea5875ba5e32"
 metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "cec95ece1c0526cf5106f4af699d3497693d44c3b5e68a9535687cec4f8645e6"
+hash = "4b7c266cf6c560aec780394f515cbe880c72fb07286f60694823fde3b926f184"
 metafile = true
 
 [[files]]
@@ -344,3 +435,15 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "c9a5dca078d983e94d629ca4bf402fff78e364e5b5365ff43373d77eec268432"
 metafile = true
+
+[[files]]
+file = "patches/sodium-options.patch"
+hash = "33e11a23ff924b16594abbf98206ffc7cd9413a7d5eabccf91369a18c7be9bda"
+
+[[files]]
+file = "scripts/create_instance.sh"
+hash = "e3bbc95adea4c2ebe42ae82c03d9dcdd4cb027604b40637301564b90e3763108"
+
+[[files]]
+file = "scripts/patch_config.sh"
+hash = "4df5d412b733a607cdc6292a8d96a45efd7cd2b4e148471711f312ce93b8293e"

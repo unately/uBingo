@@ -1,0 +1,31 @@
+# Show vanish status in the action bar
+action-bar=true
+# Prevents vanished players from using chat
+disable-chat=true
+# Prevents vanished players from using /msg
+disable-msg=true
+# Hide vanished players from entities, prevents hostile entities from targeting players, and more
+hide-from-entities=true
+# Prevent vanished player world interactions
+interaction {
+    # Prevent progressing advancements
+    advancement-progress=false
+    # Prevent block interactions (pressure plates, dripleaf, tripwire, farmland, redstone ore, sculk sensor/shrieker and turtle egg)
+    blocks=true
+    # Prevent chunk loading / generation
+    chunk-loading=false
+    # Prevent entity collisions
+    entity-collisions=true
+    # Prevent entity pickups (arrows, experience orbs, items, dropper equipping and tridents)
+    entity-pickup=true
+    # Prevent mob spawning
+    mob-spawning=true
+    # Prevent player vibrations (sculk sensor/shrieker and warden)
+    vibrations=true
+}
+# Make vanished players invulnerable (Prevent deaths from tnt or other unforeseen accidents)
+invulnerable=false
+# Text to be displayed when placeholder vanish:vanished is used for a vanished player
+place-holder-display=" <gray>☠"
+# Send fake join/disconnect message
+send-join-disconnect-message=true

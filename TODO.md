@@ -11,3 +11,4 @@
 * [Chipped](https://www.curseforge.com/minecraft/mc-mods/chipped)
 * [ShulkerBoxTooltip](https://www.curseforge.com/minecraft/mc-mods/shulkerboxtooltip)
 * ([OptiFine Checker](https://www.curseforge.com/minecraft/mc-mods/optifine-checker))
+* Set Donor on Sodium settings

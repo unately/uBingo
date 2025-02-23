@@ -1,0 +1,18 @@
+{
+  "isEnabled": true,
+  "isAlwaysVisible": false,
+  "showOnUpdate": true,
+  "showDuration": 8,
+  "backgroundColor": -2147483648,
+  "scale": 100,
+  "positionX": 100,
+  "positionY": 50,
+  "updateFlicker": false,
+  "updateHighlight": true,
+  "updateHighlightColor": 1090519039,
+  "minWidth": 80,
+  "maxWidth": 180,
+  "truncateScoreNames": true,
+  "truncateScoreValues": true,
+  "showScoreValues": "Auto"
+}

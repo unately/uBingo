@@ -12,7 +12,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src=".github/images/ubingo-banner.gif" alt="Logo" width="512" height="128">
+    <img src=".github/images/ubingo-logo.png" alt="Logo" width="80" height="80">
 
 <h3 align="center">uBingo</h3>
 
