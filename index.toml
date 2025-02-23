@@ -1,16 +1,120 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "63649718e99e762ee2bff59f46677abf25132fdfd9a7fe7ed655b907b93da6b9"
+
+[[files]]
+file = "config/capes.json5"
+hash = "4e9200004d059501f2d5b122a56a311688762483d21d05ba95ae84edafc67aa8"
+
+[[files]]
+file = "config/cardinal-components-api.properties"
+hash = "8d3ae8c9240fc60475fbb98a87b7e2e0874703b173a449fb346fb0857ada7bba"
+
+[[files]]
+file = "config/chat_heads.json5"
+hash = "744e6977b53f264ff47a1925451f7bd7083eb6bd7bff2505980cc3e9ca4ca0e2"
+
+[[files]]
+file = "config/continuity.json"
+hash = "cabe00d1fd6091202d1180bd86d31bca69a5999a43317c3a77aea94da4f76016"
+
+[[files]]
+file = "config/debugify-descriptions.json"
+hash = "79f5c19a246877862a3614908e999413a66e773faa01b0dc4f5634f16ca92c0a"
+
+[[files]]
+file = "config/freecam.json5"
+hash = "442d3c73c8d0c64a2445ef0c31b618db0034a2f452bf15751ec337287f34ef0c"
+
+[[files]]
+file = "config/immediatelyfast.json"
+hash = "722b612b9b0688a7d5881c5c12182df882bb089f07caf098eb6654d5e6a95b15"
+
+[[files]]
+file = "config/modmenu.json"
+hash = "359d15f9c4d26eeb284ce638c46152d1081feddce790ed5cc455e428f87ee0d2"
+
+[[files]]
+file = "config/notenoughanimations.json"
+hash = "c458b8eec97a7cb2d2a9076f479c7049e93c8afc6968df7ec5b0f94cea439c75"
+
+[[files]]
+file = "config/notenoughcrashes.json"
+hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
+
+[[files]]
+file = "config/sodium-extra-options.json"
+hash = "f614f1e1ebf5e598068f456ec333e6417b9836ffbc94e386aa0a434319734da9"
+
+[[files]]
+file = "config/sodium-mixins.properties"
+hash = "35d3939d1bc306839c6ad538803288b3d2bc8a2dfed4948eae569d540d6b8058"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "be255ff4587feee964e11feba338d417485c7d26e4e7881f00eea2762fe9b7ca"
+
+[[files]]
+file = "config/travelersbackpack.json5"
+hash = "1f4a1c5168a76d5e6a163fc3c41f19b373fbe57f4be2047142a187d103a52df0"
+
+[[files]]
+file = "config/voicechat/translations.properties"
+hash = "693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1"
+
+[[files]]
+file = "config/voicechat/username-cache.json"
+hash = "9b4dc0475e9a2b9d61f5d83e11cbcb92fdd335e9e33598ac46230a2cb0877dd2"
+
+[[files]]
+file = "config/voicechat/voicechat-client.properties"
+hash = "c83a61e09cab7ea7551549b6267fc1123c665c10524a1f82f70cd7c6a6ec8ca3"
+
+[[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "7669de2d5b5c6aa876fa7931b4340a0e49b2705113ce397be8aa0546776c0426"
+
+[[files]]
+file = "config/voicechat/voicechat-volumes.properties"
+hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
+
+[[files]]
+file = "config/waveycapes.json"
+hash = "8ba8caf036bac59033157842f7812cf3eca3434a02d2e7e59648214fe42c48fc"
+
+[[files]]
 file = "config/yet-another-minecraft-bingo/advancements.tierlist.json"
-hash = "123d5a85b8a6ade644d7a12de4208af33ea3bf246e18f2083a11cc9059d9dc1f"
+hash = "740f706e417c605e47186c1e737a5f4dfb545f1ab16aa5ac9acb3db1757fafc4"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/challenge.tierlist.json"
-hash = "52463292c6f3c4b83aecd749389c96f4ca972b9176600edb8b59f54ad35b3a15"
+hash = "c429c1addb133f4c6f948d2a9d51d21afb24531fc6771d79c7e25d23e18847ef"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/commands/on_countdown.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/commands/on_loading.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/commands/on_playing.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/commands/on_postgame.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/commands/on_pregame.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/config.json"
-hash = "612a29e563596be7dbf4f57e64635b9b17fd36d5caf65e2a08126af0c98cf98a"
+hash = "180307f94f3ebf44be37a0e6e682e63cef415e36dd839133450e71d42b8f7c85"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/game-options-default.json"
@@ -18,61 +122,165 @@ hash = "2cfce9b7064f59b825dd79c94e16b81286fa2ab59079d50d490789bbf62ce192"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/game-options.json"
-hash = "2cfce9b7064f59b825dd79c94e16b81286fa2ab59079d50d490789bbf62ce192"
+hash = "4b7abef44e9d53915193e9c82383e32c5609d5083c15de8205076e93f747e3fb"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/items.tierlist.json"
-hash = "ba97bb5573a7acbb0dbae3d6348362d727bc7b4b040327645c65124d7e6aa766"
+hash = "bbc378bb60d51fb6ca2d2781d8424f28f84f3bfd50e075030ba2a02b4589a4b2"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/player-settings.json"
-hash = "6d3ea626b52aeab197f5f6b6b0a59e3aedd90c3c39e1e526525dde8540bcd4f9"
+hash = "744b7855d53602e22852b2222f0fe0da239906b4c4bc01971ea54c64a22a56fe"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/simplified.tierlist.json"
-hash = "cc7512a21260c7b3d2b09c80246da4015a4943ccb8cd79aba293edfd88e0e113"
+hash = "fbe282551e8293de06b280a19b0a1b5a09c88d1fa1917b72d7d43b5974761b5a"
+
+[[files]]
+file = "config/zoomify.json"
+hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
+
+[[files]]
+file = "mods/animated-loading-screen.pw.toml"
+hash = "4908441f38d1a81bb693062d11eec966d4e3c20cc888d72b356a4d146e13c223"
+metafile = true
+
+[[files]]
+file = "mods/better-mount-hud.pw.toml"
+hash = "385f6606afc7086a39eaceec2df95e0c2c5d7aa3a3b31cb67e2a337eb10a4167"
+metafile = true
+
+[[files]]
+file = "mods/capes.pw.toml"
+hash = "f85c908d960ca1baf260bbcfa672b1bf46b633c9d71870c43a14be5b4187904a"
+metafile = true
+
+[[files]]
+file = "mods/cardinal-components-api.pw.toml"
+hash = "97741b074ffd2448750ebcb7ccbda175e2a177da44916344a9375e7a1940306e"
+metafile = true
+
+[[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "1ea25a7af36e8fae96f05d9ebd50aa0aa5018064349cd86d4c4586fd1c65c2b8"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "df15648dd4d4e27dd0c45ab4e78277c45886b77a698b129f4ce2d2bc337f7044"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "7986f751d84536043edd1e67178554f6d4c3f01409feae6c151afa7854db5fa2"
+metafile = true
+
+[[files]]
+file = "mods/dark-loading-screen.pw.toml"
+hash = "0104803f2e11d336656660c2fcde2acbf0a54d93cef8f5a7a45d6d676b84ab43"
+metafile = true
+
+[[files]]
+file = "mods/debugify.pw.toml"
+hash = "f605331d864b266407b9d4486a4355febbc80b5e2e6ef75e4d92d45d2b29bc8f"
+metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "4c4aa73a3c39122d34c95ca5d2b60c26c81aced32760bde7bb3b9c0dfdfa646c"
+hash = "7088d1b17a511afa580b00819fa45a7c135ddb6986d2dff6088816d6fe2dede6"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "3d0bf4d56ea941f856200934fdc2fb4952fe513d469f47bdb5fc586f99f16097"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "09bcf1e1abce352091c58d70abc50c413fc10dbd7ddf68910118b259b5dc2478"
+metafile = true
+
+[[files]]
+file = "mods/freelook.pw.toml"
+hash = "9d760e970394bfd8d2b5f7586b3b712cedfbedca2b73c31b430544f69f740e1f"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "f54c8f372e98a3bb4808ae4643ef6c22acedf04d8fb17ef2f22b6d9e6a01310f"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "82e7a1244febc6b4699e17bcee523567efc9c8c005d67057f9c4c40e7fba2a5a"
+hash = "89ea4702090cceb450814508186269abc88d8623995a783dce11d9439805901b"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "c4e45594c8d1ab3dacc3b49142f16fb253178dd31d97cc917bf4a4d54f21e081"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "f4070441d1f1bdeb3e6a594b5ba1c3f314b8f13815a67619cb38621c0f6a1fec"
+hash = "dd676bf22ee4353976cd407cebcf6909c7d6d21026a77721644d155bfd38c976"
 metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "57d85950ff52812e642cc62cdb703e1397b5c635e8f159216963b29b0225b2b2"
+hash = "c86c8f20b72a4728721e27602b7ee6ffe2f78709763fa9f49a2088f3ff77cb55"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "d2e8ba48532b0a3bbcaeb92b133a85e30bec4ddadf45b0d6df679375817e10a2"
+metafile = true
+
+[[files]]
+file = "mods/notenoughcrashes.pw.toml"
+hash = "0174305d98ff9de858f3b865eb1aa21afbdc26c0cc523b34625a9f60b4a5c58c"
 metafile = true
 
 [[files]]
 file = "mods/placeholder-api.pw.toml"
-hash = "170af2cc47538de9caf10b714d81402b0e13a6b15a3e1e14d35f483f9cb276bd"
+hash = "d2bab1c5e428e14f12f0be157dc65d9045c2953a237c804308a4a7503b251afc"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "45da1c92a92078a5d35ce8e043484b7464836e6627beaaac70f21dc3fc1bf648"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "56a0e243140dc1dbdb89c5a7a1cbcbe6e8d6da5499242bd1eabf548bbb8e3481"
+hash = "23f75aa3624b1378d1dd74cca6ba2bdbe74b969880830a96d1516dc76629496d"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "e0e1e55bfd57838d03dbcd49d3e056352db0284b15e45210205c5d85f83b76d4"
+hash = "535c2a794b2ef78666a8980d7524f7ca03528270bc1c4ff0f32a504a2438038c"
+metafile = true
+
+[[files]]
+file = "mods/travelersbackpack.pw.toml"
+hash = "54ed53f1f51dd582cc00a690c74c900a2efb1f5e92de06fcb491823e55527e2b"
+metafile = true
+
+[[files]]
+file = "mods/wavey-capes.pw.toml"
+hash = "ff46d9d0cb8e6c228b93508bef548f1011c802b63c8f90324e39ea5875ba5e32"
 metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "4b7c266cf6c560aec780394f515cbe880c72fb07286f60694823fde3b926f184"
+hash = "cec95ece1c0526cf5106f4af699d3497693d44c3b5e68a9535687cec4f8645e6"
 metafile = true
 
 [[files]]
 file = "mods/yet-another-minecraft-bingo.pw.toml"
-hash = "ea6cbffa95c33e0b2d7eb51edf03d77d2611f60deb76709814dff7a67c5a31df"
+hash = "eb31217f1d481e598e0ca140ae8d26a00748d4cb4be7a8b384df44105e7cf301"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "c9a5dca078d983e94d629ca4bf402fff78e364e5b5365ff43373d77eec268432"
 metafile = true
