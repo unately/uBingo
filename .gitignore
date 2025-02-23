@@ -20,3 +20,6 @@ instance
 /config/resourceful-config-web.json
 /config/debugify-descriptions.json
 /config/yet-another-minecraft-bingo/bingo.db
+/config/debugify.json
+/config/e4mc
+/config/voicechat/username-cache.json
