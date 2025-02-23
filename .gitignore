@@ -18,3 +18,5 @@
 /config/iris-excluded.json
 /config/forgeconfigapiport.toml
 /config/cardinal-components-api.properties
+/config/resourceful-config-web.json
+/config/debugify-descriptions.json
