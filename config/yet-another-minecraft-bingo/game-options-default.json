@@ -23,8 +23,7 @@
             "isConsumeItemsMode": false
         }
     ],
-    "skipCardWhenLost": true,
-    "endGameWhenStalemate": true,
+    "stalemateBehavior": "END_GAME",
     "endGameWhen": {
         "type": "first_win"
     },

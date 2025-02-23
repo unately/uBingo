@@ -1,4 +1,6 @@
 {
+    "replace": false,
+    "values": [],
     "S": [
         "minecraft:bee_nest",
         "minecraft:blue_ice",
@@ -85,6 +87,7 @@
         "minecraft:blaze_rod",
         "minecraft:brewing_stand",
         "minecraft:cactus",
+        "minecraft:cactus_flower",
         "minecraft:cherry_log",
         "minecraft:cherry_planks",
         "minecraft:cherry_sapling",
@@ -197,6 +200,7 @@
         "minecraft:ender_pearl",
         "minecraft:fermented_spider_eye",
         "minecraft:filled_map",
+        "minecraft:firefly_bush",
         "minecraft:firework_rocket",
         "minecraft:firework_star",
         "minecraft:flowering_azalea",

@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "useCombinedGroupForSingleplayerTeams": true,
+    "useCombinedGroupAlways": false,
+    "teamGroups": {
+        "name": "Bingo: %s Team",
+        "type": "OPEN",
+        "password": null,
+        "hidden": false
+    },
+    "spectatorGroup": {
+        "name": "Bingo: Spectators",
+        "type": "NORMAL",
+        "password": null,
+        "hidden": false
+    },
+    "combinedGroup": {
+        "name": "Bingo",
+        "type": "OPEN",
+        "password": null,
+        "hidden": false
+    }
+}

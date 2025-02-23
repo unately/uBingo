@@ -1,5 +1,5 @@
 {
-    "version": 26,
+    "version": 32,
     "itemFilterPresets": {
         "everything": "-tedious -unobtainable"
     },
@@ -52,7 +52,6 @@
     "nextRoundWhenReadySeconds": 600,
     "nextRoundWhenReadyWaitsForFirstVote": true,
     "nextRoundWhenEveryoneDisconnects": true,
-    "nextRoundCompatibilityMode": false,
     "unsafeSkipWorldClose": false,
     "chat": {
         "defaultToTeamChat": true,
@@ -62,37 +61,6 @@
             "all"
         ],
         "teamCommandAliases": []
-    },
-    "integrations": {
-        "vanish": true,
-        "chunky": true,
-        "chunkyWorlds": {
-            "minecraft:overworld": 0,
-            "minecraft:the_nether": 1000
-        },
-        "voice": {
-            "enabled": true,
-            "useCombinedGroupForSingleplayerTeams": true,
-            "useCombinedGroupAlways": false,
-            "teamGroups": {
-                "name": "Bingo: %s Team",
-                "type": "OPEN",
-                "password": null,
-                "hidden": false
-            },
-            "spectatorGroup": {
-                "name": "Bingo: Spectators",
-                "type": "NORMAL",
-                "password": null,
-                "hidden": false
-            },
-            "combinedGroup": {
-                "name": "Bingo",
-                "type": "OPEN",
-                "password": null,
-                "hidden": false
-            }
-        }
     },
     "databaseUrl": null,
     "databaseUser": null,
@@ -136,6 +104,17 @@
             "stats",
             "level.dat",
             "level.dat_old"
-        ]
+        ],
+        "defaultPlayerSettings": {
+            "seenTutorial": false,
+            "hideLobbyPrompt": false,
+            "bossbar": false,
+            "scoreboard": true,
+            "scoreboardAutoHide": false,
+            "leadingMessages": true,
+            "scoreMessages": true,
+            "itemMessages": true,
+            "nightVision": true
+        }
     }
 }

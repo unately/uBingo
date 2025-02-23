@@ -1,13 +1,13 @@
 name = "Yet Another Bingo"
-filename = "bingo-2.4.0+mc1.21.4.jar"
+filename = "bingo-2.5.0+mc1.21.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/mHeNceaH/versions/ijd1GmEm/bingo-2.4.0%2Bmc1.21.4.jar"
+url = "https://cdn.modrinth.com/data/mHeNceaH/versions/5zfU0qod/bingo-2.5.0%2Bmc1.21.4.jar"
 hash-format = "sha512"
-hash = "f7440ec4ed8f7252705498e536461baf5d1cd31249e865cadcf0e75af563738075a4a91b5b164ddd4be66b6ace80d1acf3af3b4c42cb218117074b4e1c47ad67"
+hash = "b8efb8cb4a80babf896cca98ed50f98a8e8626b1083fa576961132564a7b16094283e0c9c8c8d480cd43f86699a30dba3d8eed34e89b9de82bf8ef2da7771323"
 
 [update]
 [update.modrinth]
 mod-id = "mHeNceaH"
-version = "ijd1GmEm"
+version = "5zfU0qod"

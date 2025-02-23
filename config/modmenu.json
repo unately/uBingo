@@ -2,17 +2,17 @@
   "sorting": "ascending",
   "count_libraries": true,
   "compact_list": false,
-  "count_children": true,
-  "mods_button_style": "classic",
-  "game_menu_button_style": "replace",
-  "count_hidden_mods": true,
-  "mod_count_location": "title_screen",
+  "count_children": false,
+  "mods_button_style": "replace_realms",
+  "game_menu_button_style": "icon",
+  "count_hidden_mods": false,
+  "mod_count_location": "none",
   "hide_mod_links": false,
   "show_libraries": false,
   "hide_mod_license": false,
   "hide_badges": false,
   "hide_mod_credits": false,
-  "easter_eggs": true,
+  "easter_eggs": false,
   "random_java_colors": false,
   "translate_names": true,
   "translate_descriptions": true,
@@ -26,10 +26,19 @@
   "config_mode": false,
   "disable_drag_and_drop": false,
   "hidden_mods": [
-    "animated-logo"
+    "lithium",
+    "notenoughcrashes",
+    "krypton",
+    "bettermounthud",
+    "sodium-extra",
+    "immediatelyfast",
+    "animated-logo",
+    "reeses-sodium-options",
+	"authme",
+	"dark-loading-screen",
+	"chat_heads",
+	"controlling"
   ],
-  "hidden_configs": [
-	"notenoughcrashes"
-  ],
+  "hidden_configs": [],
   "disable_update_checker": []
 }

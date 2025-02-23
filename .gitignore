@@ -13,6 +13,6 @@
 /config/lithium.properties
 /config/sodium-extra.properties
 /config/sodium-fingerprint.json
-/config/sodium-mixin.properties
+/config/sodium-mixins.properties
 /config/yacl.json5
 
