@@ -66,7 +66,7 @@
     "databaseUser": null,
     "databasePass": null,
     "syncStats": true,
-    "statsHostId": "6156e4c8-f1be-4c79-acf0-ba13cb357450",
+    "statsHostId": "",
     "client": {
         "enableHud": true,
         "showQuickStartButton": false,
