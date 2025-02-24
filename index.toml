@@ -77,6 +77,10 @@ file = "config/scoreboard-overhaul.json"
 hash = "c29c40f3c7519e54c508e8fcc4bb7fa98c592a121126f0c96173c49a3a53c578"
 
 [[files]]
+file = "config/servercore/optimizations.yml"
+hash = "3eba2f178a6b8cbd05529055dc013880afba7971daffd8ae7db7e6ab9d68dd71"
+
+[[files]]
 file = "config/servercountryflags/servercountryflags.properties"
 hash = "a5bfc73360df31cf6f240828e0bb807467164b55da6f375e79b9d419076dfab6"
 
@@ -103,6 +107,10 @@ hash = "be255ff4587feee964e11feba338d417485c7d26e4e7881f00eea2762fe9b7ca"
 [[files]]
 file = "config/vanish.hocon"
 hash = "433d76bd741619ee19a64ad1855e13be0536bdf335599d1112d8c6d1d0c43cd8"
+
+[[files]]
+file = "config/voicechat/voicechat-client.properties"
+hash = "3a4d29a89478929da8500e1f29f7f78ae02f300c941002875eb764212b1b0ec0"
 
 [[files]]
 file = "config/waveycapes.json"
@@ -163,6 +171,11 @@ metafile = true
 [[files]]
 file = "mods/better-mount-hud.pw.toml"
 hash = "385f6606afc7086a39eaceec2df95e0c2c5d7aa3a3b31cb67e2a337eb10a4167"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "f0b75ae2e4267051bff34cd2380de6072013ab1f348f63512fbb2eedce7ef99d"
 metafile = true
 
 [[files]]
@@ -238,6 +251,11 @@ metafile = true
 [[files]]
 file = "mods/fastquit.pw.toml"
 hash = "08114da8c86093301d6b6e07349709395599c4731626058a27a5395dd6369ff4"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "1ef554f7a8d5f7ed4bc21316e034eeef3430dc306012c0a706bd4c3e4ac253aa"
 metafile = true
 
 [[files]]
@@ -318,6 +336,11 @@ metafile = true
 [[files]]
 file = "mods/server-country-flags.pw.toml"
 hash = "81124074e74fff9ae7790582b4fd38e347785e1f608559fd97450f7684fa1017"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "55cb0143330095f2132926ff85dd7264d627880e709bffea1bd1e03edc7eddbf"
 metafile = true
 
 [[files]]

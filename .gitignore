@@ -34,3 +34,6 @@ node_modules
 /config/chunky/tasks
 /config/balm-common.toml
 /config/immediatelyfast.json
+/config/ferritecore.mixin.properties
+/config/c2me.toml
+/config/servercore/config.yml
