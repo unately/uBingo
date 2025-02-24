@@ -74,7 +74,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/scoreboard-overhaul.json"
-hash = "c29c40f3c7519e54c508e8fcc4bb7fa98c592a121126f0c96173c49a3a53c578"
+hash = "39f5c834622a4fa0e35c14583a294acab93bd3f36e7d2530fe0fdfc78ce1e783"
 
 [[files]]
 file = "config/servercore/optimizations.yml"
@@ -407,3 +407,11 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "c9a5dca078d983e94d629ca4bf402fff78e364e5b5365ff43373d77eec268432"
 metafile = true
+
+[[files]]
+file = "start.sh"
+hash = "de393bbaab1b0c5d6e5566eb18af32b055dd00f8a50230c92777016b9a442b81"
+
+[[files]]
+file = "test.sh"
+hash = "bf5ce66e2f7916ef29fdb2f0db10dc8b8e525eee71944bd0e7622f88bdf69015"

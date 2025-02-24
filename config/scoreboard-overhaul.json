@@ -8,7 +8,7 @@
   "positionX": 100,
   "positionY": 50,
   "updateFlicker": false,
-  "updateHighlight": true,
+  "updateHighlight": false,
   "updateHighlightColor": 1090519039,
   "minWidth": 80,
   "maxWidth": 180,
