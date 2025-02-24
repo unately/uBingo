@@ -56,7 +56,8 @@
     "animated-logo",
 	"serverpingerfixer",
 	"servercountryflags",
-	"simplerpc"
+	"simplerpc",
+	"defaultoptions"
   ],
   "hidden_configs": [],
   "disable_update_checker": []

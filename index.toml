@@ -33,6 +33,10 @@ file = "config/authme.jsonc"
 hash = "06d833200bcd1718d2961f690ec901df2aae19ed4f4bbe8eba7f837cf5163b5b"
 
 [[files]]
+file = "config/balm-common.toml"
+hash = "2fbbc2792edc05ca4df6648bf4f2637502e9bc1942baa957abaace7882e70fef"
+
+[[files]]
 file = "config/camenh.properties"
 hash = "6b32171f126e3c39b1e0bb8c5d3ae676821b4fdd85dc543a340b738aefa58c3d"
 
@@ -49,6 +53,14 @@ file = "config/continuity.json"
 hash = "cabe00d1fd6091202d1180bd86d31bca69a5999a43317c3a77aea94da4f76016"
 
 [[files]]
+file = "config/defaultoptions-common.toml"
+hash = "a186d6ab6468353cb2a49f5a4229c16b004580a557d4bccaf12041e8a46f9d9e"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "675f1a5312209219247b8a1cfe62e2ffe77617e6fa4b1456834120fcbfab1973"
+
+[[files]]
 file = "config/fastquit.toml"
 hash = "e85f39867513fe26179ba3cf7a00d343e9642ceaa96e7ea3cde6a1c3aa69dd4e"
 
@@ -58,7 +70,7 @@ hash = "722b612b9b0688a7d5881c5c12182df882bb089f07caf098eb6654d5e6a95b15"
 
 [[files]]
 file = "config/modmenu.json"
-hash = "234957d1f74ab7ecb3a9140d3355fb9e8abe571350f5d284573f71279b4bfd99"
+hash = "abad4fbc94e802dad6fbc78d2dd20d9e9a9fb77a3b4d186248cff1e4a52e923d"
 
 [[files]]
 file = "config/notenoughanimations.json"
@@ -125,6 +137,26 @@ file = "config/waveycapes.json"
 hash = "8ba8caf036bac59033157842f7812cf3eca3434a02d2e7e59648214fe42c48fc"
 
 [[files]]
+file = "config/yet-another-minecraft-bingo/commands/on_countdown.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/commands/on_playing.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/commands/on_postgame.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/commands/on_pregame.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/commands/on_starting.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/yet-another-minecraft-bingo/config.json"
 hash = "b3d947f9613e901ceb3d5715d4ccce646bbf8957a7c660e162f7e900f4856b9d"
 
@@ -159,6 +191,22 @@ hash = "1348f07137defcd4f7f97ef698cff56cddb6ee42b7eee98af436700c06f2b4a2"
 [[files]]
 file = "config/yet-another-minecraft-bingo/tags/in_overworld.json"
 hash = "e57026437efa12dbaf36d9341b78727723928fc62b0cee5d06f0eddc352072c2"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tags/in_the_end.json"
+hash = "a8f4c08cf1e8d78ee0a52a9874d33d51708e96bde15b8b15242e99b2e95fab7e"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tags/in_the_nether.json"
+hash = "c88d592aa3c21c5613168c495336809786b262eeac65f84ac3cc57e38f41f5a3"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tags/tedious.json"
+hash = "69860ebdfd768250fa93fed16a7a7c023a5b83269b09b3e7126df64f2b6a5b37"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tags/unobtainable.json"
+hash = "a9c27a8487dd1577baeac6251dcfd77e010490db2a4b3fc992c28d73a7f70745"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/tierlists/advancements.tierlist.json"
@@ -201,6 +249,11 @@ metafile = true
 [[files]]
 file = "mods/auth-me.pw.toml"
 hash = "a5c0b52beb8248059879d1276a0fdde925ca2d26cb206d081516e4fa893bc42a"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "f676c2672db0ae62b195d038c4798cd73971e7c7d956c2224cda796e05c785c3"
 metafile = true
 
 [[files]]
@@ -256,6 +309,11 @@ metafile = true
 [[files]]
 file = "mods/debugify.pw.toml"
 hash = "f605331d864b266407b9d4486a4355febbc80b5e2e6ef75e4d92d45d2b29bc8f"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "b5758663f4a01658d7849601cfc18bb216e749aeccc6f3e1f72ff549e98fc560"
 metafile = true
 
 [[files]]
