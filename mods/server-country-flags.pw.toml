@@ -1,0 +1,13 @@
+name = "Server Country Flags"
+filename = "servercountryflags-1.10.4-1.21.4-FABRIC.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/L6HW4EbG/versions/GKYfpDAY/servercountryflags-1.10.4-1.21.4-FABRIC.jar"
+hash-format = "sha512"
+hash = "f3bcfdab1390f8a2f86fd74d60678e234898436da29848229f63eb2da79e323b8851127fab23a8c74417550382104702c6bb0797e24da6b6e8c01ae220b4b9fb"
+
+[update]
+[update.modrinth]
+mod-id = "L6HW4EbG"
+version = "GKYfpDAY"

@@ -1,6 +1,6 @@
 {
   "initialZoom": 4,
-  "zoomInTime": 1.0,
+  "zoomInTime": 0.5,
   "zoomOutTime": 0.5,
   "zoomInTransition": "ease_out_exp",
   "zoomOutTransition": "ease_out_exp",

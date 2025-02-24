@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".node-version"
+hash = "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56"
+
+[[files]]
 file = "LICENSE"
 hash = "af1c1e8025224526d1005b8ae827bb14fa91d0b7354e9a620f7c770e85058b80"
 
@@ -29,6 +33,10 @@ file = "config/authme.jsonc"
 hash = "06d833200bcd1718d2961f690ec901df2aae19ed4f4bbe8eba7f837cf5163b5b"
 
 [[files]]
+file = "config/camenh.properties"
+hash = "6b32171f126e3c39b1e0bb8c5d3ae676821b4fdd85dc543a340b738aefa58c3d"
+
+[[files]]
 file = "config/capes.json5"
 hash = "566c88938c1a9ad02bfcb8f0f6c80c477e888af0c968f3b44cd9f25565dd030d"
 
@@ -45,20 +53,12 @@ file = "config/fastquit.toml"
 hash = "e85f39867513fe26179ba3cf7a00d343e9642ceaa96e7ea3cde6a1c3aa69dd4e"
 
 [[files]]
-file = "config/freeLook.json"
-hash = "0ada32209077cfc617ded5e01c1360c24915a485ae69fdd8caec24116397f41c"
-
-[[files]]
-file = "config/freecam.json5"
-hash = "442d3c73c8d0c64a2445ef0c31b618db0034a2f452bf15751ec337287f34ef0c"
-
-[[files]]
 file = "config/immediatelyfast.json"
 hash = "722b612b9b0688a7d5881c5c12182df882bb089f07caf098eb6654d5e6a95b15"
 
 [[files]]
 file = "config/modmenu.json"
-hash = "e560f32a8573b1a6492596edb951bb19c61247e3734fe66c64bc00da141ff9d3"
+hash = "234957d1f74ab7ecb3a9140d3355fb9e8abe571350f5d284573f71279b4bfd99"
 
 [[files]]
 file = "config/notenoughanimations.json"
@@ -70,7 +70,11 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/scoreboard-overhaul.json"
-hash = "c3e4b10ae199ed4c239f1fb37a483b9540168cf092f4643b88b37e1718353dd0"
+hash = "c29c40f3c7519e54c508e8fcc4bb7fa98c592a121126f0c96173c49a3a53c578"
+
+[[files]]
+file = "config/servercountryflags/servercountryflags.properties"
+hash = "a5bfc73360df31cf6f240828e0bb807467164b55da6f375e79b9d419076dfab6"
 
 [[files]]
 file = "config/simple-rpc/server-entries.toml"
@@ -142,7 +146,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/config.json"
-hash = "cbc72a518ed380e7f8f1ef65526279e45bc62aed22026efe063ecc2511df565c"
+hash = "b3d947f9613e901ceb3d5715d4ccce646bbf8957a7c660e162f7e900f4856b9d"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/files.json"
@@ -214,7 +218,7 @@ hash = "cf3d474d2d96f1f2526f300ad78cd1afa5cda42314ba1ad87db3fec3b722aaa9"
 
 [[files]]
 file = "config/zoomify.json"
-hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
+hash = "b3e581c52520478ed00cee66afd8233e9d4155a884078e61e8356b01552e8941"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -234,6 +238,11 @@ metafile = true
 [[files]]
 file = "mods/better-mount-hud.pw.toml"
 hash = "385f6606afc7086a39eaceec2df95e0c2c5d7aa3a3b31cb67e2a337eb10a4167"
+metafile = true
+
+[[files]]
+file = "mods/camera-enhancements.pw.toml"
+hash = "48dcb00eec1cbdeaed3ec7eb1e98dd2f0e30b101ecd0cfb8fd92cbb08c8acf86"
 metafile = true
 
 [[files]]
@@ -387,6 +396,16 @@ hash = "7ead84f8df46c7e292fb00079d11aa78d15724398b150db11d06e6713583fcb0"
 metafile = true
 
 [[files]]
+file = "mods/server-country-flags.pw.toml"
+hash = "81124074e74fff9ae7790582b4fd38e347785e1f608559fd97450f7684fa1017"
+metafile = true
+
+[[files]]
+file = "mods/serverpingerfixer.pw.toml"
+hash = "480117bbfe84aa4d902cd1f45053ed4df0738f12daf163d83436e5a1ac2804e2"
+metafile = true
+
+[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "0a6fccc10af5a38576a0bb21944403a64a498abdad8b067978c632e69a3e5ab7"
 metafile = true
@@ -443,3 +462,7 @@ hash = "e3bbc95adea4c2ebe42ae82c03d9dcdd4cb027604b40637301564b90e3763108"
 [[files]]
 file = "scripts/patch.js"
 hash = "66a561bd035a975d7d74c4dea15118a046ed21161a12c9498675921d7039ecef"
+
+[[files]]
+file = "scripts/patcher.sh"
+hash = "8c2f7ecc53977a4604214d966baa14edd7a9f1e286afb5ae3fe470665257cc43"

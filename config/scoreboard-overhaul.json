@@ -1,6 +1,6 @@
 {
   "isEnabled": true,
-  "isAlwaysVisible": false,
+  "isAlwaysVisible": true,
   "showOnUpdate": true,
   "showDuration": 8,
   "backgroundColor": -2147483648,
