@@ -38,7 +38,7 @@ hash = "6b32171f126e3c39b1e0bb8c5d3ae676821b4fdd85dc543a340b738aefa58c3d"
 
 [[files]]
 file = "config/capes.json5"
-hash = "566c88938c1a9ad02bfcb8f0f6c80c477e888af0c968f3b44cd9f25565dd030d"
+hash = "e3ee145346bfe3feb8af830491531ea60de42a42b4825bc57fab6e33c95b1c7c"
 
 [[files]]
 file = "config/chat_heads.json5"
