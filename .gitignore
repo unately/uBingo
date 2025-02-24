@@ -32,3 +32,5 @@ node_modules
 /config/voicechat/voicechat-server.properties
 /config/voicechat/voicechat-volumes.properties
 /config/chunky/tasks
+/config/balm-common.toml
+/config/immediatelyfast.json
