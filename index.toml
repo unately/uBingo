@@ -321,16 +321,6 @@ hash = "4b257578b2973f4e99ae3192989f7ba4db19e9eca99ea396a1479c8a6cd9ca88"
 metafile = true
 
 [[files]]
-file = "mods/freecam.pw.toml"
-hash = "09bcf1e1abce352091c58d70abc50c413fc10dbd7ddf68910118b259b5dc2478"
-metafile = true
-
-[[files]]
-file = "mods/freelook.pw.toml"
-hash = "9d760e970394bfd8d2b5f7586b3b712cedfbedca2b73c31b430544f69f740e1f"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "c7acf68591c9e2e380d2fa7f01bd3b8f37a9e91ee53c59e043c4189a86c162a9"
 metafile = true
