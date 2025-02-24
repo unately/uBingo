@@ -46,3 +46,5 @@
 /config/ferritecore.mixin.properties
 /config/c2me.toml
 /config/servercore/config.yml
+/config/coords-hud
+/config/roughlyenoughitems

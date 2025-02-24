@@ -159,6 +159,11 @@ hash = "4908441f38d1a81bb693062d11eec966d4e3c20cc888d72b356a4d146e13c223"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "848c49f2ead5e1e71d7be95d2d9e1cb992631faf91500b9c59e72d61afca33fd"
+metafile = true
+
+[[files]]
 file = "mods/auth-me.pw.toml"
 hash = "a5c0b52beb8248059879d1276a0fdde925ca2d26cb206d081516e4fa893bc42a"
 metafile = true
@@ -211,6 +216,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "d7bc58034de4a1afb4702d0038b9849e7d2664a85d460f3a05a29b4df1a230fc"
+metafile = true
+
+[[files]]
+file = "mods/coords-hud.pw.toml"
+hash = "d319148dbfe6e8bfdd3610023e0359d93cfe2675e2618261637fbb006a4d3e13"
 metafile = true
 
 [[files]]
@@ -321,6 +331,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "55a727cabdd9d6e84fb0232b49d0dfa207751002e7f1f63b959baa35e2f29868"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "c402f34f2fcf28c0955adadf0265810e875fc0b576098636bfd986dcd9dbec39"
 metafile = true
 
 [[files]]
