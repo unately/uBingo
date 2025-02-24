@@ -407,11 +407,3 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "c9a5dca078d983e94d629ca4bf402fff78e364e5b5365ff43373d77eec268432"
 metafile = true
-
-[[files]]
-file = "start.sh"
-hash = "de393bbaab1b0c5d6e5566eb18af32b055dd00f8a50230c92777016b9a442b81"
-
-[[files]]
-file = "test.sh"
-hash = "bf5ce66e2f7916ef29fdb2f0db10dc8b8e525eee71944bd0e7622f88bdf69015"
