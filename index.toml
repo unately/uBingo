@@ -125,26 +125,6 @@ file = "config/waveycapes.json"
 hash = "8ba8caf036bac59033157842f7812cf3eca3434a02d2e7e59648214fe42c48fc"
 
 [[files]]
-file = "config/yet-another-minecraft-bingo/commands/on_countdown.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/commands/on_playing.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/commands/on_postgame.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/commands/on_pregame.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/commands/on_starting.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/yet-another-minecraft-bingo/config.json"
 hash = "b3d947f9613e901ceb3d5715d4ccce646bbf8957a7c660e162f7e900f4856b9d"
 
@@ -181,22 +161,6 @@ file = "config/yet-another-minecraft-bingo/tags/in_overworld.json"
 hash = "e57026437efa12dbaf36d9341b78727723928fc62b0cee5d06f0eddc352072c2"
 
 [[files]]
-file = "config/yet-another-minecraft-bingo/tags/in_the_end.json"
-hash = "a8f4c08cf1e8d78ee0a52a9874d33d51708e96bde15b8b15242e99b2e95fab7e"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tags/in_the_nether.json"
-hash = "c88d592aa3c21c5613168c495336809786b262eeac65f84ac3cc57e38f41f5a3"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tags/tedious.json"
-hash = "69860ebdfd768250fa93fed16a7a7c023a5b83269b09b3e7126df64f2b6a5b37"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tags/unobtainable.json"
-hash = "a9c27a8487dd1577baeac6251dcfd77e010490db2a4b3fc992c28d73a7f70745"
-
-[[files]]
 file = "config/yet-another-minecraft-bingo/tierlists/advancements.tierlist.json"
 hash = "e940ed9296e80db6d2c3cb3aa97c601cd8f04029dbb1b9a41a87b942470675b5"
 
@@ -219,6 +183,10 @@ hash = "cf3d474d2d96f1f2526f300ad78cd1afa5cda42314ba1ad87db3fec3b722aaa9"
 [[files]]
 file = "config/zoomify.json"
 hash = "b3e581c52520478ed00cee66afd8233e9d4155a884078e61e8356b01552e8941"
+
+[[files]]
+file = "docker-compose.yml"
+hash = "de3a97153b39afb1cf5d3c305baca89ea37032c6597b62747b9d7c72b10ee5aa"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

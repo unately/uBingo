@@ -1,0 +1,22 @@
+services:
+  mc:
+    image: itzg/minecraft-server:latest
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: "FABRIC"
+      VERSION: "1.21.4"
+      MEMORY: "2G"
+      MOTD: "uBingo Minecraft Server"
+      ICON: "https://i.ibb.co/W4HKkVb9/server-icon.png"
+      OVERRIDE_ICON: "true"
+      TZ: "Europe/Berlin"
+      DIFFICULTY: "2"
+      ENABLE_COMMAND_BLOCK: "true"
+      PACKWIZ_URL: "http://192.168.178.158:8080/pack.toml"
+      BUG_REPORT_LINK: "https://github.com/unately/ubingo"
+    volumes:
+      - "./data:/data"
