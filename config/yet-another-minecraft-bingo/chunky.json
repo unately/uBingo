@@ -1,7 +1,7 @@
 {
     "enabled": true,
     "chunkyWorlds": {
-        "minecraft:overworld": 3000,
+        "minecraft:overworld": 1000,
         "minecraft:the_nether": 1000
     }
 }
