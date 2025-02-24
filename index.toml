@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".node-version"
-hash = "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56"
-
-[[files]]
 file = "LICENSE"
 hash = "af1c1e8025224526d1005b8ae827bb14fa91d0b7354e9a620f7c770e85058b80"
 
@@ -107,10 +103,6 @@ hash = "f614f1e1ebf5e598068f456ec333e6417b9836ffbc94e386aa0a434319734da9"
 [[files]]
 file = "config/sodium-options.json"
 hash = "d7ce2f2d0ec17084bbaad4dc1c70d5ee9668f5c1b09e730bb20a7080201e53d4"
-
-[[files]]
-file = "config/travelersbackpack.json5"
-hash = "b85e6510c32c405e90defdb0e9b229b599d8d6059d9c9144b11cc0f5575692e9"
 
 [[files]]
 file = "config/vanish.hocon"
@@ -233,10 +225,6 @@ file = "config/zoomify.json"
 hash = "b3e581c52520478ed00cee66afd8233e9d4155a884078e61e8356b01552e8941"
 
 [[files]]
-file = "docker-compose.yml"
-hash = "de3a97153b39afb1cf5d3c305baca89ea37032c6597b62747b9d7c72b10ee5aa"
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "04277af31d7c79fcfa5d134c040fbec38db299875b6ba92db0d184bc1f5d9593"
 metafile = true
@@ -269,11 +257,6 @@ metafile = true
 [[files]]
 file = "mods/capes.pw.toml"
 hash = "f85c908d960ca1baf260bbcfa672b1bf46b633c9d71870c43a14be5b4187904a"
-metafile = true
-
-[[files]]
-file = "mods/cardinal-components-api.pw.toml"
-hash = "97741b074ffd2448750ebcb7ccbda175e2a177da44916344a9375e7a1940306e"
 metafile = true
 
 [[files]]
@@ -447,11 +430,6 @@ hash = "d6ff2d13b8fec782d3a55207c90470591fd5aa36d4fab3562f8334a66cab60ab"
 metafile = true
 
 [[files]]
-file = "mods/travelersbackpack.pw.toml"
-hash = "d6a1be851d91cd1f73db3f3d579eb594c4d17330bc22b42671edb5ef655fa138"
-metafile = true
-
-[[files]]
 file = "mods/wavey-capes.pw.toml"
 hash = "ff46d9d0cb8e6c228b93508bef548f1011c802b63c8f90324e39ea5875ba5e32"
 metafile = true
@@ -470,15 +448,3 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "c9a5dca078d983e94d629ca4bf402fff78e364e5b5365ff43373d77eec268432"
 metafile = true
-
-[[files]]
-file = "scripts/create_instance.sh"
-hash = "e3bbc95adea4c2ebe42ae82c03d9dcdd4cb027604b40637301564b90e3763108"
-
-[[files]]
-file = "scripts/patch.js"
-hash = "66a561bd035a975d7d74c4dea15118a046ed21161a12c9498675921d7039ecef"
-
-[[files]]
-file = "scripts/patcher.sh"
-hash = "8c2f7ecc53977a4604214d966baa14edd7a9f1e286afb5ae3fe470665257cc43"
