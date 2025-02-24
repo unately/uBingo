@@ -90,7 +90,7 @@ hash = "f614f1e1ebf5e598068f456ec333e6417b9836ffbc94e386aa0a434319734da9"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "e212aff6b742001804c62c4e4033733473cf2400fbd5e89b06662a2721aa06db"
+hash = "d7ce2f2d0ec17084bbaad4dc1c70d5ee9668f5c1b09e730bb20a7080201e53d4"
 
 [[files]]
 file = "config/travelersbackpack.json5"
@@ -142,7 +142,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/config.json"
-hash = "5d40ce6c639f4664f1a1eaa8850c2264676984f68a089c2d0887949d260728e1"
+hash = "cbc72a518ed380e7f8f1ef65526279e45bc62aed22026efe063ecc2511df565c"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/files.json"
@@ -437,13 +437,9 @@ hash = "c9a5dca078d983e94d629ca4bf402fff78e364e5b5365ff43373d77eec268432"
 metafile = true
 
 [[files]]
-file = "patches/sodium-options.patch"
-hash = "33e11a23ff924b16594abbf98206ffc7cd9413a7d5eabccf91369a18c7be9bda"
-
-[[files]]
 file = "scripts/create_instance.sh"
 hash = "e3bbc95adea4c2ebe42ae82c03d9dcdd4cb027604b40637301564b90e3763108"
 
 [[files]]
-file = "scripts/patch_config.sh"
-hash = "4df5d412b733a607cdc6292a8d96a45efd7cd2b4e148471711f312ce93b8293e"
+file = "scripts/patch.js"
+hash = "66a561bd035a975d7d74c4dea15118a046ed21161a12c9498675921d7039ecef"
