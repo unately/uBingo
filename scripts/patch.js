@@ -23,7 +23,7 @@ const changes = [
 	file: 'config/sodium-options.json',
 	replace: [
 	  {
-		key: 'notifications.t.has_cleared_donation_button',
+		key: 'notifications.has_cleared_donation_button',
 		value: false
 	  },
 	  {

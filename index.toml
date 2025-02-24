@@ -45,6 +45,10 @@ file = "config/chat_heads.json5"
 hash = "2557a3fbfe31a7a8acdd87bf1df0b11efc4c240e2cac670b25675f2100c1b764"
 
 [[files]]
+file = "config/chunky/config.json"
+hash = "ddd6f57e527acd6e58244435825808cbac0ea206434eb8380edc42b2f6e730e0"
+
+[[files]]
 file = "config/continuity.json"
 hash = "cabe00d1fd6091202d1180bd86d31bca69a5999a43317c3a77aea94da4f76016"
 
@@ -102,67 +106,27 @@ hash = "f614f1e1ebf5e598068f456ec333e6417b9836ffbc94e386aa0a434319734da9"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "d7ce2f2d0ec17084bbaad4dc1c70d5ee9668f5c1b09e730bb20a7080201e53d4"
+hash = "be255ff4587feee964e11feba338d417485c7d26e4e7881f00eea2762fe9b7ca"
 
 [[files]]
 file = "config/vanish.hocon"
 hash = "433d76bd741619ee19a64ad1855e13be0536bdf335599d1112d8c6d1d0c43cd8"
 
 [[files]]
-file = "config/voicechat/translations.properties"
-hash = "b258a94a5ed60fbf93b66c452c3d6e36b044f630741f90e5b13852a4805b235e"
-
-[[files]]
-file = "config/voicechat/voicechat-client.properties"
-hash = "3a4d29a89478929da8500e1f29f7f78ae02f300c941002875eb764212b1b0ec0"
-
-[[files]]
-file = "config/voicechat/voicechat-server.properties"
-hash = "cb450037493aa53f001f786a3b56085a2969df858205600f2a10d1466334e5b3"
-
-[[files]]
-file = "config/voicechat/voicechat-volumes.properties"
-hash = "33afebdb8ef07a3d774086931dec8d899f4da7aeba5b448fd4eee540ba5e02a2"
-
-[[files]]
 file = "config/waveycapes.json"
 hash = "8ba8caf036bac59033157842f7812cf3eca3434a02d2e7e59648214fe42c48fc"
 
 [[files]]
-file = "config/yet-another-minecraft-bingo/commands/on_countdown.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/commands/on_playing.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/commands/on_postgame.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/commands/on_pregame.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/commands/on_starting.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "config/yet-another-minecraft-bingo/chunky.json"
+hash = "628abcec1a1fe54d251dac848d0fc59a81275b2bcdf4dd09d5e62c9515d1a785"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/config.json"
 hash = "b3d947f9613e901ceb3d5715d4ccce646bbf8957a7c660e162f7e900f4856b9d"
 
 [[files]]
-file = "config/yet-another-minecraft-bingo/files.json"
-hash = "689146fecedc683d0912290b4860266b106fcef2a2b059ac0ec610ed5a5e796f"
-
-[[files]]
 file = "config/yet-another-minecraft-bingo/game-options-default.json"
 hash = "90d8330bc7e6229eb2ead664a9f1ce52866a8fe27a94778364620c99ddcc8f86"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/game-options.json"
-hash = "1cf49697c6adf0ef39ba99a933b280a6452a9cb191f5cc70705a5107ec00e880"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/messages/game_end.json"
@@ -175,46 +139,6 @@ hash = "3465118bc84f5b3a8825ccb6a464ecbcb598b032f3178d9c8243de9fa0560c53"
 [[files]]
 file = "config/yet-another-minecraft-bingo/messages/scoreboard.json"
 hash = "24e942693513f2cdb8df6bef5b317b6c6a6a0b498359bcd5f550a5f050e67c59"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tags/biome_specific.json"
-hash = "1348f07137defcd4f7f97ef698cff56cddb6ee42b7eee98af436700c06f2b4a2"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tags/in_overworld.json"
-hash = "e57026437efa12dbaf36d9341b78727723928fc62b0cee5d06f0eddc352072c2"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tags/in_the_end.json"
-hash = "a8f4c08cf1e8d78ee0a52a9874d33d51708e96bde15b8b15242e99b2e95fab7e"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tags/in_the_nether.json"
-hash = "c88d592aa3c21c5613168c495336809786b262eeac65f84ac3cc57e38f41f5a3"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tags/tedious.json"
-hash = "69860ebdfd768250fa93fed16a7a7c023a5b83269b09b3e7126df64f2b6a5b37"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tags/unobtainable.json"
-hash = "a9c27a8487dd1577baeac6251dcfd77e010490db2a4b3fc992c28d73a7f70745"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tierlists/advancements.tierlist.json"
-hash = "e940ed9296e80db6d2c3cb3aa97c601cd8f04029dbb1b9a41a87b942470675b5"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tierlists/challenge.tierlist.json"
-hash = "e2a01f899be2e582699f0fcde9688648533702c9c86b5acdda273f0073ca8db6"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tierlists/items.tierlist.json"
-hash = "91833029ffd58f64a6a2c70dc0865dc571b6af3a35051d2968997d17f5c1b537"
-
-[[files]]
-file = "config/yet-another-minecraft-bingo/tierlists/simplified.tierlist.json"
-hash = "464b14f60fbc4c15fd5d5310e45f3908d196764dc04f709dff58a3c921663324"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/voicechat.json"
@@ -262,6 +186,11 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "3336cf0d20487bc291a660653908372b4f87c200b947d09ba8bbb010d6adc715"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "64c483fe6597534270aac57d7cd3f59928641b97de649312a14d392b5343e483"
 metafile = true
 
 [[files]]

@@ -20,6 +20,15 @@ node_modules
 /config/resourceful-config-web.json
 /config/debugify-descriptions.json
 /config/yet-another-minecraft-bingo/bingo.db
+/config/yet-another-minecraft-bingo/commands
+/config/yet-another-minecraft-bingo/tags
+/config/yet-another-minecraft-bingo/tierlists
+/config/yet-another-minecraft-bingo/files.json
+/config/yet-another-minecraft-bingo/game-options.json
 /config/debugify.json
 /config/e4mc
 /config/voicechat/username-cache.json
+/config/voicechat/translations.properties
+/config/voicechat/voicechat-server.properties
+/config/voicechat/voicechat-volumes.properties
+/config/chunky/tasks

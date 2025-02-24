@@ -32,3 +32,7 @@
 /config/debugify.json
 /config/e4mc
 /config/voicechat/username-cache.json
+/config/voicechat/translations.properties
+/config/voicechat/voicechat-server.properties
+/config/voicechat/voicechat-volumes.properties
+/config/chunky/tasks
