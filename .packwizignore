@@ -15,6 +15,7 @@
 /docker-compose.yml
 /scripts
 /.node-version
+/server
 
 /config/fabric
 /config/yet-another-minecraft-bingo/stats.db
