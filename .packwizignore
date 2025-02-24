@@ -8,6 +8,10 @@
 /.gitignore
 /.dockerignore
 /instance
+/node_modules
+/.husky
+/package.json
+/pnpm-lock.yaml
 
 /config/fabric
 /config/yet-another-minecraft-bingo/stats.db

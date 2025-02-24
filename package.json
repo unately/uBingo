@@ -1,0 +1,17 @@
+{
+  "name": "@unately/ubingo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "packwiz modrinth export",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}

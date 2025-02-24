@@ -4,6 +4,7 @@
 *.mrpack
 .DS_Store
 instance
+node_modules
 
 
 /config/fabric
