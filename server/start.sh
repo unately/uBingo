@@ -1,19 +1,4 @@
 #!/usr/bin/env bash
-############################################DESCRIPTION#################################################
-#
-# Start script to easily run your server pack. In order to run this script even easier, run the start.bat-file
-# which was also shipped with this server pack.
-#
-# A start-script supporting Forge, NeoForge, Fabric, Quilt and LegacyFabric as well as their supported Minecraft
-# versions.
-#
-# This script downloads and installs the Modloader server depending on the settings in the acompanying variables.txt
-# which was also shipped with this server pack. Should no suitable Java installation be found and your $JAVA-variable
-# be set to "java", then a suitable Java-installation will also be downloaded and provided to this server pack.
-#
-# You can let the server restart by setting RESTART to true in your variables.txt. More information about the
-# various settings in said file. Go check it out.
-#
 
 # pause
 # Pause script execution. User input in the form of any keyboard key-press is required to continue execution.
