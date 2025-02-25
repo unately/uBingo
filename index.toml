@@ -480,7 +480,3 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "c9a5dca078d983e94d629ca4bf402fff78e364e5b5365ff43373d77eec268432"
 metafile = true
-
-[[files]]
-file = "versions/2.0.0/changelog.txt"
-hash = "a61383b5c01acf895882633661e1416dce6c3d7be81340fdfe686306bda7985c"

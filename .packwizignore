@@ -24,6 +24,7 @@
 /server
 /TODO.md
 /meta.json
+/versions
 
 /config/balm-common.toml
 /config/c2me.toml
