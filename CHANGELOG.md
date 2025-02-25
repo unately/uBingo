@@ -1,5 +1,11 @@
 # ⛓️ Changelog
 
+## [2.0.0-beta.1](https://github.com/unately/uBingo/compare/v2.0.0-beta.0...v2.0.0-beta.1) (2025-02-25)
+
+### Features
+
+* remove build directory before creating a new one in build script ([12705f6](https://github.com/unately/uBingo/commit/12705f61b26d72568b0d2d71f9513a0025ff849b))
+
 ## [2.0.0-beta.0](https://github.com/unately/uBingo/compare/v1.7.1...v2.0.0-beta.0) (2025-02-25)
 
 ### Features
