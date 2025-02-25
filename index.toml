@@ -50,7 +50,7 @@ hash = "a186d6ab6468353cb2a49f5a4229c16b004580a557d4bccaf12041e8a46f9d9e"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "1e4af9b3198c45ad3a992455b4af8186ee4fdf857ce7d624b0eba01fa9c5a3ed"
+hash = "fe8d11e3f96f6231ed3b7af5497a7351457da07a529ec181c087098168e13ce7"
 
 [[files]]
 file = "config/fastquit.toml"
@@ -94,7 +94,7 @@ hash = "1e330aaa1ea40d1bba1e71216f3aefae4290d00bb6e9cf53b3bf1a3f8f420c02"
 
 [[files]]
 file = "config/simpleupdatechecker_modpack.json"
-hash = "2a0a17bbf317a14fd24b0705a900ef4099bb6a94daa85d54d21ff88d66b3da28"
+hash = "0f84df43024bd4a42622574943d249c865f20996ebdeeb61be21c279d35781d6"
 
 [[files]]
 file = "config/skinlayers.json"

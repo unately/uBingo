@@ -35,6 +35,8 @@ key_key.hotbar.9:key.keyboard.9:
 key_camenh.keybinds.freecam:key.keyboard.f4:
 key_camenh.keybinds.tripod:key.keyboard.unknown:
 key_camenh.keybinds.freelook:key.keyboard.left.alt:
+key_key.emotecraft.fastchoose:key.keyboard.x:
+key_key.emotecraft.stop:key.keyboard.unknown:
 key_key.heywiki.open:key.keyboard.period:
 key_key.heywiki.open_search:key.keyboard.b:
 key_key.modmenu.open_menu:key.keyboard.unknown:
