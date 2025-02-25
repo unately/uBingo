@@ -79,3 +79,23 @@ If you need help with the Bingo mod, you can find the documentation of the Bingo
 [Zoomify](https://modrinth.com/mod/w7ThoJFB) by [isxander](https://modrinth.com/user/nyx2i4fB)
 </details>
 
+<details>
+<summary>FAQ</summary>
+
+**Q:** How do I install the modpack?</br>
+**A:** For basic installation I recommend using the official [Modrinth App](https://modrinth.com/app). After installing just search for uBingo and click install.
+
+**Q:** How do I play with my friends?</br>
+**A:** To play with your friends there are two options. You can host one or get a server from a hosting provider. Or you can just open a singleplayer world and start (via ESC -> Open to LAN -> Start LAN World) a LAN world. After that you will get a address in your chat. Your friends can join by entering this address in the server list. </br>
+If you need further help or need a server, feel free to ask in our [Discord](https://dsc.gg/qrd).
+
+**Q:** How do I play Bingo?</br>
+**A:** You can find the documentation of the Bingo Mod [here](https://horrific.dev/bingo/what-is-bingo/).
+
+**Q:** Can you add X mod?</br>
+**A:** If you have any suggestions or requests, feel free to open an issue [here](https://github.com/unately/ubingo/issues). the modpack.
+
+**Q:** Can I use the modpack in my video/stream?</br>
+**A:** Yes, absolutely, you can use the modpack in your video/stream. Just make sure to **credit the authors of the mods** and the modpack.
+
+</details>
