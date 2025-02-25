@@ -27,6 +27,16 @@
 			},
 			"infile": "CHANGELOG.md",
 			"header": "# ⛓️ Changelog"
+		},
+		"@release-it/bumper": {
+			"in": {
+				"file": "config/modpack-update-checker/config.json",
+				"path": "currentVersion"
+			},
+			"out": {
+				"file": "config/modpack-update-checker/config.json",
+				"path": "currentVersion"
+			}
 		}
 	},
 	"hooks": {

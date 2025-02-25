@@ -65,6 +65,14 @@ file = "config/modmenu.json"
 hash = "30d1be96a5a29a47b1f36617be69a1bd1e0ec45b59e7a91f020f2a5832e9467c"
 
 [[files]]
+file = "config/modpack-update-checker/config.json"
+hash = "ee5ad6e9e8644fd644d1bccc7f865c8ed2c0be8147d26c8585cdb9c5ed361580"
+
+[[files]]
+file = "config/modpack-update-checker/modpack-info.txt"
+hash = "bfc1860899ada3d33561ae91d25b1a1d67486b5a7cc60d574e16340fb0db867a"
+
+[[files]]
 file = "config/notenoughanimations.json"
 hash = "ed5963ab9132632e89ea83f63f992f793f102d114b77938514d89d255a5754f7"
 
@@ -90,7 +98,7 @@ hash = "6dfd7e6dfd8bb89d93c9eadc92716a7d8cd05005f526beec8174db4ca3ebb019"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
-hash = "5da7b0b61ea0292bdc7c54a60d358a880eb572615be649d8c94636b2f4c7fe65"
+hash = "1e330aaa1ea40d1bba1e71216f3aefae4290d00bb6e9cf53b3bf1a3f8f420c02"
 
 [[files]]
 file = "config/skinlayers.json"
@@ -294,6 +302,11 @@ hash = "87c6b3a7eb7baa94804d2cce4db881af39af47858f1a2ad0b9b90a48626948e7"
 metafile = true
 
 [[files]]
+file = "mods/horse-expert.pw.toml"
+hash = "936864df39dd25cbf907fa34c210a165ceb0f7fa7d76fece4fab80e6d5fd3a0c"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "88a22df96806e32bfd1f80fbd4a94a885148d2372efa5a36c1e8635f06213780"
 metafile = true
@@ -336,6 +349,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "5ca4c5d71d0e9fbcc9a8561fe3e05fbdad8150d98e5976e9fec8f62c103ebeea"
+metafile = true
+
+[[files]]
+file = "mods/modpack-update-checker.pw.toml"
+hash = "287a28faac07e805d78e967bc810a370fe0ed90db9c9fe3d5122dec3bae91da7"
 metafile = true
 
 [[files]]

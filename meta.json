@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"hotfixesFormat": null,
+	"versions": [
+		{
+			"id": "2.0.0",
+			"releasereleasedAtDate": "1740459332000",
+			"promotions": {
+				"downloads": {
+					"modrinth": "https://modrinth.com/modpack/ubingo"
+				}
+			},
+			"updateType": "major"
+		}
+	]
+}
