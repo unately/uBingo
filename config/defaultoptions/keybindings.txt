@@ -35,13 +35,10 @@ key_key.hotbar.9:key.keyboard.9:
 key_camenh.keybinds.freecam:key.keyboard.f4:
 key_camenh.keybinds.tripod:key.keyboard.unknown:
 key_camenh.keybinds.freelook:key.keyboard.left.alt:
+key_key.heywiki.open:key.keyboard.period:
+key_key.heywiki.open_search:key.keyboard.b:
 key_key.modmenu.open_menu:key.keyboard.unknown:
 key_key.scoreboard-overhaul.expand:key.keyboard.unknown:
-key_key.travelersbackpack.inventory:key.keyboard.b:
-key_key.travelersbackpack.sort:key.keyboard.unknown:
-key_key.travelersbackpack.ability:key.keyboard.unknown:
-key_key.travelersbackpack.cycle_tool:key.keyboard.z:
-key_key.travelersbackpack.toggle_tank:key.keyboard.k:
 key_key.push_to_talk:key.keyboard.unknown:
 key_key.whisper:key.keyboard.unknown:
 key_key.mute_microphone:key.keyboard.m:

@@ -50,7 +50,7 @@ hash = "a186d6ab6468353cb2a49f5a4229c16b004580a557d4bccaf12041e8a46f9d9e"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "675f1a5312209219247b8a1cfe62e2ffe77617e6fa4b1456834120fcbfab1973"
+hash = "1e4af9b3198c45ad3a992455b4af8186ee4fdf857ce7d624b0eba01fa9c5a3ed"
 
 [[files]]
 file = "config/fastquit.toml"
@@ -62,7 +62,7 @@ hash = "2dbfacd2684821fba9fabe1a67beeeaeade69bd78ef5eb4251562110cefb977e"
 
 [[files]]
 file = "config/modmenu.json"
-hash = "a643eed3e30af08530738fb51f76b75296f5e31fdecebfa4a676304a3d934ecb"
+hash = "30d1be96a5a29a47b1f36617be69a1bd1e0ec45b59e7a91f020f2a5832e9467c"
 
 [[files]]
 file = "config/notenoughanimations.json"
@@ -74,7 +74,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/scoreboard-overhaul.json"
-hash = "39f5c834622a4fa0e35c14583a294acab93bd3f36e7d2530fe0fdfc78ce1e783"
+hash = "17802f54dae5f09802cb8a1066bf382ef59922273cf02fb3a46d223044bc1c2f"
 
 [[files]]
 file = "config/servercore/optimizations.yml"
@@ -118,7 +118,7 @@ hash = "8ba8caf036bac59033157842f7812cf3eca3434a02d2e7e59648214fe42c48fc"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/chunky.json"
-hash = "f131561d7199ed94fc2dbe684fd4a5da1bc3733b365a28c001f8d5a60b2cdc61"
+hash = "92d0b0b96d7a1b1711efde1f282328b5853ebd7486d2f048097b265c87f077a2"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/config.json"
@@ -289,6 +289,11 @@ hash = "4b257578b2973f4e99ae3192989f7ba4db19e9eca99ea396a1479c8a6cd9ca88"
 metafile = true
 
 [[files]]
+file = "mods/hey-wiki.pw.toml"
+hash = "87c6b3a7eb7baa94804d2cce4db881af39af47858f1a2ad0b9b90a48626948e7"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "88a22df96806e32bfd1f80fbd4a94a885148d2372efa5a36c1e8635f06213780"
 metafile = true
@@ -301,6 +306,11 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "e03fc0b0c151c5c072ac399d27b5c4268a093c41be73f3b1578d050bb49211f3"
+metafile = true
+
+[[files]]
+file = "mods/justenoughbreeding.pw.toml"
+hash = "1f66c5e9be255f01c37eb9c520bd0f3eb8914f4a3c150cb162ce0db93fe48758"
 metafile = true
 
 [[files]]
