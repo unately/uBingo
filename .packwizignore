@@ -16,6 +16,7 @@
 /scripts
 /.node-version
 /server
+/build
 
 /config/fabric
 /config/yet-another-minecraft-bingo/stats.db

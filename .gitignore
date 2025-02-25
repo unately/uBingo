@@ -5,6 +5,7 @@
 .DS_Store
 instance
 node_modules
+build
 
 
 /config/fabric

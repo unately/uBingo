@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".release-it.json"
-hash = "1a65172979ca5a4dd2e0fb67ec4864214456c5602f7a6b9009713545087f0edb"
+hash = "e7a478ec89b79848c19e1f04e27a92c43db5ddcb60f75164bdb82660b77c07d0"
 
 [[files]]
 file = "LICENSE"
