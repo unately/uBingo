@@ -428,6 +428,11 @@ hash = "b7ee2bef91899b2e8a291862eeaea40c5b0d268f7e8ee161701f4cb5d55aea0a"
 metafile = true
 
 [[files]]
+file = "mods/simple-update-checker.pw.toml"
+hash = "e84daf38964c85d21b1548190ec27febd5f11baa20d8ed43a3c5cc60750f06e2"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "45da1c92a92078a5d35ce8e043484b7464836e6627beaaac70f21dc3fc1bf648"
 metafile = true
