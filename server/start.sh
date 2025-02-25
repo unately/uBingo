@@ -48,7 +48,7 @@ getJavaVersion() {
 # Runs the companion-script "install_java.sh" to install the required Java version for this modded Minecraft server.
 installJava() {
   echo "No suitable Java installation was found on your system. Proceeding to Java installation."
-  . install_java.sh || crashServer "Java install-script failed. Install Java $RECOMMENDED_JAVA_VERSION manually or edit JAVA in your variables.txt to point to a Java installation of said version."
+  . install_java.sh || crashServer "Java install-script failed. Install Java $RECOMMENDED_JAVA_VERSION manually or edit JAVA in your variables.env to point to a Java installation of said version."
   if ! commandAvailable "$JAVA";then
     crashServer "Java installation failed. Couldn't find $JAVA."
   fi
@@ -194,8 +194,8 @@ if [[ "$(id -u)" == "0" ]]; then
   echo "Warning! Running with administrator-privileges is not recommended."
 fi
 
-if [[ ! -s "variables.txt" ]]; then
-  crashServer "ERROR! variables.txt not present. Without it the server can not be installed, configured or started."
+if [[ ! -s "variables.env" ]]; then
+  crashServer "ERROR! variables.env not present. Without it the server can not be installed, configured or started."
 fi
 
 source "variables.env"
