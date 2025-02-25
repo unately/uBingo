@@ -1,5 +1,20 @@
 # ⛓️ Changelog
 
+## [2.0.1](https://github.com/unately/uBingo/compare/v2.0.0...v2.0.1) (2025-02-25)
+
+### Features
+
+* add install script for automated Java installation using Jabba ([11cc07a](https://github.com/unately/uBingo/commit/11cc07ae19924bed1b50ce0fc1fedf2cb7b4d11f))
+* add new keybindings for EmoteCraft and update statsHostId in config ([93165e6](https://github.com/unately/uBingo/commit/93165e65556b5753cf7a668b4b81d51959ee9eeb))
+* add new mod configurations and update existing files for modpack management ([4f2e81c](https://github.com/unately/uBingo/commit/4f2e81cf87c7a3397a0072431a7d99e4308836b0))
+* add toml dependency and new modlist script for mod processing ([f8ee9e2](https://github.com/unately/uBingo/commit/f8ee9e25cca641966a9c6528a82381cdc6ac0f70))
+* remove obsolete mod files and update .packwizignore and index.toml for new configurations ([ce8198b](https://github.com/unately/uBingo/commit/ce8198bf564aa2e1c950b5f15743ef09dd4afc08))
+* update .packwizignore to exclude versions directory ([508fac2](https://github.com/unately/uBingo/commit/508fac28fa02f69939c42cb5417d9cb649353bf2))
+* update config.json for Yet Another Minecraft Bingo with new statsHostId and improved formatting ([47d8b08](https://github.com/unately/uBingo/commit/47d8b086e82c5f862969ebeaa9b4da3685265574))
+* update configuration files and add new mods for Hey Wiki and Just Enough Breeding ([5ae33c6](https://github.com/unately/uBingo/commit/5ae33c6bdc13a68e7fc60656a4e8419fe68454fa))
+* update configuration files for Simple Update Checker and remove obsolete modpack update checker ([34052db](https://github.com/unately/uBingo/commit/34052db74a16d6af5f476e7b7e166ca620b1b372))
+* update server properties and add new mods configuration ([78a80b5](https://github.com/unately/uBingo/commit/78a80b548d8700408453e1242ff5b989fd73462d))
+
 ## [2.0.0](https://github.com/unately/uBingo/compare/v2.0.0-beta.1...v2.0.0) (2025-02-25)
 
 ### Features
