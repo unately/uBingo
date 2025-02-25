@@ -17,25 +17,25 @@
 <h3 align="center">uBingo</h3>
 
   <p align="center">
-    A Bingo Modpack based on the Bongo mod with much features.
+    A Bingo Modpack based on the <a href="https://modrinth.com/mod/yet-another-minecraft-bingo">Yet Another Bingo</a> mod with much features.
     <br />
-    <a href="https://unately.com/oss/ubingo/about"><strong>Explore the docs »</strong></a>
+    <a href="https://www.unately.com/oss/ubingo/about"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Unately/uBingo/actions/workflows/devbuild.yml?query=is%3Asuccess">Development Builds</a>
+    <s><a href="">Development Builds</a></s>
     ·
-    <a href="https://github.com/Unately/uBingo/releases/latest">Download</a>
+    <a href="https://github.com/unately/uBingo/releases/latest">Download</a>
     ·
-    <a href="https://github.com/Unately/uBingo/issues">Request Feature</a>
+    <a href="https://github.com/unately/uBingo/issues">Request Feature</a>
   </p>
 </div>
 
 
-> [!CAUTION]
-> This project is currently archived and no longer maintained.
-> We do not guarantee a resumption of development.
-> We accept no liability for any damage.
-
+> [!WARNING]
+> This project is currently being reincarnated and
+> could be unstable. We do not take any responsibility
+> for any damage caused by the use of this project.
+> We are currently working to make the project stable.
 
 
 <!-- TABLE OF CONTENTS -->
@@ -70,10 +70,12 @@
 
 [![Screenshot][product-screenshot]](https://raw.githubusercontent.com/unately/uBingo/revamped/.github/images/screenshot.png)
 
-This is a modpack to play bingo with your friends or alone. It's based on the [Bongo Mod][bongo-link] by noeppinoeppi and the modpack manager [PAX][pax-link] by froehlichA. It contains some extra mods to improve the gameplay and run it more smooth.
 
-**Info:** Please only use the pre-build files from CurseForge and Github bacause selfbuilding can brake the pack and you could get banned from official servers. 
+With the uBingo modpack you can play Bingo alone or with your friends. The modpack is based on the [Yet Another Bingo](https://modrinth.com/mod/yet-another-minecraft-bingo) mod and has many features. The modpack is currently in development and is not yet stable. We are working on making the modpack stable and adding new features.	If you need help or have any questions, feel free to ask in our [Discord](https://dsc.gg/qrd).
 
+The releases also includes a server version of the modpack which you can use to play with your friends.
+
+If you need help with the Bingo mod, you can find the documentation of the Bingo Mod [here](https://horrific.dev/bingo/what-is-bingo/).
 
 
 ### Built With

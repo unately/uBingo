@@ -15,6 +15,7 @@
   "devDependencies": {
     "@release-it/conventional-changelog": "^10.0.0",
     "husky": "^9.1.7",
-    "release-it": "^18.1.2"
+    "release-it": "^18.1.2",
+    "toml": "^3.0.0"
   }
 }
