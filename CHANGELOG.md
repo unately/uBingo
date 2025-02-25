@@ -1,5 +1,12 @@
 # ⛓️ Changelog
 
+## [2.0.3](https://github.com/unately/uBingo/compare/v2.0.2...v2.0.3) (2025-02-25)
+
+### Features
+
+* add FAQ section to MODRINTH.md for installation and gameplay guidance ([7801a7d](https://github.com/unately/uBingo/commit/7801a7d446fc0cc989a589573d4611605e858c26))
+* add Simple Update Checker mod and update index and pack files ([469825e](https://github.com/unately/uBingo/commit/469825e53c12a54ec19a6601a4d657ea14d954b9))
+
 ## [2.0.2](https://github.com/unately/uBingo/compare/v2.0.1...v2.0.2) (2025-02-25)
 
 ### Features
