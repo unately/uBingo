@@ -29,14 +29,17 @@
 			"header": "# ⛓️ Changelog"
 		},
 		"@release-it/bumper": {
-			"in": {
-				"file": "config/simpleupdatechecker_modpack.json",
-				"path": "version_id"
-			},
-			"out": {
-				"file": "config/simpleupdatechecker_modpack.json",
-				"path": "version_id"
-			}
+			"out": [
+				{
+					"file": "config/simpleupdatechecker_modpack.json",
+					"path": "version_id"
+				},
+				{
+					"file": "pack.toml",
+					"path": "version",
+					"type": "text/toml"
+				}
+			]
 		}
 	},
 	"hooks": {
