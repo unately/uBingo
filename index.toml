@@ -65,14 +65,6 @@ file = "config/modmenu.json"
 hash = "30d1be96a5a29a47b1f36617be69a1bd1e0ec45b59e7a91f020f2a5832e9467c"
 
 [[files]]
-file = "config/modpack-update-checker/config.json"
-hash = "ee5ad6e9e8644fd644d1bccc7f865c8ed2c0be8147d26c8585cdb9c5ed361580"
-
-[[files]]
-file = "config/modpack-update-checker/modpack-info.txt"
-hash = "bfc1860899ada3d33561ae91d25b1a1d67486b5a7cc60d574e16340fb0db867a"
-
-[[files]]
 file = "config/notenoughanimations.json"
 hash = "ed5963ab9132632e89ea83f63f992f793f102d114b77938514d89d255a5754f7"
 
@@ -99,6 +91,10 @@ hash = "6dfd7e6dfd8bb89d93c9eadc92716a7d8cd05005f526beec8174db4ca3ebb019"
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
 hash = "1e330aaa1ea40d1bba1e71216f3aefae4290d00bb6e9cf53b3bf1a3f8f420c02"
+
+[[files]]
+file = "config/simpleupdatechecker_modpack.json"
+hash = "2a0a17bbf317a14fd24b0705a900ef4099bb6a94daa85d54d21ff88d66b3da28"
 
 [[files]]
 file = "config/skinlayers.json"

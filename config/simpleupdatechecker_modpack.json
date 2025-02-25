@@ -1,0 +1,13 @@
+{
+  "project_id": "ims6G0Cl",
+  "version_id": "2.0.0",
+  "display_name": "uBingo",
+  "display_version": "",
+  "release_type": [
+    "release",
+    "beta",
+    "alpha"
+  ],
+  "max_exclusive_version": "",
+  "use_version_number_for_display": true
+}

@@ -30,12 +30,12 @@
 		},
 		"@release-it/bumper": {
 			"in": {
-				"file": "config/modpack-update-checker/config.json",
-				"path": "currentVersion"
+				"file": "config/simpleupdatechecker_modpack.json",
+				"path": "version_id"
 			},
 			"out": {
-				"file": "config/modpack-update-checker/config.json",
-				"path": "currentVersion"
+				"file": "config/simpleupdatechecker_modpack.json",
+				"path": "version_id"
 			}
 		}
 	},
