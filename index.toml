@@ -57,8 +57,12 @@ file = "config/fastquit.toml"
 hash = "e85f39867513fe26179ba3cf7a00d343e9642ceaa96e7ea3cde6a1c3aa69dd4e"
 
 [[files]]
+file = "config/legendarytooltips.toml"
+hash = "2dbfacd2684821fba9fabe1a67beeeaeade69bd78ef5eb4251562110cefb977e"
+
+[[files]]
 file = "config/modmenu.json"
-hash = "abad4fbc94e802dad6fbc78d2dd20d9e9a9fb77a3b4d186248cff1e4a52e923d"
+hash = "a643eed3e30af08530738fb51f76b75296f5e31fdecebfa4a676304a3d934ecb"
 
 [[files]]
 file = "config/notenoughanimations.json"
@@ -175,8 +179,18 @@ hash = "385f6606afc7086a39eaceec2df95e0c2c5d7aa3a3b31cb67e2a337eb10a4167"
 metafile = true
 
 [[files]]
+file = "mods/boat-item-view.pw.toml"
+hash = "4a5a8a8b564dbf5582a916eb0f7d2e6b1d08b510e0e7a16ffe75a1230e06cc1d"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "f0b75ae2e4267051bff34cd2380de6072013ab1f348f63512fbb2eedce7ef99d"
+metafile = true
+
+[[files]]
+file = "mods/calcmod.pw.toml"
+hash = "04caaca613928c8d4e1d3015332a74a43be6ee0fd7693011d2aa91f56d13f768"
 metafile = true
 
 [[files]]
@@ -275,6 +289,11 @@ hash = "4b257578b2973f4e99ae3192989f7ba4db19e9eca99ea396a1479c8a6cd9ca88"
 metafile = true
 
 [[files]]
+file = "mods/iceberg.pw.toml"
+hash = "88a22df96806e32bfd1f80fbd4a94a885148d2372efa5a36c1e8635f06213780"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "c7acf68591c9e2e380d2fa7f01bd3b8f37a9e91ee53c59e043c4189a86c162a9"
 metafile = true
@@ -290,8 +309,18 @@ hash = "c4e45594c8d1ab3dacc3b49142f16fb253178dd31d97cc917bf4a4d54f21e081"
 metafile = true
 
 [[files]]
+file = "mods/legendary-tooltips.pw.toml"
+hash = "723cf62a9865240ac8ece5b8642c317253670a51c7c33dcb6afdcf9eadf91cce"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "97697e194c4e9742501485140b71b4104b857f27bd34446816fd55e4ec486e2c"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "a874985359eaa4317b3242136fe65b86207a6d5ab55e0b4aa8f37b90727f0487"
 metafile = true
 
 [[files]]
@@ -302,6 +331,11 @@ metafile = true
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "95ff1073b74b23e62cae94569ffb63e6e2f244d99a6d1a38c4a26bdd183a64eb"
+metafile = true
+
+[[files]]
+file = "mods/noisium.pw.toml"
+hash = "85ae542e2ccfb61bcdd3aa55b1a56436782687ba63388e249cb98376737045d4"
 metafile = true
 
 [[files]]
@@ -317,6 +351,11 @@ metafile = true
 [[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "6b2abdc14fca0b9b42b5678e7c65af8b93d5032f0e4b0d2fbd93295903489d50"
+metafile = true
+
+[[files]]
+file = "mods/prism-lib.pw.toml"
+hash = "73721942388d987a53498ea17d5a80637ed4f3863f4ff2f2e546eb3d897f0c64"
 metafile = true
 
 [[files]]
@@ -385,6 +424,11 @@ hash = "d6ff2d13b8fec782d3a55207c90470591fd5aa36d4fab3562f8334a66cab60ab"
 metafile = true
 
 [[files]]
+file = "mods/status-effect-bars.pw.toml"
+hash = "8ee85cf9163551e114d900f00a24849ea55d915b30143b778f8125baa792d6da"
+metafile = true
+
+[[files]]
 file = "mods/wavey-capes.pw.toml"
 hash = "ff46d9d0cb8e6c228b93508bef548f1011c802b63c8f90324e39ea5875ba5e32"
 metafile = true
@@ -392,6 +436,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "4b7c266cf6c560aec780394f515cbe880c72fb07286f60694823fde3b926f184"
+metafile = true
+
+[[files]]
+file = "mods/yeetus-experimentus.pw.toml"
+hash = "2eb3c165dd197d5a7356367fbd6e740f319966920f7eef1e33432e320a1c3683"
 metafile = true
 
 [[files]]
