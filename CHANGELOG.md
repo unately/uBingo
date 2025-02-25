@@ -1,5 +1,11 @@
 # ⛓️ Changelog
 
+## [2.0.0](https://github.com/unately/uBingo/compare/v2.0.0-beta.1...v2.0.0) (2025-02-25)
+
+### Features
+
+* update dependencies and modify packwiz configuration ([aba3389](https://github.com/unately/uBingo/commit/aba33894e1b5c13f8061c6f9e4dee383a2924dc0))
+
 ## [2.0.0-beta.1](https://github.com/unately/uBingo/compare/v2.0.0-beta.0...v2.0.0-beta.1) (2025-02-25)
 
 ### Features
