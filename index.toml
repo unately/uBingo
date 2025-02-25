@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".release-it.json"
-hash = "ec9779042ffaf21b1ba37fd63a0111a3e1e9b642a2a605d6fd97256cc915d1b2"
-
-[[files]]
-file = "CHANGELOG.md"
-hash = "cf2f829f6addf1983095e2f8ec2039dc2884c0ce70446e9a5b854a2ec7331d93"
-
-[[files]]
-file = "LICENSE"
-hash = "d2e58b5b93b7b0bafd34b34360eaf8b982fe82031ca8a143f292ad8c34f5645f"
-
-[[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
 
@@ -333,7 +321,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "0db8817bb16f66a47e22a3ad2a3c07e2be251c15209e29d16fe8a21140a8a40a"
+hash = "3280f2015e3aee3e4fb3b7a345a311fca9b14419c437f5541ae5be7603127653"
 metafile = true
 
 [[files]]
@@ -343,7 +331,7 @@ metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
-hash = "c402f34f2fcf28c0955adadf0265810e875fc0b576098636bfd986dcd9dbec39"
+hash = "9a53bc41ea5265170f6a87285744c158834881ec706c68c2b8101f740396b36b"
 metafile = true
 
 [[files]]
