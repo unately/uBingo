@@ -1,5 +1,11 @@
 # ⛓️ Changelog
 
+## [2.0.2](https://github.com/unately/uBingo/compare/v2.0.1...v2.0.2) (2025-02-25)
+
+### Features
+
+* update release-it configuration to include version bump for pack.toml ([9805c26](https://github.com/unately/uBingo/commit/9805c26eb962f9a68a5331157bafcc0d998b285d))
+
 ## [2.0.1](https://github.com/unately/uBingo/compare/v2.0.0...v2.0.1) (2025-02-25)
 
 ### Features
