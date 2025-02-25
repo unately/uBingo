@@ -1,11 +1,11 @@
 {
   "name": "@unately/ubingo",
-  "version": "1.0.0",
+  "version": "2.0.0-beta.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "packwiz modrinth export",
-	"build": "./scripts/build.sh",
+    "build": "./scripts/build.sh",
     "prepare": "husky"
   },
   "keywords": [],

@@ -5,6 +5,10 @@ file = ".release-it.json"
 hash = "ec9779042ffaf21b1ba37fd63a0111a3e1e9b642a2a605d6fd97256cc915d1b2"
 
 [[files]]
+file = "CHANGELOG.md"
+hash = "c4d0518577dab138c844ad8adc75f4060e6dcfaa9667823d082160e6ab55d652"
+
+[[files]]
 file = "LICENSE"
 hash = "d2e58b5b93b7b0bafd34b34360eaf8b982fe82031ca8a143f292ad8c34f5645f"
 
