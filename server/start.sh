@@ -238,7 +238,7 @@ fi
 "$JAVA" "-version" 2>&1 | grep -i "32-Bit" && echo "WARNING! 32-Bit Java detected! It is highly recommended to use a 64-Bit version of Java!"
 
 refreshBootstrap
-runJavaCommand "-jar packwiz-installer-bootstrap.jar $PACKWIZ_URL"
+runJavaCommand "-jar packwiz-installer-bootstrap.jar -g $PACKWIZ_URL"
 setupFabric
 
 echo ""
