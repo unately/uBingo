@@ -7,6 +7,7 @@
 
 VERSION=$(jq -r '.version' package.json)
 
+rm -rf build
 mkdir -p build
 
 # Run patcher script
