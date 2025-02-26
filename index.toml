@@ -62,7 +62,7 @@ hash = "2dbfacd2684821fba9fabe1a67beeeaeade69bd78ef5eb4251562110cefb977e"
 
 [[files]]
 file = "config/modmenu.json"
-hash = "30d1be96a5a29a47b1f36617be69a1bd1e0ec45b59e7a91f020f2a5832e9467c"
+hash = "8b90254275165351ef586fcff39e0fcb69a188b9c48adb0b1529103b75b7a16d"
 
 [[files]]
 file = "config/notenoughanimations.json"
@@ -308,11 +308,6 @@ hash = "88a22df96806e32bfd1f80fbd4a94a885148d2372efa5a36c1e8635f06213780"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "c7acf68591c9e2e380d2fa7f01bd3b8f37a9e91ee53c59e043c4189a86c162a9"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 hash = "e03fc0b0c151c5c072ac399d27b5c4268a093c41be73f3b1578d050bb49211f3"
 metafile = true
@@ -434,7 +429,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "45da1c92a92078a5d35ce8e043484b7464836e6627beaaac70f21dc3fc1bf648"
+hash = "8ff792fd5c8d9225709b317b49cc741233bfa6958f27edd8a2c8da50b4ff34fd"
 metafile = true
 
 [[files]]
@@ -444,7 +439,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "d6ff2d13b8fec782d3a55207c90470591fd5aa36d4fab3562f8334a66cab60ab"
+hash = "d9c1bcc4b8ab05e309cd5cb88caf280dfd6901bcc679a7b504af1dcdb7b6a8d2"
 metafile = true
 
 [[files]]
@@ -459,7 +454,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "4b7c266cf6c560aec780394f515cbe880c72fb07286f60694823fde3b926f184"
+hash = "e3384cdf4e1bd7f9869278ef734bd28ff942e1cebc18111ecc2004bc2ab15247"
 metafile = true
 
 [[files]]

@@ -35,7 +35,6 @@
 /config/fabric
 /config/ferritecore.mixin.properties
 /config/forgeconfigapiport.toml
-/config/immediatelyfast.json
 /config/iris-excluded.json
 /config/iris.properties
 /config/lithium.properties

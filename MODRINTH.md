@@ -50,7 +50,6 @@ If you need help with the Bingo mod, you can find the documentation of the Bingo
 [FastQuit](https://modrinth.com/mod/x1hIzbuY) by [contaria](https://modrinth.com/user/2QxwGDcB)</br>
 [FerriteCore](https://modrinth.com/mod/uXXizFIs) by [malte0811](https://modrinth.com/user/cXzLZ8YY)</br>
 [Forge Config API Port](https://modrinth.com/mod/ohNO6lps) by [Fuzs](https://modrinth.com/user/rHdGpxOA)</br>
-[ImmediatelyFast](https://modrinth.com/mod/5ZwdcRci) by [RaphiMC](https://modrinth.com/user/XEedK03N)</br>
 [Iris Shaders](https://modrinth.com/mod/YL57xq9U) by [IMS](https://modrinth.com/user/DzLrfrbK) and [coderbot](https://modrinth.com/user/v7k4QluE)</br>
 [kennytvs-epic-force-close-loading-screen-mod-for-fabric](https://modrinth.com/mod/blWBX5n1) by [mdcfe](https://modrinth.com/user/R5dS2mlb) and [kennytv](https://modrinth.com/user/t0xQradN)</br>
 [Krypton](https://modrinth.com/mod/fQEb0iXm) by [astei](https://modrinth.com/user/y0WF9UR5)</br>
