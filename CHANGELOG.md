@@ -1,5 +1,11 @@
 # ⛓️ Changelog
 
+## [2.0.4](https://github.com/unately/uBingo/compare/v2.0.3...v2.0.4) (2025-02-26)
+
+### Features
+
+* remove ImmediatelyFast mod and update related configurations ([68a4911](https://github.com/unately/uBingo/commit/68a4911f40bd6fe73c2633d399e7f7e2a8167285))
+
 ## [2.0.3](https://github.com/unately/uBingo/compare/v2.0.2...v2.0.3) (2025-02-25)
 
 ### Features
