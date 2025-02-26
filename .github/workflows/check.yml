@@ -1,51 +1,29 @@
 name: "🥞 Check"
 
-on: [pull_request]
+on:
+  workflow_dispatch:
+  push:
 
 jobs:
-
-  modpack:
+  modpack22:
     runs-on: ubuntu-latest
     name: "📦 Test Modpack"
     steps:
       - name: "🔁 Checkout"
-        uses: actions/checkout@v3
-      - name: "🚀 Download PAX"
-        uses: dsaltares/fetch-gh-release-asset@master
+        uses: actions/checkout@v4
+      - name: "🚀 Setup Go"
+        uses: actions/setup-go@v5
         with:
-          repo: froehlichA/pax
-          file: "pax"
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: "🚢 Export modpack"
+          go-version: 1.24
+      - name: "🔰 Install Packwiz"
+        run: go install github.com/packwiz/packwiz@latest
+      - name: "📦 Export Modpack"
         run: |
-          sudo chmod +x ./pax
-          ./pax export
+          mkdir build
+          packwiz modrinth export --output build/uBingo-Modpack.mrpack
+          zip -r build/uBingo-Server.zip server/*
       - name: "🐋 Upload Modpack"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: modpack
-          path: .out/*
-  
-  image:
-    runs-on: ubuntu-latest
-    name: "🐳 Test Image"
-    needs: [modpack]
-    steps:
-      - name: "🔁 Checkout"
-        uses: actions/checkout@v3
-      - name: "🔽 Download modpack"
-        uses: actions/download-artifact@v2
-        with:
-          name: modpack
-      - name: "🖨️ Config Version"
-        uses: fjogeleit/yaml-update-action@master
-        with:
-          valueFile: 'dockerfiles/docker-setup-config.yaml'
-          propertyPath: 'install.modpackUrl'
-          value: file://./${{ needs.modpack-info.outputs.tag }}/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          commitChange: false
-          updateFile: true
-      - name: "🚨 Setup Buildx"
-        uses: docker/setup-buildx-action@v1
-      - name: "📦 Build Image"
-        run: "docker buildx build ."
+          path: build/*
