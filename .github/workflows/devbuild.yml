@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     name: "📜 Changelog"
     outputs:
-      changelog: ${{ steps.changelog.outputs.clean_changelog }}
+      changelog: ${{ steps.changelog.outputs.changes }}
     steps:
       - name: "🔁 Checkout"
         uses: actions/checkout@v4
@@ -40,17 +40,12 @@ jobs:
           fetch-depth: 0
       - name: "✍️ Write changelog"
         id: changelog
-        uses: TriPSs/conventional-changelog-action@v5
+        uses: requarks/changelog-action@v1
         with:
-          preset: "conventionalcommits"
-          skip-bump: true
-          skip-commit: true
-          output-file: "false"
-          version-file: "./pack.toml"
-          version-path: "version"
-          git-push: false
-      - run: echo "${{ steps.changelog.outputs.tag }}"
-
+          token: ${{ secrets.github_token }}
+          tag: ${{ github.ref_name }}
+          writeToFile: false
+          
   # modlist:
   #   runs-on: ubuntu-latest
   #   name: "🗒️ Modlist"
