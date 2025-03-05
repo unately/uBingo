@@ -6,7 +6,8 @@
   "scripts": {
     "test": "packwiz modrinth export --output build/test.zip && rm -rf build/test.zip",
     "build": "./scripts/build.sh",
-    "prepare": "husky"
+    "prepare": "husky",
+    "release": "release-it"
   },
   "keywords": [],
   "author": "",
