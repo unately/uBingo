@@ -1,12 +1,12 @@
 name = "uBingo"
 author = "Jqshuv"
-version = "2.1.0"
+version = "2.1.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d84d3a8a90b9d10fb7f36ff175accf90a387b5d3531caf49aad19489633590d2"
+hash = "12ea7173ad057ee850a43ee5791c623f1ec581b7fc582574756449265046a2ae"
 
 [versions]
 fabric = "0.16.10"

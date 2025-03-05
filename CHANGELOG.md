@@ -1,5 +1,12 @@
 # ⛓️ Changelog
 
+## [2.1.1](https://github.com/unately/uBingo/compare/v2.1.0...v2.1.1) (2025-03-05)
+
+### Features
+
+* add tierlist configuration files for enhanced gameplay options ([62b6985](https://github.com/unately/uBingo/commit/62b6985c98fc14702544641228e5966413091616))
+* update mod configurations and add new Enderite Mod for enhanced gameplay ([6258809](https://github.com/unately/uBingo/commit/6258809d27b77be975c1aa4e76abb3f28ffd444e))
+
 ## [2.1.0](https://github.com/unately/uBingo/compare/v2.0.4...v2.1.0) (2025-03-05)
 
 ### Features
