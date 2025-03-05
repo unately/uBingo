@@ -1,0 +1,17 @@
+{
+    "values": [
+		"advancednetherite:netherite_diamond_block",
+		"advancednetherite:netherite_emerald_block",
+		"advancednetherite:netherite_gold_block",
+		"advancednetherite:netherite_iron_block",
+		"enderitemod:cracked_enderite_ore",
+		"enderitemod:enderite_respawn_anchor",
+		"enderitemod:enderite_block",
+		
+		"enderitemod:enderite_armor",
+		"enderitemod:chestplate_elytra",
+		"enderitemod:enderite_weapons",
+		"enderitemod:enderite_tools"
+    ],
+    "replace": false
+}

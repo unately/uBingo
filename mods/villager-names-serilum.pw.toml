@@ -1,6 +1,7 @@
 name = "Villager Names"
 filename = "villagernames-1.21.4-8.2.jar"
-side = "server"
+side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/gqRXDo8B/versions/iFR8gK9F/villagernames-1.21.4-8.2.jar"

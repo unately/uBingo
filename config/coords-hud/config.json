@@ -1,0 +1,32 @@
+{
+    "isEnabledByDefault": false,
+    "defaultFormat": {
+        "text": "",
+        "extra": [
+            {
+                "text": "XYZ: ",
+                "color": "gold"
+            },
+            {
+                "text": "%player:pos_x 0% %player:pos_y 0% %player:pos_z 0%   ",
+                "color": "white"
+            },
+            {
+                "text": "%coords-hud:compass_icon% ",
+                "color": "gold"
+            },
+            {
+                "text": "%coords-hud:compass_facing%   ",
+                "color": "white"
+            },
+            {
+                "text": "%coords-hud:time_icon% ",
+                "color": "gold"
+            },
+            {
+                "text": "%world:time%",
+                "color": "white"
+            }
+        ]
+    }
+}

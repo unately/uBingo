@@ -31,7 +31,7 @@
 /config/client.toml
 /config/collective
 /config/collective.json5
-/config/coords-hud
+/config/coords-hud/data.mv.db
 /config/cubes-without-borders.json
 /config/debugify-descriptions.json
 /config/debugify.json
@@ -66,4 +66,9 @@
 /config/yet-another-minecraft-bingo/files.json
 /config/yet-another-minecraft-bingo/game-options.json
 /config/yet-another-minecraft-bingo/stats.db
-/config/yet-another-minecraft-bingo/tags
+/config/yet-another-minecraft-bingo/tags/biome_specific.json
+/config/yet-another-minecraft-bingo/tags/in_overworld.json
+/config/yet-another-minecraft-bingo/tags/in_the_end.json
+/config/yet-another-minecraft-bingo/tags/in_the_nether.json
+/config/yet-another-minecraft-bingo/tags/tedious.json
+/config/yet-another-minecraft-bingo/tags/unobtainable.json
