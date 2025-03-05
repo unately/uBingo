@@ -1,120 +1,120 @@
 {
-    "version": 32,
-    "itemFilterPresets": {
-        "everything": "-tedious -unobtainable"
-    },
-    "difficultyPresets": {
-        "easy": [
-            0,
-            0,
-            0,
-            9,
-            16
-        ],
-        "medium": [
-            0,
-            0,
-            3,
-            10,
-            12
-        ],
-        "hard": [
-            0,
-            1,
-            5,
-            10,
-            9
-        ],
-        "extreme": [
-            0,
-            5,
-            7,
-            7,
-            6
-        ],
-        "impossible": [
-            5,
-            7,
-            6,
-            5,
-            2
-        ]
-    },
-    "preventScoringSpawnKitItems": false,
-    "excludeSpawnKitItemsFromCards": true,
-    "preventLobbyChaos": false,
-    "lobbyTutorialBook": true,
-    "giveMementoInSurvival": true,
-    "nightVisionInSpectator": true,
-    "nightVisionInPostgame": true,
-    "supportClientHud": true,
-    "startWhenReadySeconds": 600,
-    "nextRoundWhenReadySeconds": 600,
-    "nextRoundWhenReadyWaitsForFirstVote": true,
-    "nextRoundWhenEveryoneDisconnects": true,
-    "unsafeSkipWorldClose": false,
-    "chat": {
-        "defaultToTeamChat": true,
-        "globalCommandAliases": [
-            "g",
-            "global",
-            "all"
-        ],
-        "teamCommandAliases": []
-    },
-    "databaseUrl": null,
-    "databaseUser": null,
-    "databasePass": null,
-    "syncStats": true,
-    "statsHostId": "b810d869-a779-44aa-967a-1b57f8d91140",
-    "client": {
-        "enableHud": true,
-        "showQuickStartButton": true,
-        "cardPausesGame": true,
-        "cardScale": 1.0,
-        "cardAlignment": "TOP_LEFT",
-        "cardOffsetX": 0,
-        "cardOffsetY": 0,
-        "cardOverlap": "ABOVE",
-        "cardTeamOutlines": true,
-        "showMultipleCards": false,
-        "hideOnF3": true,
-        "hideOnChat": false,
-        "messageFromOtherTeams": true,
-        "messageDurationSeconds": 5,
-        "messageScale": 1.0,
-        "soundVolumes": {}
-    },
-    "server": {
-        "isLobbyMode": false,
-        "preloadViewDistance": 4,
-        "filesToReset": [
-            "advancements",
-            "data/bingo.dat",
-            "data/idcounts.dat",
-            "data/map_*.dat",
-            "data/raids.dat",
-            "data/random_sequences.dat",
-            "DIM*",
-            "dimensions",
-            "entities",
-            "playerdata",
-            "poi",
-            "region",
-            "stats",
-            "level.dat",
-            "level.dat_old"
-        ],
-        "defaultPlayerSettings": {
-            "seenTutorial": false,
-            "hideLobbyPrompt": false,
-            "bossbar": false,
-            "scoreboard": true,
-            "scoreboardAutoHide": false,
-            "leadingMessages": true,
-            "scoreMessages": true,
-            "itemMessages": true,
-            "nightVision": true
-        }
+  "version": 32,
+  "itemFilterPresets": {
+    "everything": "-tedious -unobtainable"
+  },
+  "difficultyPresets": {
+    "easy": [
+      0,
+      0,
+      0,
+      9,
+      16
+    ],
+    "medium": [
+      0,
+      0,
+      3,
+      10,
+      12
+    ],
+    "hard": [
+      0,
+      1,
+      5,
+      10,
+      9
+    ],
+    "extreme": [
+      0,
+      5,
+      7,
+      7,
+      6
+    ],
+    "impossible": [
+      5,
+      7,
+      6,
+      5,
+      2
+    ]
+  },
+  "preventScoringSpawnKitItems": false,
+  "excludeSpawnKitItemsFromCards": true,
+  "preventLobbyChaos": false,
+  "lobbyTutorialBook": true,
+  "giveMementoInSurvival": true,
+  "nightVisionInSpectator": true,
+  "nightVisionInPostgame": true,
+  "supportClientHud": true,
+  "startWhenReadySeconds": 600,
+  "nextRoundWhenReadySeconds": 600,
+  "nextRoundWhenReadyWaitsForFirstVote": true,
+  "nextRoundWhenEveryoneDisconnects": true,
+  "unsafeSkipWorldClose": false,
+  "chat": {
+    "defaultToTeamChat": true,
+    "globalCommandAliases": [
+      "g",
+      "global",
+      "all"
+    ],
+    "teamCommandAliases": []
+  },
+  "databaseUrl": null,
+  "databaseUser": null,
+  "databasePass": null,
+  "syncStats": true,
+  "statsHostId": "",
+  "client": {
+    "enableHud": true,
+    "showQuickStartButton": true,
+    "cardPausesGame": true,
+    "cardScale": 1,
+    "cardAlignment": "TOP_LEFT",
+    "cardOffsetX": 0,
+    "cardOffsetY": 0,
+    "cardOverlap": "ABOVE",
+    "cardTeamOutlines": true,
+    "showMultipleCards": false,
+    "hideOnF3": true,
+    "hideOnChat": false,
+    "messageFromOtherTeams": true,
+    "messageDurationSeconds": 5,
+    "messageScale": 1,
+    "soundVolumes": {}
+  },
+  "server": {
+    "isLobbyMode": false,
+    "preloadViewDistance": 4,
+    "filesToReset": [
+      "advancements",
+      "data/bingo.dat",
+      "data/idcounts.dat",
+      "data/map_*.dat",
+      "data/raids.dat",
+      "data/random_sequences.dat",
+      "DIM*",
+      "dimensions",
+      "entities",
+      "playerdata",
+      "poi",
+      "region",
+      "stats",
+      "level.dat",
+      "level.dat_old"
+    ],
+    "defaultPlayerSettings": {
+      "seenTutorial": false,
+      "hideLobbyPrompt": false,
+      "bossbar": false,
+      "scoreboard": true,
+      "scoreboardAutoHide": false,
+      "leadingMessages": true,
+      "scoreMessages": true,
+      "itemMessages": true,
+      "nightVision": true
     }
+  }
 }

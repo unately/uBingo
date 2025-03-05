@@ -2,31 +2,31 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/NoChatReports/NCR-Client.json"
-hash = "26fac3bc5aa3c2d17491a4dc64e6749d7c7b1f54e0352f23cca9f14aee6867de"
+hash = "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
 
 [[files]]
 file = "config/NoChatReports/NCR-Common.json"
-hash = "b70210e81692c58133ce837ca2975896da7f84feba5f57c263852c3ee3478b94"
+hash = "0eaad2630bd70ade719f7810e805810ada25379269ea194e43d3eea30c51dec0"
 
 [[files]]
 file = "config/NoChatReports/NCR-Encryption.json"
-hash = "7b5f308b39a139ba90bfde781112a4d0e5ca8df7245e5da9ff5b1d43e820e400"
+hash = "914ff467c04be14074e19741255b5f890db2bc0458554b984b2c02d3674bb824"
 
 [[files]]
 file = "config/NoChatReports/NCR-ServerPreferences.json"
-hash = "688aee4526ec3595f392fd1e29b6e7740a3a46985cfbfd1f82808dc4672e2919"
+hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
 
 [[files]]
 file = "config/NoChatReports/README.md"
-hash = "f0decb31d974351dd9337caf02320d22470adec6b96411bb84596cdc73d77dac"
+hash = "c52b76ccad2bd1063a22c7f6bb9e7c5db6b00fb53a6fd605585972ee0e5fc01f"
 
 [[files]]
 file = "config/appleskin.json5"
-hash = "d66629409d569769fac6ecb44706adf7e7fad4df4f2afa612cc54379dcf33b78"
+hash = "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9"
 
 [[files]]
 file = "config/authme.jsonc"
-hash = "214c9e267b8e5b8b44534d9c7f2fb91004927fbecd8d257609a74d9f34752955"
+hash = "06d833200bcd1718d2961f690ec901df2aae19ed4f4bbe8eba7f837cf5163b5b"
 
 [[files]]
 file = "config/badoptimizations.txt"
@@ -42,7 +42,7 @@ hash = "566c88938c1a9ad02bfcb8f0f6c80c477e888af0c968f3b44cd9f25565dd030d"
 
 [[files]]
 file = "config/chat_heads.json5"
-hash = "d07c1df1fb3dafb544370efa05030f736f3de7158774b2f05328dfe8278405ec"
+hash = "2557a3fbfe31a7a8acdd87bf1df0b11efc4c240e2cac670b25675f2100c1b764"
 
 [[files]]
 file = "config/chunky/config.json"
@@ -53,20 +53,32 @@ file = "config/continuity.json"
 hash = "cabe00d1fd6091202d1180bd86d31bca69a5999a43317c3a77aea94da4f76016"
 
 [[files]]
+file = "config/coords-hud/config.json"
+hash = "c32da67f0c49a9aeb2f1e47ea3321bc85a8a2ed9d758519a819c730296637e6a"
+
+[[files]]
 file = "config/defaultoptions-common.toml"
 hash = "f64edb24e18cabf54c08197bfa479c727bdf137a859bc8d2d7f32c70dbe4f8b8"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "f54fe85ae44dc4f1ef8d109abe3c1fa2c4e315c4182664faecfe61977c9d8e53"
+hash = "c18b2b1f5d92b367f2a4c681d549dc2dca3b54c5ea546d4b3e5ab5f700bfd5ce"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "da1e238c79ad407e85e28d498e953893cf6d19920734f24623a928777d034cbd"
 
 [[files]]
 file = "config/detailarmorbar.json"
 hash = "281762ea9d730009ddbce922fdd15f06b283b434e02392f24ec194a86acdb693"
 
 [[files]]
+file = "config/enderitemod.json"
+hash = "67e15c76fe728e82c2b73fd116a949be8f9abfda9643be2ec45cca6a805a8330"
+
+[[files]]
 file = "config/fastquit.toml"
-hash = "fbdfff0d6ff4c2ca863895c6ad091e1170f4fb841bfe72981a4d5ff223639bf2"
+hash = "e85f39867513fe26179ba3cf7a00d343e9642ceaa96e7ea3cde6a1c3aa69dd4e"
 
 [[files]]
 file = "config/legendarytooltips.toml"
@@ -94,7 +106,7 @@ hash = "dc467f4d202f01b0b5f35d500ac2552e6054c5c5b21510a0729dbd628b497882"
 
 [[files]]
 file = "config/scoreboard-overhaul.json"
-hash = "3dea2518d0ea3f4412c8f95f550b1f28c79c313d99431b128cae99fbb8e85db2"
+hash = "17802f54dae5f09802cb8a1066bf382ef59922273cf02fb3a46d223044bc1c2f"
 
 [[files]]
 file = "config/servercore/optimizations.yml"
@@ -114,7 +126,7 @@ hash = "7914ed1e35d6d5d1e823a2793ce4b2654d3969c016f7d3033898335c57814c69"
 
 [[files]]
 file = "config/simpleupdatechecker_modpack.json"
-hash = "4a45f2d3d349037129a638b2a489792db4ce8fe873b3ffb4011bd11de75c7a3a"
+hash = "69063751b51fd7d78f5bd3afcd717140e21fc72b89a5ea248a10eb027b188317"
 
 [[files]]
 file = "config/skinlayers.json"
@@ -122,15 +134,15 @@ hash = "22eb900b9284f9696a2bc7ccdd1a41212b3708d21d9547ca96bcbfcc4e8481bc"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "f614f1e1ebf5e598068f456ec333e6417b9836ffbc94e386aa0a434319734da9"
+hash = "a3156df7ac0e2c3837435fc2184d32db5bb9d32fa9b31831ef4429f28ff38978"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "be255ff4587feee964e11feba338d417485c7d26e4e7881f00eea2762fe9b7ca"
+hash = "dc9429a157e75cd61d2ca4003fabb9006a7c773d7617e6f464122afc897535bf"
 
 [[files]]
 file = "config/travelersbackpack.json5"
-hash = "2327cda1e69594b427d558ca67e7332a8ec9101078fb692faffd796ba3fff2ab"
+hash = "5723dcc7a341a796a83c248891da9227e3be3b22d9cc45dc46632d5398bd256a"
 
 [[files]]
 file = "config/vanish.hocon"
@@ -146,7 +158,7 @@ hash = "e61381b9a666cf03ccda813b0a08b892c706d2d93026a6fbea7bfe82e138d8e7"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "cfb05a683e0dabecc80cec30921e05039ccbc7288fc249201adab89a73063891"
+hash = "799dca1e0b120770d4e62d524b7f296ed914c9350555d5ed2a57ff0549c4e876"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
@@ -158,35 +170,63 @@ hash = "8ba8caf036bac59033157842f7812cf3eca3434a02d2e7e59648214fe42c48fc"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/chunky.json"
-hash = "04e8604c9af8e1ddded06a876cd6280a9140b5de63d64605e68ecae4369562c2"
+hash = "92d0b0b96d7a1b1711efde1f282328b5853ebd7486d2f048097b265c87f077a2"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/config.json"
-hash = "f818d07bc27c638060f5d0affc2567fdf0fff051b83bea41c0bedd6de01d919c"
+hash = "b3d947f9613e901ceb3d5715d4ccce646bbf8957a7c660e162f7e900f4856b9d"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/game-options-default.json"
-hash = "76d915ac0bb6dcc644293ffba2a76141fea453d5e7e4b97f0eb6f9216a6523e3"
+hash = "dbc7ac63a612aabf3db37ae76f8a25472c0ea8def071d1a938c5d56272d6f01e"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/messages/game_end.json"
-hash = "1ca8c947eba633282e485946bfede8c25f06804533b9937efc4f3e276ecae5c5"
+hash = "b23ec1c654971a73d9fc0b2ca1bde22270b81bb9f4740e6c02fdfe92a99e03b5"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/messages/game_start.json"
-hash = "fe53ad9ceceff4fcc4d2e10f94485eba77c681bc20802300f7398d98ecdbaee8"
+hash = "3465118bc84f5b3a8825ccb6a464ecbcb598b032f3178d9c8243de9fa0560c53"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/messages/scoreboard.json"
-hash = "903798f901fea881fdbb549d7c383e70ac4481f1b2017655351df80feb08926f"
+hash = "24e942693513f2cdb8df6bef5b317b6c6a6a0b498359bcd5f550a5f050e67c59"
 
 [[files]]
-file = "config/yet-another-minecraft-bingo/tierlists/ubingo.tierlist.json"
-hash = "1928ceb61a18e1d035094e98719cc9d1aec098b9533bc69e2be268e2acba3170"
+file = "config/yet-another-minecraft-bingo/tags/boring.json"
+hash = "2215d86e5e895b6011cfdd5cfef8c51ea8a4eed4d4f7915c676203c7894eb566"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tags/modded.json"
+hash = "05558e9b72038387668c8e24283e708033c3b35462db67b80eedab7d9dc30815"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tierlists/advancements.tierlist.json"
+hash = "e940ed9296e80db6d2c3cb3aa97c601cd8f04029dbb1b9a41a87b942470675b5"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tierlists/challenge.tierlist.json"
+hash = "e2a01f899be2e582699f0fcde9688648533702c9c86b5acdda273f0073ca8db6"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tierlists/items.tierlist.json"
+hash = "91833029ffd58f64a6a2c70dc0865dc571b6af3a35051d2968997d17f5c1b537"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tierlists/simplified.tierlist.json"
+hash = "464b14f60fbc4c15fd5d5310e45f3908d196764dc04f709dff58a3c921663324"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tierlists/ubingoant.tierlist.json"
+hash = "3e407da10b20c0b034403dc1738e2d200bf1fb40abaf3cbe8f098f08d61c031a"
+
+[[files]]
+file = "config/yet-another-minecraft-bingo/tierlists/ubingoend.tierlist.json"
+hash = "60ed62ba2e2a88bdbd0639f60361fb7631631a34c3ddeccd9558616b053c53af"
 
 [[files]]
 file = "config/yet-another-minecraft-bingo/voicechat.json"
-hash = "87df875944eee02e41f2e91a03de17be02826a1c200dc6b62825cd51e46988ea"
+hash = "cf3d474d2d96f1f2526f300ad78cd1afa5cda42314ba1ad87db3fec3b722aaa9"
 
 [[files]]
 file = "config/zoomify.json"
@@ -540,11 +580,6 @@ metafile = true
 [[files]]
 file = "mods/status-effect-bars.pw.toml"
 hash = "51bb72368c93ec3de720ed507be7a99c5db183d1a475618f05f156704a669353"
-metafile = true
-
-[[files]]
-file = "mods/title-writer.pw.toml"
-hash = "de3f8d7b29ff063a4249405d6e4f87bebaebf2163e7ff6e036d96d9e22bc5147"
 metafile = true
 
 [[files]]
