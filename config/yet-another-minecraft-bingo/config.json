@@ -1,7 +1,7 @@
 {
   "version": 32,
   "itemFilterPresets": {
-    "everything": "-tedious -unobtainable"
+    "everything": "-boring -tedious -unobtainable"
   },
   "difficultyPresets": {
     "easy": [
