@@ -1,6 +1,7 @@
 name = "Coords HUD"
 filename = "coordshud-1.2.4-mc1.21.2.jar"
-side = "server"
+side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/D0D7J5Jj/versions/Jd34MvTH/coordshud-1.2.4-mc1.21.2.jar"

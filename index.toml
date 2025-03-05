@@ -323,7 +323,7 @@ metafile = true
 
 [[files]]
 file = "mods/coords-hud.pw.toml"
-hash = "d319148dbfe6e8bfdd3610023e0359d93cfe2675e2618261637fbb006a4d3e13"
+hash = "fc8b905e696a6cebe495de1cd67613f4764de9b223c183ff16bafb2f8b6346bc"
 metafile = true
 
 [[files]]
@@ -359,6 +359,11 @@ metafile = true
 [[files]]
 file = "mods/e4mc.pw.toml"
 hash = "c0edd80777b6e8783ba55ab95c87fdb239ae50112effd44cf7c155de28822318"
+metafile = true
+
+[[files]]
+file = "mods/enderite-mod.pw.toml"
+hash = "adab751cffd8e6a40523a2f18cebae95820a04a0cf6144e6ea94eb48c5f734a6"
 metafile = true
 
 [[files]]

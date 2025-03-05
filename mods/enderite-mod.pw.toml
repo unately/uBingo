@@ -1,0 +1,13 @@
+name = "Enderite Mod"
+filename = "enderitemod-fabric-1.7.1-1.21.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6lvRWqbA/versions/q6RkOkwF/enderitemod-fabric-1.7.1-1.21.4.jar"
+hash-format = "sha512"
+hash = "8280b61ccbc61b98996a9a4b85335828f97dfafd9f7261fc73ed4b6889df02990d22f60c90fb3161d157504d816dd94d19b68f45053d4dd5baeef6ae2e0c2e2a"
+
+[update]
+[update.modrinth]
+mod-id = "6lvRWqbA"
+version = "q6RkOkwF"
