@@ -1,5 +1,11 @@
 # ⛓️ Changelog
 
+## [2.1.2](https://github.com/unately/uBingo/compare/v2.1.1...v2.1.2) (2025-03-05)
+
+### Features
+
+* erweitere die Konfiguration mit neuen Reisetaschen-Items für verbessertes Gameplay ([c5f8e45](https://github.com/unately/uBingo/commit/c5f8e4555ebdf336266e6c399e3c05ae3a0e264c))
+
 ## [2.1.1](https://github.com/unately/uBingo/compare/v2.1.0...v2.1.1) (2025-03-05)
 
 ### Features
