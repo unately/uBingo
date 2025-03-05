@@ -1,5 +1,14 @@
 # ⛓️ Changelog
 
+## [2.1.0](https://github.com/unately/uBingo/compare/v2.0.4...v2.1.0) (2025-03-05)
+
+### Features
+
+* add new configuration files and mods for enhanced gameplay features ([3a8ebcb](https://github.com/unately/uBingo/commit/3a8ebcb67e1666047443f2972ddac4b1e588d106))
+* add release script to package.json for streamlined deployment ([b920cdd](https://github.com/unately/uBingo/commit/b920cddabbb96afd47387a1ada2ae3d3fdf1bc83))
+* update configuration files and add new mods for enhanced gameplay ([31f49c9](https://github.com/unately/uBingo/commit/31f49c9a4b6081cc54e118807914c2421a061a57))
+* update hashes and add new configuration files for improved mod support ([664dae1](https://github.com/unately/uBingo/commit/664dae16a7e8528c36a7b0d15b642360acba41c6))
+
 ## [2.0.4](https://github.com/unately/uBingo/compare/v2.0.3...v2.0.4) (2025-02-26)
 
 ### Features
