@@ -1,13 +1,13 @@
 name = "Scoreboard Overhaul"
-filename = "scoreboardoverhaul-1.2.2-mc1.21.2.jar"
+filename = "scoreboardoverhaul-1.3.0-mc1.21.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/2YIQkF2v/versions/8bGHpJoK/scoreboardoverhaul-1.2.2-mc1.21.2.jar"
+url = "https://cdn.modrinth.com/data/2YIQkF2v/versions/EaahHPGz/scoreboardoverhaul-1.3.0-mc1.21.2.jar"
 hash-format = "sha512"
-hash = "07176cc7869afa0f6082e316097a00d0ae83e5dd171705ad2909f0354d53ebb266caae2949f7be6f332e5bc1a1b43d84b9ffa80ecceb5878e1871952d8a61b76"
+hash = "d1ea4367c5dc8b072239bcc590f3f17302eff756d007cf11d2d8b9038956d4449effca34f6ed5e8b3121be3e2f55bedfb47f8b195ef4faa8da63ad359dbbf40b"
 
 [update]
 [update.modrinth]
 mod-id = "2YIQkF2v"
-version = "8bGHpJoK"
+version = "EaahHPGz"
